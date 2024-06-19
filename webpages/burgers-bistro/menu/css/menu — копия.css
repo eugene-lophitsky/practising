@@ -1,0 +1,179 @@
+
+.menu-container_props_common {
+    max-width: 1200px;
+    margin: 140px auto 115px auto;
+}
+
+.menu__title {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.menu__title :first-child {
+    font-size: 30px;
+    font-family: Calibri;
+    font-weight: 400;
+    font-style: italic;
+    color: #f2c64d;
+    margin-bottom: 18px;
+}
+
+.menu__title :nth-child(2) {
+    font-size: 50px;
+    font-family: Calibri;
+    font-weight: 700;
+    color: #1A0D01;
+}
+
+.menu-burger {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu-burger__card {
+    max-width: 570px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 15px 35px 15px;
+}
+
+.menu-burger__info {
+    margin-left: 20px;
+}
+
+.menu-burger__info :nth-child(1) {
+    font-size: 30px;
+    font-family: Calibri;
+    color: #1a0d01;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.menu-burger__info :nth-child(2) {
+    max-width: 265px;
+    font-size: 16px;
+    font-family: Calibri;
+    font-weight: 400;
+    line-height: 28px;
+    color: #6e6e6e;
+    margin: 16px 0 6px 0;
+}
+
+.menu-burger__info :nth-child(3) {
+    font-size: 24px;
+    font-family: Calibri;
+    font-weight: 700;
+    color: #f0542c;
+}
+
+.best-burgers {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.best-burgers-container {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.best-burgers__card {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+    flex-shrink: 1;
+} 
+
+.heyhey {
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    z-index: 100;
+}
+
+
+
+.best-burgers__card img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.best-burgers__card img:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+
+.best-burgers__card :nth-child(2) :first-child {
+    font-size: 30px;
+    font-family: Calibri;
+    font-weight: 700;
+    color: #f0542c;
+    position: absolute;
+    top: 250px;
+    left: 70px;
+    z-index: 5;
+    margin-bottom: 3px;
+}
+
+.best-burgers__card :nth-child(2) :nth-child(2) {
+    font-size: 34px;
+    font-family: Calibri;
+    color: #FFFFFF;
+    position: absolute;
+    top: 290px;
+    left: 70px;
+    z-index: 10;
+    font-weight: 700;
+}
+
+.best-burgers__card :nth-child(2) :nth-child(3) {
+    max-width: 305px;
+    font-size: 16px;
+    font-family: Calibri;
+    color: #e8e8e8;
+    line-height: 28px;
+    position: absolute;
+    top: 330px;
+    left: 70px;
+    z-index: 10;
+    margin: 9px 0 18px 0;
+}
+
+.best-burgers__card :nth-child(2) :nth-child(4) {
+    font-size: 16px;
+    font-family: Calibri;
+    color: #e8e8e8;
+    background-color: #f2c64d;
+    margin: 9px 0 18px 0;
+}
+
+.best-burgers__card :nth-child(2) :nth-child(4) .best-burgers__call-btn {
+    font-size: 16px;
+    font-family: Calibri;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #f2c64d;
+    position: absolute;
+    top: 415px;
+    padding: 10px 30px;
+    margin: 9px 0 18px 0;
+    border-radius: 30px;
+    border: 1px solid transparent;
+}
+
+.best-burgers__card :nth-child(2) :nth-child(4) .best-burgers__call-btn:hover {
+    font-size: 16px;
+    background: transparent;
+    transition: 0.6s;
+    color: #f2c64d;
+    padding: 10px 30px;
+    border: 1px solid #f2c64d;
+}
+

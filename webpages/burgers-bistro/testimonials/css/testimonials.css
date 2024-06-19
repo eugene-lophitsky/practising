@@ -1,0 +1,68 @@
+.testimonials {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonials-container_main_props {
+    max-width: 1000px;
+    margin: 120px auto 115px auto;
+}
+
+.testimonials__title {
+    font-size: 30px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    color: #f2c64d;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.testimonials__subtitle {
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 1.2em;
+    text-align: center;
+    color: #1a0d01;
+    margin-bottom: 62px;
+}
+
+.testimonials__comment {
+    max-width: 576px;
+    font-size: 20px;
+    font-family: Calibri;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    color: #040e27;
+}
+
+.testimonials-customers {
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    margin: 45px auto 0 auto;
+}
+
+.testimonials-customers__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials-customers__subitem {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonials-customers__item :nth-child(2) {
+    font-size: 16px;
+    font-family: Calibri;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #040e27;
+    margin-top: 7px;
+}

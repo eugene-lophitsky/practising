@@ -1,0 +1,8 @@
+@import "../header/css/header.css";
+@import "../css/colors.css";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}

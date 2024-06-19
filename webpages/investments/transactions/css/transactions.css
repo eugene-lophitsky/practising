@@ -1,0 +1,72 @@
+.transactions__upper-part {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.transactions__title {
+    max-width: 300px;
+    font-size: 50px;
+    font-family: Calibri;
+    font-weight: 700;
+    line-height: 64px;
+    color: var(--bold-title);
+    text-align: center;
+    margin-top: 70px;
+}
+
+.transactions__button {
+    max-width: 168px;
+    max-height: 40px;
+    margin: 34px 0 61px 0;
+}
+
+.transactions__button-link {
+    max-width: 95px;
+    display: block;
+    font-size: 12px;
+    font-family: 'Calibri';
+    font-weight: 500;
+    color: var(--links-white);
+    background-color: var(--lime);
+    text-align: center;
+    text-decoration: none;
+    padding: 13px 39px;
+    border-radius: 5px;
+}
+
+.transactions__main {
+    max-width: 1060px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.transactions__card {
+    max-width: 298px;
+    display: flex;
+    flex-direction: column;
+}
+
+.transactions__link {
+    max-width: 276px;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.transactions__link-address {
+    color: var(--lime);
+    text-align: justify;
+    text-decoration: none;
+}
+
+.transactions__link-address:hover {
+    text-decoration: underline;
+}

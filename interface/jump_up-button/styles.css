@@ -1,0 +1,44 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main_position_props {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.jumpAction {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(61, 189, 221);
+    color: black;
+    border: 1px solid grey;
+    border-radius: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    box-shadow: #d3c8c8 3px 3px 8px 4px;
+}
+
+.jumpAction:hover {
+    background-color: rgb(162, 228, 245);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.jumpAction:active {
+    background-color: rgb(162, 228, 245);
+    transition: 0.2s;
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+}
+
+.main_section {
+    width: auto;
+    height: 55vh;
+    font-size: 20px;
+    font-family: Calibri, sans-serif;
+    text-align: center;
+    border: 1px solid black;
+}
