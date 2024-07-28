@@ -72,6 +72,11 @@ body {
   transform: rotate(-45deg);
   transition: bottom .3s, transform .3s .15s;
 }
+
+.menu {
+  width: 100%;
+}
+
 .menu-list {
   top: 0;
   left: 0;
@@ -84,6 +89,8 @@ body {
   list-style-type: none;
   filter: opacity(0);
   transition: .3s;
+  height: 38.8vh;
+  width: 100%;
 }
 
 .menu-list-show {
@@ -105,16 +112,23 @@ body {
   font-size: 18px;
   font-family: Open Sans, sans-serif;
   font-weight: 400;
-  color: white;
+  color: var(--white);
   text-align: center;
   text-decoration: none;
   padding: 8px;
 }
+
 .menu-item:hover {
-  background: rgba(255,255,255,.2)
+  color: var(--primary-green);
+  background-color: var(--white);
 }
+
+.menu-item:active {
+  color: var(--green-active);
+}
+
 .burger-checkbox:checked ~ .menu-list {
-  transform: translateX(0);
+  filter: opacity(100);
 }
 
 .header-container {
@@ -565,14 +579,9 @@ body {
 
 @media (max-width: 930px) {
   .menu {
-    width: 100%;
     display: block;
     position: absolute;
     top: 69px;
-  }
-  
-  .menu-list {
-    width: 100%;
   }
 }
 
