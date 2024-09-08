@@ -1,0 +1,11 @@
+.cardwrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    max-width: 600px;
+    max-width: 600px;
+    height: auto;
+    background-color: rgb(250, 250, 250);
+    gap: 20px;
+    padding: 0 20px 40px 20px;
+}
