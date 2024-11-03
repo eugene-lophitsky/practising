@@ -1,0 +1,296 @@
+@import "./reset.css";
+@import "./colors.css";
+
+.header__inner,
+.header__content,
+.header__sponsor-button
+{
+  transition: 0.4s;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  background-image: url("../images/backgrounds/header-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 60px;
+}
+
+.header__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header__logo {
+  max-width: 300px;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+  gap: 3.81px;
+  padding: 26px 0 0 0;
+}
+
+.header__logo-text {
+  font-size: 16.65px;
+  font-family: Golos Text, sans-serif;
+  font-weight: bold;
+  color: var(--dark-brown);
+}
+
+.header__content {
+  max-width: 550px;
+  margin-top: 62px;
+}
+
+.header__slogan {
+  font-size: 60px;
+  font-family: Merriweather, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.header__slogan .header__slogan-split {
+  text-align: center;
+}
+
+.header__text {
+  font-size: 18px;
+  font-family: Golos Text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: var(--header-text-black);
+  margin: 24px 0 40px 0;
+}
+
+.header__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 132px;
+}
+
+.header__sponsor-button {
+  font-size: 16px;
+  font-family: Golos Text, sans-serif;
+  font-weight: 500;
+  color: var(--base-white);
+  background-color: var(--common-black);
+  text-align: center;
+  text-wrap: wrap;
+  word-break: break-all;
+  padding: 16px 59px;
+  border-radius: 66px;
+  border: none;
+  user-select: none;
+  margin-right: 16px;
+  box-sizing: border-box;
+}
+
+.header__sponsor-button:hover {
+  color: var(--common-black);
+  background-color: var(--yellow-color);
+}
+
+.header__details-button {
+  font-size: 16px;
+  font-family: Golos Text, sans-serif;
+  font-weight: 500;
+  color: var(--common-black);
+  background-color: transparent;
+  text-align: center;
+  text-wrap: wrap;
+  padding: 14px 85px 14px 86px;
+  border-radius: 66px;
+  border: 2px solid var(--common-black);
+  user-select: none;
+}
+
+.header__details-button:hover {
+  color: var(--base-white);
+  background-color: var(--common-black);
+}
+
+@keyframes scroll-text {
+  to { transform: translateX(-100%); }
+}
+
+.marquee__wrapper {
+  background-color: var(--red-color);
+}
+
+.marquee {
+  width: 100%;
+  font-size: 21px;
+  font-family: Merriweather, sans-serif;
+  font-weight: normal;
+  color: var(--base-white);
+  background-color: var(--red-color);
+  padding: 16.3px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  animation: scroll-text 10s linear infinite;
+}
+
+.tournament__inner {
+  display: flex;
+  height: 450px;
+  margin: 80px auto 0 auto;
+}
+
+.tournament-invitation {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  gap: 100px;
+  margin: 0 auto;
+}
+
+.tournament-invitation__text {
+  position: relative;
+  font-size: 36px;
+  font-family: Merriweather, sans-serif;
+  font-weight: normal;
+  color: var(--header-text-black);
+  text-wrap: nowrap;
+  margin-top: 25px;
+}
+
+.tournament-invitation__text p {
+  padding: 0;
+}
+
+.tournament-invitation__text::before {
+  content: "посетите лекцию на тему:";
+  display: inline-block;
+  position: absolute;
+  top: 92px;
+}
+.tournament-invitation__text::after {
+  content: "«Плодотворная дебютная идея»";
+  display: inline-block;
+  position: absolute;
+  top: 140px;
+  color: var(--red-color);
+}
+
+
+.tournament__image img {
+  display: inline-block;
+  max-width: 394px;
+}
+
+/*       Медиа-запросы          */
+
+@media (max-width: 1366px) {
+  .header {
+    background-size: cover;
+  }
+  .header__inner {
+    max-width: 1190px;
+  }
+}
+
+@media (max-width: 1240px) {
+  .header__inner {
+    max-width: 840px;
+  }
+
+  .header__content {
+    max-width: 370px;
+  }
+  .header__slogan {
+    font-size: 40px;
+  }
+  .header__sponsor-button {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 900px) {
+  .header__inner {
+    max-width: 450px;
+  }
+  .header__logo {
+    padding-left: 26px;
+  }
+  .header__logo-text {
+    font-size: 14.42px;
+  }
+  .header__slogan {
+    font-size: 36px;
+    padding: 40px 0 0 26px;
+  }
+  .header__content {
+    max-width: 350px;
+    margin-top: 0;
+  }
+  .header__buttons {
+    padding-left: 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    background-image: url("../images/backgrounds/mobile-start-screen.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .header__content {
+    max-width: 350px;
+  }
+  .header__buttons {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-bottom: 290px;
+  }
+
+  .header__sponsor-button,  .header__sponsor-button > p {
+    width: 100%;
+    display: inline;
+    margin-bottom: 0;
+    white-space: pre-line;
+    padding: 14px 1px 13px 14px;
+    margin-bottom: 10px;
+  }
+
+  .header__sponsor-button > p {
+    padding-left: 5px;
+  }
+
+  .header__details-button {
+    background-color: var(--base-white);
+    border: none;
+  }
+
+  .header__details-button, .header__details-button > p {
+    width: 100%;
+    display: inline;
+    margin-bottom: 0;
+    white-space: pre-line;
+    padding: 14px 0 12px 15px;
+    margin-bottom: 10px;
+  }  
+
+  .header__details-button  p {
+    padding: 3px;
+  }
+
+  marquee {
+    font-size: 16px;
+    padding: 6px 0;
+    bottom: -65px;
+  }
+}
+
+@media(max-width: 375px) {
+  .marquee__wrapper {
+    bottom: 4px;
+  }
+}
