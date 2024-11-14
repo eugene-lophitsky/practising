@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/practising/webpages/mobiles/static/css/main.e0ed3cdb.css",
+    "main.js": "/practising/webpages/mobiles/static/js/main.7e07d05b.js",
+    "static/js/787.a4b45000.chunk.js": "/practising/webpages/mobiles/static/js/787.a4b45000.chunk.js",
+    "static/media/cart.svg": "/practising/webpages/mobiles/static/media/cart.7f3d6cc6a51c629546c7.svg",
+    "index.html": "/practising/webpages/mobiles/index.html",
+    "static/media/star.svg": "/practising/webpages/mobiles/static/media/star.b51678fa03a744142cae.svg",
+    "static/media/star_grey.svg": "/practising/webpages/mobiles/static/media/star_grey.8aff1ddb8471c7f81b02.svg",
+    "static/media/marker.svg": "/practising/webpages/mobiles/static/media/marker.45ca79805b2078a8d9a0.svg",
+    "main.e0ed3cdb.css.map": "/practising/webpages/mobiles/static/css/main.e0ed3cdb.css.map",
+    "main.7e07d05b.js.map": "/practising/webpages/mobiles/static/js/main.7e07d05b.js.map",
+    "787.a4b45000.chunk.js.map": "/practising/webpages/mobiles/static/js/787.a4b45000.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0ed3cdb.css",
+    "static/js/main.7e07d05b.js"
+  ]
+}
