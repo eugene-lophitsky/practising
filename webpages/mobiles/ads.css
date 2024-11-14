@@ -1,0 +1,23 @@
+body {
+    background: #F0F0F0;
+}
+   
+.wrapper {
+    display: flex;
+    height: 92vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.advertisement::after {
+    content: "Es koennte hier Ihre Werbung sein";
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.advertisement:hover::after {
+    content: "Здесь могла бы быть Ваша реклама";
+    font-size: 20px;
+    transition: all 0.7s ease-out;
+}
