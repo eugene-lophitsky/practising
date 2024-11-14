@@ -595,8 +595,9 @@ body {
   .header__links {
     display: none;
   }
-  .jumbotron__title {
-    font-size: 48px;
+  .jumbotron__title,
+  .main__title {
+    font-size: 46px;
   }
 }
 
