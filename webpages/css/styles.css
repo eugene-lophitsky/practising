@@ -133,15 +133,15 @@ body {
 }
 
 .thumbs a:nth-child(1) {
-  background: url("./img/thumbnails/vape-thumbnail.png") center center/ contain;
+  background: url("../img/thumbnails/vape-thumbnail.png") center center/ contain;
 }
 
 .thumbs a:nth-child(2) {
-  background: url("/img/thumbnails/vine-shop-thumbnail.jpg") center center/cover;
+  background: url("../img/thumbnails/vine-shop-thumbnail.jpg") center center/cover;
 }
 
 .thumbs a:nth-child(3) {
-  background: url("img/thumbnails/investments.jpg") center center/cover;
+  background: url("../img/thumbnails/investments.jpg") center center/cover;
 }
 
 .thumbs a:nth-child(4) {
