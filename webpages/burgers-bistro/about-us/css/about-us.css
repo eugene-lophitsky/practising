@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Pacifico';
+    src: url('/fonts/Pacifico.ttf');
+}
+
+.about-us-container_common_props {
+    box-sizing: border-box;
+    max-width: 1105px;
+    height: 76vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.about-us__chef {
+    position: relative;
+}
+
+.about-us__chef .about-us__chef-item img {
+    width: 100%;
+}
+
+.about-us__chef :nth-child(2) {
+    margin-top: 0px;
+    margin-left: 0px;
+    position: absolute;
+    right: -30px;
+    bottom: -60px;
+}
+
+.about-us__speech {
+   display: flex;
+   flex-direction: column;
+   padding-top: 30px;
+}
+
+.about-us__speech :first-child {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Pacifico", cursive;
+    color: #f2c64d;
+    margin-bottom: 18px;
+}
+
+.about-us__speech :nth-child(2) {
+    max-width: 414px;
+    font-size: 50px;
+    font-family: Calibri;
+    font-weight: 700;
+    color: #1a0d01;
+    line-height: 1.2em;
+    margin-bottom: 8px;
+}
+
+.about-us__speech :nth-child(3) {
+    max-width: 414px;
+    font-size: 16px;
+    font-family: Calibri;
+    font-weight: 600;
+    line-height: 28px;
+    color: #4d4d4d;
+    margin-bottom: 37px;
+}

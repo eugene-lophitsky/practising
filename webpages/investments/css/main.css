@@ -1,0 +1,18 @@
+@import "./colors.css";
+@import "../header/css/header.css";
+@import "../advertisement/css/advertisement.css";
+@import "../transactions/css/transactions.css";
+@import "../explanations/css/explanations.css";
+@import "../partners/css/partners.css";
+@import "../comments/css/comments.css";
+@import "../footer/css/footer.css";
+
+
+*, ::before, ::after {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+}

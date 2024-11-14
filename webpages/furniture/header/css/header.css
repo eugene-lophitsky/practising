@@ -1,0 +1,80 @@
+.header-top {
+    border-bottom: 1px solid #323334;
+}
+
+.header_props_main {
+    max-width: 1750px;
+    height: fit-content;
+    margin: 0 auto 11px auto;
+}
+
+.header-top_pos_props {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-top: 34px;
+    padding-bottom: 24px;
+}
+
+.header-top__logo {
+    font-size: 28px;
+    font-family: Calibri;
+    font-weight: 600;
+    line-height: 33px;
+}
+
+.header-top__widgets {
+    max-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.header__menu {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 38px 68px;
+    border-bottom: 1px solid #323334;
+}
+
+.header__nav-item {
+    font-size: 16px;
+    font-family: Calibri;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+.header__nav-link {
+    text-decoration: none;
+    color: #323334;
+}
+
+.header__services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 153px;
+    margin: 36px auto 0 auto;
+}
+
+.header__service-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.header__service-item :nth-child(2) {
+    font-size: 12px;
+    font-family: Calibri;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px;
+    color: 000000;
+}

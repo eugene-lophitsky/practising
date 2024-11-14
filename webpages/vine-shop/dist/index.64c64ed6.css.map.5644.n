@@ -1,0 +1,1 @@
+{"mappings":"AAAA","sources":["header/css/header.css"],"sourcesContent":[".header {\r\n    display: flex;\r\n    background-image: url(\"/header/img/header.jpg\");\r\n}"],"names":[],"version":3,"file":"index.64c64ed6.css.map","sourceRoot":"/__parcel_source_root/"}

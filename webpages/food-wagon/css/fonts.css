@@ -1,0 +1,11 @@
+/* Обычный */
+@font-face {
+  font-family: "Source Code Pro normal";
+  src: url(fonts/source-sans-pro/SourceSansPro-Regular.ttf);
+}
+
+/* Жирный */
+@font-face {
+  font-family: "Source Code Pro bold";
+  src: url(fonts/source-sans-pro/SourceSansPro-Bold.ttf);
+}
