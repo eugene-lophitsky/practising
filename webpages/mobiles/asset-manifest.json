@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/practising/webpages/mobiles/static/css/main.e899abef.css",
-    "main.js": "/practising/webpages/mobiles/static/js/main.5b4e23d4.js",
+    "main.js": "/practising/webpages/mobiles/static/js/main.85f75a3e.js",
     "static/js/787.a4b45000.chunk.js": "/practising/webpages/mobiles/static/js/787.a4b45000.chunk.js",
     "static/media/cart.svg": "/practising/webpages/mobiles/static/media/cart.7f3d6cc6a51c629546c7.svg",
     "index.html": "/practising/webpages/mobiles/index.html",
@@ -9,11 +9,11 @@
     "static/media/star_grey.svg": "/practising/webpages/mobiles/static/media/star_grey.8aff1ddb8471c7f81b02.svg",
     "static/media/marker.svg": "/practising/webpages/mobiles/static/media/marker.45ca79805b2078a8d9a0.svg",
     "main.e899abef.css.map": "/practising/webpages/mobiles/static/css/main.e899abef.css.map",
-    "main.5b4e23d4.js.map": "/practising/webpages/mobiles/static/js/main.5b4e23d4.js.map",
+    "main.85f75a3e.js.map": "/practising/webpages/mobiles/static/js/main.85f75a3e.js.map",
     "787.a4b45000.chunk.js.map": "/practising/webpages/mobiles/static/js/787.a4b45000.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e899abef.css",
-    "static/js/main.5b4e23d4.js"
+    "static/js/main.85f75a3e.js"
   ]
 }
