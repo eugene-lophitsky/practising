@@ -2,38 +2,84 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
     <title>Мои работы</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-      rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />>
+    <link href="css/aos.css" rel="stylesheet" />
   </head>
 
   <body>
     <div class="container">
-      <header>
-        <a href="#" data-aos="fade-up"
-          ><img src="./img/logo.svg" alt="логотип"
-        /></a>
-      </header>
       <main class="content">
-        <h1 data-aos="fade-up">
-          
-        <div class="thumbs">
-          <a class="thumbs-layout__item" href="vape-shop/index.html"></a>
-          <a class="thumbs-layout__item" href="vine-shop/index.html"></a>
-          <a class="thumbs-layout__item" href="investments/index.html"></a>
-          <a class="thumbs-layout__item" href="furniture/index.html"></a>
-          <a class="thumbs-layout__item" href="burgers-bistro/index.html"></a>
-          <a class="thumbs-layout__item" href="natural-artifacts/index.html"></a>
-          <a class="thumbs-layout__item" href="personnel_reserve/index.html"></a>
-          <a class="thumbs-layout__item" href="food-wagon/index.html"></a>
+        <div data-aos="fade-up">
+          <header>
+            <a class="header-link" href="../">На главную</a>
+          </header>
+          <nav class="header-nav header-nav--margin" data-aos="fade-up">
+            <h1>Работы по вёрстке</h1>
+          </nav>
+          <div class="thumbs">
+            <a class="thumbs-layout__item" href="https://vape-shop.eugene-portfolio.ru" target="_blank">
+              <span class="thumbs-layout__item-bg"></span>
+              <span class="thumbs-layout__title">
+                Лэндинг (магазин по продаже вейпов)
+                <p>Технологии: <span>HTML, CSS</span></p>
+              </span>
+            </a>
+            <a class="thumbs-layout__item" href="https://vine-shop.eugene-portfolio.ru" target="_blank">
+              <span class="thumbs-layout__item-bg"></span>
+              <span class="thumbs-layout__title">
+                Лэндинг (магазин по продаже вина)
+                <p>Технологии: <span>HTML, CSS</span></p>
+              </span>
+            </a>
+            <a class="thumbs-layout__item" href="https://investments.eugene-portfolio.ru" target="_blank">
+              <span class="thumbs-layout__item-bg"></span>
+              <span class="thumbs-layout__title">
+                Лэндинг (инвестиционная компания)
+                <p>Технологии: <span>HTML, CSS</span></p>
+              </span>
+            </a>
+            <a class="thumbs-layout__item" href="https://furniture.eugene-portfolio.ru" target="_blank">
+              <span class="thumbs-layout__item-bg"></span>
+              <span class="thumbs-layout__title">
+                Лэндинг (магазин мебели и фурнитуры)
+                <p>Технологии: <span>HTML, CSS</span></p>
+              </span>
+            </a>
+            <a class="thumbs-layout__item" href="https://burgers-bistro.eugene-portfolio.ru" target="_blank">
+              <span class="thumbs-layout__item-bg"></span>
+              <span class="thumbs-layout__title">
+                Сайт (бургерная)
+                <p>Технологии: <span>HTML, CSS</span></p>
+              </span>
+            </a>
+            <a class="thumbs-layout__item" href="https://natural-artifacts.eugene-portfolio.ru" target="_blank">
+              <span class="thumbs-layout__item-bg"></span>
+              <span class="thumbs-layout__title">
+                Сайт (ресурс о растениях)
+                <p>Технологии: <span>HTML, CSS,</span>&nbsp;<span class="thumbs-layout__languages">Javascript</span></p>
+              </span>
+            </a>
+            <a class="thumbs-layout__item" href="https://personnel-reserve.eugene-portfolio.ru" target="_blank">
+              <span class="thumbs-layout__item-bg"></span>
+              <span class="thumbs-layout__title">
+                Лэндинг (онлайн-курсы)
+                <p>Технологии: <span>HTML, CSS,</span>&nbsp;<span class="thumbs-layout__languages">Javascript</span></p>
+                <p>Библиотеки: <span class="thumbs-layout__library">Swiper</span></p>
+              </span>
+            </a>
+            <a class="thumbs-layout__item" href="https://food-wagon.eugene-portfolio.ru" target="_blank">
+              <span class="thumbs-layout__item-bg"></span>
+              <span class="thumbs-layout__title">
+                Сайт (служба заказа фаст-фуда)
+                <p>Технологии: <span>HTML, CSS,</span>&nbsp;<span class="thumbs-layout__languages">Javascript</span></p>
+                <p>Библиотеки: <span class="thumbs-layout__library">Swiper</span></p>
+              </span>
+            </a>
+          </div>
         </div>
-        </h1>
         <span data-aos="fade-up"></span>
         <nav>
           <a href="../index.html" data-aos="fade-up">На главную</a>
@@ -41,7 +87,7 @@
       </main>
     </div>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/aos.js"></script>
     <script>
       AOS.init({
         once: true,

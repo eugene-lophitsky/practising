@@ -22,7 +22,6 @@ a:link {
 
 a:visited {
   text-decoration: none;
-  color: rgb(80, 9, 121);
 }
 
 a:hover {
@@ -99,68 +98,124 @@ body {
 }
 
 .container .content h1 {
-  font-size: 2rem;
-  text-transform: lowercase;
-  font-weight: normal;
+  font-size: 4rem;
   margin-bottom: 3rem;
 }
 
+header {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.header-link {
+  font-size: 18px;
+  font-family: Calibri, sans-serif;
+  font-weight: 500;
+  color: #575454;
+  text-transform: uppercase;
+  padding: 5px 12px;
+  background-color: transparent;
+}
+
+.header-link:hover {
+  color: green;
+}
 
 .container .content span {
-  border-bottom: 1px solid grey;
-  font-size: 1.2rem;
   font-weight: normal;
-  margin: 0 auto 3rem auto;
-  padding-bottom: 3rem;
-  width: 50%;
+  border-radius: 10px 10px 0 0;
 }
 
 .container .content .thumbs {
-  max-width: 898px;
+  max-width: 950px;
   height: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
-  gap: 20px;
-  margin: 0 auto;
+  gap: 40px;
+  margin: 0 auto 35px auto;
 }
 
 .container .content .thumbs a {
   width: 439px;
-  height: 254px;
   border-radius: 10px;
 }
 
-.thumbs a:nth-child(1) {
-  background: url("../img/thumbnails/vape-thumbnail.png") center center/ contain;
+.thumbs-layout__item {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
 }
 
-.thumbs a:nth-child(2) {
+.thumbs .thumbs-layout__item .thumbs-layout__title {
+  display: flex;
+  width: 439px;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+  font-family: Calibri;
+  font-weight: 600;
+  color: #0f0e0e;
+  text-transform: none;
+  padding: 15px 0 25px 0;
+  margin-top: 15px;
+}
+
+.thumbs-layout__title {
+  flex-direction: column;
+}
+
+
+.thumbs-layout__title p {
+  font-size: 19px;
+  font-weight: 200;
+  text-transform: none;
+}
+
+.thumbs-layout__title p span {
+  font-size: 19px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.thumbs-layout__item-bg {
+  display: inline-flex;
+  width: 439px;
+  height: 26vh;
+  border-bottom: 0.2px solid #cbc3c3;
+}
+
+
+.thumbs .thumbs-layout__item:nth-child(1) .thumbs-layout__item-bg {
+  background: url("../img/thumbnails/vape-thumbnail.png") center center/ cover no-repeat;
+}
+
+.thumbs a:nth-child(2) .thumbs-layout__item-bg {
   background: url("../img/thumbnails/vine-shop-thumbnail.jpg") center center/cover;
 }
 
-.thumbs a:nth-child(3) {
+.thumbs a:nth-child(3) .thumbs-layout__item-bg {
   background: url("../img/thumbnails/investments.jpg") center center/cover;
 }
 
-.thumbs a:nth-child(4) {
+.thumbs a:nth-child(4) .thumbs-layout__item-bg {
   background: url("../img/thumbnails/furniture.jpg") center center/100% 100% no-repeat;
 }
 
-.thumbs a:nth-child(5) {
+.thumbs a:nth-child(5) .thumbs-layout__item-bg {
   background: url("../img/thumbnails/burgers.jpg") center center/cover;
 }
 
-.thumbs a:nth-child(6) {
+.thumbs a:nth-child(6) .thumbs-layout__item-bg {
   background: url("../img/thumbnails/natural-artifacts.jpg") center center/cover;
 }
 
-.thumbs a:nth-child(7) {
+.thumbs a:nth-child(7) .thumbs-layout__item-bg {
   background: url("../img/thumbnails/personnel-reserve.jpg") center center/cover;
 }
 
-.thumbs a:nth-child(8) {
+.thumbs a:nth-child(8) .thumbs-layout__item-bg {
   background: url("../img/thumbnails/foodwagon.jpg") center center/cover;
 }
 
@@ -217,6 +272,16 @@ body {
   bottom: .5rem;
   display: block;
   text-align: center;
+}
+
+.header-nav--margin {
+  margin-bottom: 18px;
+}
+
+.thumbs-layout__item .thumbs-layout__library,
+.thumbs-layout__item .thumbs-layout__languages
+{
+  text-transform: initial;
 }
 
 

@@ -1,0 +1,241 @@
+.main-misc-reviews {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper_reviews-mtb {
+  margin: 55px 0px 60px 0px;
+}
+
+.main-misc-review-list {
+  max-width: 880px;
+  list-style-type: none;
+}
+
+.main-misc-reviews__hr:last-child {
+  margin: 0;
+  border-top: none;
+}
+
+.main-misc-reviews-post {
+  display: flex;
+  gap: 30px;
+}
+
+.main-misc-reviews__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 25px;
+}
+
+.main-misc-reviews__counter {
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 29px;
+  color: #000000;
+  gap: 10px;
+}
+
+.main-misc-reviews__counter_с-grey {
+  color: #888888;
+}
+
+.main-misc-reviews-post {
+  padding: 0px;
+}
+
+.main-misc-reviews-post-body__theses {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+  margin-left: 170px;
+}
+
+
+.main-misc-reviews-post-body__theses p span {
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 17px;
+  color: #000000;
+}
+
+.main-misc-reviews-post-body__using,
+.main-misc-reviews-post-body__advantages,
+.main-misc-reviews-post-body__disadvantages p,
+span {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.main-misc-reviews_mtb-0 {
+  margin: 0px;
+}
+
+.main-misc-reviews-post {
+  max-height: 74px;
+}
+
+.main-misc-reviews-post-body {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.main-misc-reviews-post__avatar {
+  box-sizing: border-box;
+}
+
+.main-misc-reviews-post__img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+.main-misc-reviews-post-body__user {
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.main-misc-reviews__hr {
+  max-width: 880px;
+  list-style-type: none;
+  border-top: 1px dashed #888888;
+  margin: 40px 0 25px 170px;
+}
+
+.review-body p .highlight {
+  font-weight: bold;
+}
+
+.main-misc-reviews-post-body__vote {
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: 190px;
+  margin-bottom: 20px;
+}
+
+.main-misc-reviews-post-body__vote input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.main-misc-reviews-post-body__vote label {
+  width: 20px;
+  height: 20px;
+  background: url("/public/images/star_grey.svg");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  padding: 0px 1px;
+}
+
+.main-misc-reviews-post-body__vote label:hover,
+.main-misc-reviews-post-body__vote label:hover ~ label {
+  background: url("/public/images/star.svg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  cursor: pointer;
+}
+
+.main-misc-reviews-post-body__vote input[type="radio"]:checked ~ label {
+  background: url("/public/images/star.svg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+
+/*       Медиа-запросы       */
+
+@media (max-width: 1499px) {
+  .main-misc-reviews-post-body__theses {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    margin-left: 133px;
+  }
+
+  .main-misc-reviews-post__img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .main-misc-reviews__hr {
+    margin: 40px 0 25px 131px;
+  }
+}
+
+@media (max-width: 725px) {
+.main-misc-reviews-post-body__theses {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    margin: 45px 0 0 110px;
+}
+
+.main-misc-reviews-post {
+  gap: 15px;
+}
+
+.main-misc-reviews-post-body__using,
+.main-misc-reviews-post-body__advantages {
+  text-align: justify;
+}
+  .main-misc-reviews__hr {
+    margin: 30px 0 30px 1px;
+  }
+}
+
+@media (max-width: 725px) {
+  .main-misc-reviews-post-body__theses {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    margin: 5px 0 0 0;
+}
+
+  .wrapper_reviews-mtb {
+    margin: 40px 0;
+  }
+
+  .main-misc-reviews__header {
+    margin-bottom: 20px;
+  }
+
+  .main-misc-reviews-post {
+   gap: 15px;
+  }
+
+  .main-misc-reviews-post__avatar {
+    max-height: 60px;
+  }
+
+  .main-misc-reviews-post__img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+
+
+
+

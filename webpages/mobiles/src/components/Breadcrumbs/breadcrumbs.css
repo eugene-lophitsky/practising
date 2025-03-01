@@ -1,0 +1,34 @@
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 88px 0 0 0;
+}
+
+.breadcrumbs a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.breadcrumbs .separator:last-of-type {
+  visibility: hidden;
+}
+
+.breadcrumbs :last-of-type span {
+visibility: hidden;
+}
+
+@media (max-width: 725px) {
+  .breadcrumbs {
+    padding: 58px 0 0 0;
+  }
+  .breadcrumbs a {
+    font-size: 14px;
+    line-height: 17px;
+  }
+} 
+

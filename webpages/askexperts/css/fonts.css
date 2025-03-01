@@ -1,0 +1,17 @@
+@font-face {
+    font-weight: 400;
+    font-family: Cabin;
+    src: url("../fonts/Cabin-Regular.ttf");
+  }
+  
+  @font-face {
+    font-weight: 700;
+    font-family: Cabin;
+    src: url("../fonts/Cabin-Bold.ttf");
+  }
+  
+  @font-face {
+    font-weight: 300;
+    font-family: Cabin;
+    src: url("../fonts/Cabin-Medium.ttf");
+  }

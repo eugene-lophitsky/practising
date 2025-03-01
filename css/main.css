@@ -112,10 +112,18 @@ body {
           flex-flow: row wrap;
 }
 
+.intro {
+  max-width: 600px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 25px;
+  margin: 0 auto;
+}
+
 .myPractice {
   font-size: 28px;
   font-family: 'Poppins', sans-serif;
-  margin: 26px 0 0;
+  margin: 32px 0 20px 0;
 }
 
 .container .content nav a {
@@ -155,6 +163,7 @@ body {
   display: block;
   text-align: center;
 }
+
 
 
 @media screen and (max-width: 820px) {

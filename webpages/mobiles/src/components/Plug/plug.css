@@ -1,0 +1,48 @@
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    
+} 
+
+.page-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 84px;
+    height: 100vh;
+
+} 
+
+  .main__content {
+    display: flex;
+    max-width: 450px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+  }
+  
+  
+  .main-link {
+    color: #008CF0;
+  }
+  
+  @media (max-width: 735px) {
+    .main__content {
+      padding: 10px;
+      max-width: 395px;
+    }
+  
+    .main__wrap {
+      padding-top: 50px;
+    }
+  
+    .main__text {
+      font-size: 14px;
+    }
+  }
+  

@@ -1,0 +1,179 @@
+
+  /*       Iphone-promo-model       */
+  
+  .iphone-promo__model {
+    display: flex;
+    flex-direction: row;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 39px;
+    margin: 30px 0;
+  }
+  
+  .wrapper_pos-acs {
+    margin: 8px auto 30px 0;
+  }
+  
+  .main {
+    display: flex;
+  }
+  
+  a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #008cf0;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #f36223;
+  }
+  
+  a:active {
+    color: #a93a09;
+    cursor: pointer;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main-misc {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .wrapper_maxw-880 {
+    max-width: 880px;
+    margin-bottom: 100px;
+    flex-shrink: 1;
+  }
+  
+  .article-props__name_pb0 {
+    padding-bottom: 0;
+  }
+
+  .review-body p .highlight {
+    font-weight: bold;
+  }
+  
+
+ /*       Медиа-запросы       */
+
+@media (max-width: 1499px) {
+  .main {
+    gap: 40px;
+  }
+  .iphone-promo-angles {
+    flex: 0 1 auto;
+    justify-content: space-between;
+  }
+  .iphone-promo-angles__stage {
+    height: 272px;
+  }
+  .wrapper {
+    max-width: 1024px;
+    padding: 0px 15px;
+  }
+  .main {
+    gap: 40px;
+    flex-wrap: nowrap;
+  }
+  .wrapper_maxw-880 {
+    max-width: 594px;
+    margin-bottom: 100px;
+    flex-shrink: 1;
+  }
+
+  .main-misc-params {
+    max-width: 594px;
+  }
+
+  .comparison {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main-misc-feedback {
+    margin-left: 10px;
+  }
+  .wrapper_maxw-880 {
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .wrapper_maxw-880 {
+    margin-bottom: 0;
+  }
+
+  .main-commerce-cart_indents-va {
+    margin: 30px 0 40px 0;
+  }
+  .main-misc-params {
+    flex-shrink: 1;
+  }
+}
+
+@media (max-width: 725px) {
+   .main {
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+
+  .main-misc-reviews__text
+  {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .main-misc-reviews__counter {
+    align-items: center;
+  }
+
+  .main-misc-reviews__counter_с-grey {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  
+  .iphone-promo__model {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .wrapper {
+    padding: 0px 10px;
+  }
+  .main {
+   max-width: 340px;
+   margin: 0 auto;
+   gap: 0;
+  }
+
+ .main-misc-params__current-color {
+   max-width: 350px;
+ }
+ .main-misc-params__colors {
+   flex-wrap: wrap;
+ }
+
+ .main-misc-feedback-user__fields {
+   flex-direction: column;
+ }
+
+ .main-misc-feedback-user__errs {
+   position: relative;
+ }
+
+ .main-misc-feedback-user__name-err {
+   position: absolute;
+   top: -91px;
+   width: 88%;
+ }
+ .main-commerce-cart-delivery__button {
+  min-width: 298px;
+ }
+} 
+

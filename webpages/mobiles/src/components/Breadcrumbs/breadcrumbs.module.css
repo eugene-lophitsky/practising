@@ -1,0 +1,42 @@
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 88px 0 0 0;
+}
+
+.separator {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #000000;
+  line-height: 19px;
+}
+
+.breadcrumbs .separator:last-of-type {
+  visibility: hidden;
+}
+
+.breadcrumbs :last-of-type span {
+visibility: hidden;
+}
+
+@media (max-width: 725px) {
+  .breadcrumbs {
+    padding: 58px 0 0 0;
+  }
+  .breadcrumbs a {
+    font-size: 14px;
+  }
+  .separator {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    color: #000000;
+    line-height: 12px;
+  }
+} 
+
+
+

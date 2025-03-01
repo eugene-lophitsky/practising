@@ -1,0 +1,37 @@
+.iphone-promo-angles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex: 1 0 auto;
+    overflow-x: auto;
+  }
+  
+  .iphone-promo-angles__stage {
+    height: 387px;
+  }
+
+
+  @media (max-width: 1499px), (max-width: 1024px){
+    .iphone-promo-angles {
+      flex-wrap: nowrap;
+    }
+    .iphone-promo-angles__stage {
+      height: 272px;
+    }
+  }
+
+  @media (max-width: 725px) {
+    .wrapper_pos-acs {
+      margin: 8px auto 20px 0;
+    }
+
+    .iphone-promo-angles {
+      flex-wrap: nowrap;
+      padding-left: 228px;
+    }
+    .iphone-promo-angles__stage {
+      height: 272px;
+    }
+  }
