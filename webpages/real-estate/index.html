@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Агентство недвижимости</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    >
+  </head>
+  <body>
+    <div class="header header--width-and-position">
+      <div class="header-container">
+        <a id="scroll-up"></a>
+        <div class="header-top header-top--paddings">
+          <div class="logo">
+            <span class="logo__icon">
+              <img src="icons/logo-icon.svg" alt="">
+            </span>
+            <span class="logo__text">JustHome</span>
+          </div>
+          <ul class="header__menu">
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link">Home</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link">Listings</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link">Members</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link">Blog</a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link">Pages</a>
+            </li>
+          </ul>
+          <span class="header__widgets">
+            <a href="tel:+68&nbsp;685&nbsp;88666" class="header__widgets-call">
+              <span class="header__widget-icon"
+                ><img src="icons/header-call-widget.svg" alt=""
+              ></span>
+              <span class="header__widget-text">+68 685 88666</span>
+            </a>
+
+            <button class="header__widgets-login">
+              <img src="icons/header-login-icon.svg" alt="">
+            </button>
+
+            <button class="header__widgets-config">Add Property</button>
+          </span>
+        </div>
+
+        <div class="header-search header-search--layout">
+          <a href="#" class="header-search__guide-button"
+            >let us guide your home</a
+          >
+          <span class="header-search__slogan"
+            >Discover a place you'll<p>love to live</p></span
+          >
+          <div class="header-search__links"></div>
+          <span class="header-search__form">
+            <input
+              type="text"
+              class="header-search__input"
+              placeholder="Enter Name, Keywords..."
+            >
+            <button class="header-search__button">
+              <img src="icons/header-search-icon.svg" alt="">
+            </button>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="offers offers--width">
+      <div class="offers-container offers-container--padding">
+        <div class="offers-top">
+          <span class="offers-top__title">Homes For You</span>
+          <span class="offers-top__description">Based on your view history</span>
+        </div>
+        <div class="offers-cards">
+          <span class="offers-card">
+            <span class="offers-card__img">
+              <img src="img/property_1.jpg" alt="">
+            </span>
+            <span class="offers-card__info">
+              <span class="offers-card__info-common">
+                <span class="offers-card__name">Skyper Pool Apartment</span>
+                <span class="offers-card__price">$280,000</span>
+              </span>
+              <span class="offers-card__info-address">
+                <img src="icons/destination-icon.svg" alt="">
+                <span class="offers-card__info-destination">1020 Bloomingdale Ave</span>
+              </span>
+              <span class="offers-card__info-flat">
+                <img src="icons/beds.svg" alt="">
+                <span class="offers-card__info-beds">4 Beds</span>
+                <img src="icons/baths.svg" alt="">
+                <span class="offers-card__info-baths">2 Baths</span>
+                <img src="icons/rooms.svg" alt="">
+                <span class="offers-card__info-space">450 sqrt</span>                
+              </span>
+            </span>
+          </span>
+          <span class="offers-card">
+            <span class="offers-card__img">
+              <img src="img/property_2.jpg" alt="">
+            </span>
+            <span class="offers-card__info">
+              <span class="offers-card__info-common">
+                <span class="offers-card__name">North Dillard Street</span>
+                <span class="offers-card__price">$250,000</span>
+              </span>
+              <span class="offers-card__info-address">
+                <img src="icons/destination-icon.svg" alt="">
+                <span class="offers-card__info-destination">4330 Bell Shoals Rd</span>
+              </span>
+              <span class="offers-card__info-flat">
+                <img src="icons/beds.svg" alt="">
+                <span class="offers-card__info-beds">4 Beds</span>
+                <img src="icons/baths.svg" alt="">
+                <span class="offers-card__info-baths">2 Baths</span>
+                <img src="icons/rooms.svg" alt="">
+                <span class="offers-card__info-space">400 sqrt</span> 
+              </span>
+            </span>
+          </span>
+          <span class="offers-card">
+            <span class="offers-card__img">
+              <img src="img/property_3.jpg" alt="">
+            </span>
+            <span class="offers-card__info">
+              <span class="offers-card__info-common">
+                <span class="offers-card__name">Eaton Garth Penthouse</span>
+                <span class="offers-card__price">$180,000</span>
+              </span>
+              <span class="offers-card__info-address">
+                <img src="icons/destination-icon.svg" alt="">
+                <span class="offers-card__info-destination">7722 18th Ave, Brooklyn</span>
+              </span>
+              <span class="offers-card__info-flat">
+                <img src="icons/beds.svg" alt="">
+                <span class="offers-card__info-beds">4 Beds</span>
+                <img src="icons/baths.svg" alt="">
+                <span class="offers-card__info-baths">2 Baths</span>
+                <img src="icons/rooms.svg" alt="">
+                <span class="offers-card__info-space">450 sqrt</span> 
+              </span>
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="photogallery photogallery--size-and-position">
+
+      <span class="photogallery__top">
+        <span class="photogallery__top-title">Find Properties in These Cities</span>
+        <span class="photogallery__top-slogan">Real estate for every taste</span>
+      </span>
+      <div class="photogallery__cards">
+        <div class="photogallery__card">
+          <span class="photogallery__card-plate">8 Properties<p>New York</p>
+          </span>
+          <img src="img/gallery_1.jpg" alt="" class="photogallery__card--big">
+        </div>
+        <div class="photogallery__card">
+          <span class="photogallery__card-plate">2 Properties<p>Chicago</p>
+          </span>
+          <img src="img/gallery_2.jpg" alt="" class="photogallery__card--small">
+        </div>
+        <div class="photogallery__card">
+          <span class="photogallery__card-plate">1 Property<p>Los Angeles</p>
+          </span>
+          <img src="img/gallery_3.jpg" alt="" class="photogallery__card--small">
+        </div>
+        <div class="photogallery__card">
+          <span class="photogallery__card-plate">4 Property<p>San Diego</p>
+          </span>
+          <img src="img/gallery_4.jpg" alt="" class="photogallery__card--small">
+        </div>
+        <div class="photogallery__card">
+          <span class="photogallery__card-plate">2 Properties<p>Connecticut</p>
+          </span>
+          <img src="img/gallery_5.jpg" alt="" class="photogallery__card--small">
+        </div>
+        <div class="photogallery__card">
+          <span class="photogallery__card-plate">5 Properties<p>Cansas</p>
+          </span>
+          <img src="img/gallery_6.jpg" alt="" class="photogallery__card--big">
+        </div>
+      </div>
+
+    </div>
+    <div class="advantages advantages--size-and-pos">
+      <div class="advantages-container advantages-container--size-pos">
+        <span class="advantages__title">
+        Why Choose Us<p>Explore the list of advantages in our company</p>
+        </span>
+        <div class="advantages__items">
+          <span class="advantages__item">
+            <img class="advantages__item-image" src="icons/advantage-1.svg" alt="">
+            <span class="advantages__item-title">Find your future home</span>
+            <span class="advantages__item-text">
+              We help you find a new home by offering a
+              smart real estate experience</span>
+          </span>
+          <span class="advantages__item">
+            <img class="advantages__item-image" src="icons/advantage-2.svg" alt="">
+            <span class="advantages__item-title">Experienced agents</span>
+            <span class="advantages__item-text">
+              Find an experienced agent who knows your
+              market best
+            </span>
+          </span>
+          <span class="advantages__item">
+            <img class="advantages__item-image" src="icons/advantage-3.svg" alt="">
+            <span class="advantages__item-title">Buy or rent homes</span>
+            <span class="advantages__item-text">
+              Millions of houses and apartments in your
+              favourite cities
+            </span>
+          </span>
+          <span class="advantages__item">
+            <img class="advantages__item-image" src="icons/advantage-4.svg" alt="">
+            <span class="advantages__item-title">List your own property</span>
+            <span class="advantages__item-text">
+              Sign up now and sell or rent your own
+              properties
+            </span>
+          </span>
+        </div>
+  
+      </div>
+    </div>
+    <div class="best-properties best-properties--size-position">
+        <span class="best-properties__title">Best Properties</span>
+        <div class="best-properties__items">
+          <div class="best-properties__item">
+              <div class="best-properties__card horizontal-plate">
+                <img src="img/best-properties-1.jpg" alt="" class="horizontal-plate">
+              </div>
+              <div class="best-properties__card best-properties__card--mod">
+                  <div class="best-properties__subitem double-card">
+                    <span class="best-properties__subitem-amount">
+                   280+<p>Properties</p>
+                    </span>
+                    <span class="best-properties__subitem-text">
+                    Explore our wide variety of properties<p>to fid your dream home today</p>
+                    </span>
+                    <a href="#!" class="best-properties__subitem-arrow">
+                      <img src="icons/best-properties-arrow.svg" alt="">
+                    </a>
+                  </div>
+                  <div class="best-properties__subitem shrink"><img src="img/best-properties-2.jpg" alt=""></div>
+              </div>
+          </div>
+          <div class="best-properties__item details">
+            <div class="best-properties__card big-plate">
+              <div class="best-properties__buttons">
+                <a href="#!" class="best-properties__button for-sale">for sale</a>
+                <a href="#!" class="best-properties__button featured">featured</a>
+              </div>
+              <img src="img/best-properties-3.jpg" alt="" class="big-plate">
+                <div class="best-properties__apartment-info">
+                  <span class="best-properties__common-info">
+                    <span class="best-properties__name">Villa One Hyde Park</span>
+                  </span>
+                  <span class="best-properties__address">
+                    <img src="icons/best-properties-icon.svg" alt="">
+                    <span class="best-properties__info-destination">2050 Bloomingdale Ave</span>
+                  </span>
+                  <span class="best-properties__info-flat">
+                    <span class="best-properties__price">$120,000</span>
+                    <img src="icons/best-properties_1.svg" alt="">
+                    <span class="best-properties__info-beds">4</span>
+                    <img src="icons/best-properties_2.svg" alt="">
+                    <span class="best-properties__info-baths">2</span>
+                    <img src="icons/best-properties_3.svg" alt="">
+                    <span class="best-properties__info-space">350</span>                
+                  </span>
+                </div>
+          </div>
+        </div>
+    </div>
+    </div>
+    <div class="expertise expertise--size-and-pos">
+
+      <div class="expertise-container expertise-container-size-and-pos">
+        <div class="expertise__main">
+          <span class="expertise__main-image">
+            <img src="img/local-expertise.jpg" alt="">
+          </span>
+          <span class="expertise__main-info">
+            <span class="expertise__main-title">Local expertise for luxury homes</span>
+            <span class="expertise__main-text">
+              Pellentesque egestas elementum egestas faucibus sem. 
+                Velit nunc egestas ut morbi. Leo diam diam nibh eget 
+                fermentum massa pretium. Mi mauris nulla ac
+                dictum ut mauris non.
+            </span> 
+            <a href="#!" class="expertise__main-button">Learn More
+              <img src="icons/expertise__button-arrow.svg" alt="">
+            </a>
+          </span>
+        </div>
+        <div class="expertise__achievements">
+          <span class="expertise__achievement">
+            <span class="expertise__achievement-sum">$18M</span>
+            <span class="expertise__achievement-text">Owned from properties transactions</span>
+          </span>
+          <span class="expertise__achievement">
+            <span class="expertise__achievement-sum">26K</span>
+            <span class="expertise__achievement-text">Properties for Buy</span>
+          </span>
+          <span class="expertise__achievement">
+            <span class="expertise__achievement-sum">15K</span>
+            <span class="expertise__achievement-text">Properties for Sell</span>
+          </span>
+          <span class="expertise__achievement">
+            <span class="expertise__achievement-sum">800</span>
+            <span class="expertise__achievement-text">Daily completed transactions</span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="consumers consumers--layout">
+      <div class="consumers-general consumers-general--layout">
+
+        <span class="consumers-statistics">
+          <span class="consumers-statistics__title">What our customers are saying us?</span>
+          <span class="consumers-statistics__text">Various versions have evolved over the years, sometimes by
+            accident, sometimes on purpose injected humour and the like.</span>
+          <span class="consumers-statistics__values">
+              <span class="consumers-statistics__value">
+                <span class="consumers-statistics__value-number">10m+</span>
+                <span class="consumers-statistics__value-text">Happy People</span>
+              </span>
+              <span class="consumers-statistics__value">
+                <span class="consumers-statistics__value-number">4.88</span>
+                <span class="consumers-statistics__value-text">Overall rating</span>
+                <span>
+                  <img src="icons/consumers-rating-stars.svg" alt="">
+                </span>
+              </span>
+          </span>
+        </span>
+
+        <div class="consumers-review">
+          <span class="consumers-review__customer">
+            <span class="consumers-review__customer-info">
+              <img src="icons/customers-review-avatar.svg" alt="">
+              <span class="consumers-review__customer-personal">
+                Cameron Williamson<p>Designer</p>
+              </span>
+            </span>
+            
+            <span class="consumers-review__customer-text">
+              Searches for multiplexes, property comparisons, and the loan 
+              estimator. Works great. Lorem ipsum dolor sit amet, consectetur 
+              adipiscing elit, sed do eiusmod tempor incididunt ut labore et dores.
+            </span>
+            <span class="quotes">
+              <img src="icons/quotes.svg" alt="">
+            </span>
+          </span>
+        </div>
+      </div>
+      <div class="hr"></div>
+      <div class="consumers-list consumers-list--layout">
+        <span class="consumers-list__title">Thousands of world’s leading companies trust Space</span>
+        <div class="consumers-list__items">
+          <img src="icons/consumer-item-icon_1.svg" alt="" class="consumers-list__image">
+          <img src="icons/consumer-item-icon_2.svg" alt="" class="consumers-list__image">
+          <img src="icons/consumer-item-icon_3.svg" alt="" class="consumers-list__image">
+          <img src="icons/consumer-item-icon_4.svg" alt="" class="consumers-list__image">
+          <img src="icons/consumer-item-icon_5.svg" alt="" class="consumers-list__image">
+          <img src="icons/consumer-item-icon_6.svg" alt="" class="consumers-list__image">
+        </div>
+      </div>
+    </div>
+    <div class="recent-news recent-news--layout">
+        <div class="recent-news-container recent-news-container--layout">
+            <span class="recent-news__title">Recent Articles & News</span>
+              <div class="recent-news__cards">
+                <span class="recent-news__card">
+                  <span class="recent-news__image"><img src="icons/recent-news-image_1.svg" alt=""></span>
+                  <span class="recent-news__caption">Apartment&nbsp;&#8226;&nbsp;June 11, 2024</span>
+                  <span class="recent-news__text">Housing Markets That Changed<p>the Most This Week</p></span>
+                  <a href="#!" class="recent-news__link">Read More <img src="icons/expertise__button-arrow.svg" alt=""></a>
+                </span>
+                <span class="recent-news__card">
+                  <span class="recent-news__image"><img src="icons/recent-news-image_2.svg" alt=""></span>
+                  <span class="recent-news__caption">Apartment&nbsp;&#8226;&nbsp;June 6, 2024</span>
+                  <span class="recent-news__text">Read Unveils the Best Canadian<p>Cities for Biking</p></span>
+                  <a href="#!" class="recent-news__link">Read More <img src="icons/expertise__button-arrow.svg" alt=""></a>
+                </span>
+                <span class="recent-news__card">
+                  <span class="recent-news__image"><img src="icons/recent-news-image_3.svg" alt=""></span>
+                  <span class="recent-news__caption">Office&nbsp;&#8226;&nbsp;June 24, 2024</span>
+                  <span class="recent-news__text">10 Walkable Cities Where You Can<p>Live Affordably</p></span>
+                  <a href="#!" class="recent-news__link">Read More <img src="icons/expertise__button-arrow.svg" alt=""></a>
+                </span>
+                <span class="recent-news__card">
+                  <span class="recent-news__image"><img src="icons/recent-news-image_4.svg" alt=""></span>
+                  <span class="recent-news__caption">Shop&nbsp;&#8226;&nbsp;June 28, 2024</span>
+                  <span class="recent-news__text">New Apartment Nice in the Best<p>Canadian Cities</p></span>
+                  <a href="#!" class="recent-news__link">Read More <img src="icons/expertise__button-arrow.svg" alt=""></a>
+                </span>
+              </div>
+        </div>
+    </div>
+    <div class="agent-request agent-request--layout">
+      <span class="agent-request-container agent-request-container--layout">
+        <span class="agent-request__text">Become a Real Estate Agent<p>We only work with the best companies around the world</p></span>
+        <a href="#!" class="agent-request__button">Register Now
+          <img src="icons/agent-request-arrow.svg" alt="">
+        </a>
+      </span>
+    </div>
+    <div class="footer footer--properties">
+      <div class="footer-container footer-container--layout">
+        <div class="footer-upper">
+            <span class="logo footer-logo">
+              <span class="logo__icon footer-logo__icon">
+                <img src="icons/logo-icon.svg" alt="">
+              </span>
+              <span class="logo__text footer-logo__text">JustHome</span>
+            </span>
+            <span class="footer-social">
+              <span class="footer-social__title">Follow Us</span>
+                  <span class="footer-social__links">
+                    <a href="#!" class="footer-social__link">
+                      <img src="icons/footer-social__icon_1.svg" alt="">
+                    </a>
+                    <a href="#!" class="footer-social__link">
+                      <img src="icons/footer-social__icon_2.svg" alt="">
+                    </a>
+                    <a href="#!" class="footer-social__link">
+                      <img src="icons/footer-social__icon_3.svg" alt="">
+                    </a>
+                    <a href="#!" class="footer-social__link">
+                      <img src="icons/footer-social__icon_4.svg" alt="">
+                    </a>
+                  </span>
+            </span>
+        </div>
+        <div class="footer__hr"></div>
+        <div class="footer-links">
+          <ul class="footer-links__list subscribe">
+            <span class="footer-links__title">Subscribe</span>
+            <li class="footer-links__item footer-links--subscribe">
+              <span>Your e-mail</span>
+              <a href="#!" class="footer-links__button">Send
+                <img src="icons/footer-links.svg" alt="">
+              </a>
+            </li>
+            <li class="footer-links__item subscribe-phrase">Subscribe to our newsletter to receive our weekly feed.</li>
+          </ul>
+          <ul class="footer-links__list discover">
+            <span class="footer-links__title">Discover</span>
+            <li class="footer-links__item">Miami</li>
+            <li class="footer-links__item">New York</li>
+            <li class="footer-links__item">Chicago</li>
+            <li class="footer-links__item">Florida</li>
+            <li class="footer-links__item">Los Angeles</li>
+            <li class="footer-links__item">San Diego</li>
+          </ul>
+          <ul class="footer-links__list quick-links">
+            <span class="footer-links__title">Quick Links</span>
+            <li class="footer-links__item">About</li>
+            <li class="footer-links__item">Contact</li>
+            <li class="footer-links__item">FAQ's</li>
+            <li class="footer-links__item">Blog</li>
+            <li class="footer-links__item">Pricing Plans</li>
+            <li class="footer-links__item">Privacy Policy</li>
+            <li class="footer-links__item">Terms & Conditions</li>
+          </ul>
+          <ul class="footer-links__list contact-us">
+            <span class="footer-links__title">Contact Us</span>
+            <li class="footer-links__item"><a href="mailto:hi@justhome.com">hi@justhome.com</a></li>
+            <li class="footer-links__item"><a href="tel:(123)&nbsp;456-7890">(123) 456-7890</a></li>
+          </ul>
+          <ul class="footer-links__list our-address">
+            <span class="footer-links__title">Our Address</span>
+            <li class="footer-links__item">99 Fifth Avenue, 3rd Floor</li>
+            <li class="footer-links__item">San Francisco, CA 1980</li>
+          </ul>
+          <ul class="footer-links__list get-app">
+            <span class="footer-links__title get-app__title">Get the app</span>
+            <li class="footer-links__item">
+             <a href="#!" class="get-app__button">
+              <span class="get-app__button-icon">
+                <img src="icons/apple-icon.svg" alt="">
+              </span>
+              <span class="get-app__text">
+                Download on the<p>Play Store</p>
+              </span>
+             </a>
+            </li>
+            <li class="footer-links__item">
+              <a href="#!" class="get-app__button">
+               <span class="get-app__button-icon">
+                 <img src="icons/google-play-icon.svg" alt="">
+               </span>
+               <span class="get-app__text">
+                 Get it on the<p>Apple Store</p>
+               </span>
+              </a>
+             </li>
+          </ul>
+        </div>
+        <div class="copyright__hr"></div>
+        <span class="copyright">Copyright © 2024. JustHome</span>
+      </div>
+    </div>
+    <a class="scroll-up-button" href="#scroll-up">
+      <img src="icons/scroll-up-button-icon.svg" alt="">
+    </a>
+  </body>
+</html>
+
+

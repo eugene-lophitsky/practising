@@ -1,0 +1,21 @@
+:root {
+    --gold-color: #f4bc61;
+    --grey-light: #e8e8e8;
+    --second-grey: #858585;
+    --third-grey: #626262;
+    --fourth-grey: #737373;
+    --fifth-grey: #cfcfcf;
+    --sixth-grey: #ececec;
+    --seventh-grey: #9b9b9b;
+    --eight-grey: #878787;
+    --ten-grey: #dfdfdf;
+    --eleventh-grey: #6c6c6c;
+    --default-black: #000000;
+    --alternative-black: #020202;
+    --second-black: #020202;
+    --paled-black: #555555;
+    --white-color: #ffffff;
+    --box-shadow-light-grey: #ececec;
+    --clients-slider-button-stroke: #ebebeb;
+    --dark-sand: #c9c2af;
+}
