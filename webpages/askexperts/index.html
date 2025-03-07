@@ -966,7 +966,13 @@
         </div>
       </div>
     </div>
-
-    <script type="module" src="/src/main.js"></script>
+    <script>
+      [...document.querySelectorAll("a")].map((item) => {
+     item.addEventListener("click", function (e) {
+       e.preventDefault();
+       alert("В разработке");
+     });
+   });
+ </script>   
   </body>
 </html>
