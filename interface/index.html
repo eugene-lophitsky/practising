@@ -3,28 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="”robots”" content="”noindex," nofollow” />
-    <title>Элементы интерфейса</title>
-    <link rel="stylesheet" href="../interface/css/styles.css" />
-    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <meta name="robots" content="noindex" />
+    <title>Мои работы</title>
+    <link rel="stylesheet" href="./css/styles.css" />>
+    <link href="css/aos.css" rel="stylesheet" />
   </head>
 
   <body>
     <div class="container">
-      <header>
-        <a href="#" data-aos="fade-up"
-          ><img src="./img/logo.svg" alt="логотип"
-        /></a>
-      </header>
       <main class="content">
-        <h1 data-aos="fade-up">
-          <a href="ware-cards/index.html" target="_blank">карточки товаров</a>
-        </h1>
+        <div data-aos="fade-up">
+          <header>
+            <a class="header-link" href="../">На главную</a>
+          </header>
+          <nav class="header-nav header-nav--margin" data-aos="fade-up">
+            <h1>Элементы интерфейса</h1>
+          </nav>
+          <div class="thumbs">
+            <a class="thumbs-layout__item" href="ware-cards/index.html" target="_blank">
+              <span class="thumbs-layout__item-bg"><img src="img/ware-cards-thumb.jpg" alt=""></span>
+              <span class="thumbs-layout__title">
+                Карточки товаров
+                <p>Технологии: <span>HTML, CSS</span></p>
+              </span>
+            </a>
+            <a class="thumbs-layout__item" href="custom switcher/index.html" target="_blank">
+              <span class="thumbs-layout__item-bg"><img src="img/custom-switcher.jpg" alt=""></span>
+              <span class="thumbs-layout__title">
+                Радиокнопка, стилизованная под слайдер
+                <p>Технологии: <span>HTML, CSS</span></p>
+              </span>
+            </a>
+           
+          </div>
+        </div>
         <span data-aos="fade-up"></span>
         <nav>
           <a href="../index.html" data-aos="fade-up">На главную</a>
@@ -32,7 +44,7 @@
       </main>
     </div>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/aos.js"></script>
     <script>
       AOS.init({
         once: true,

@@ -10,28 +10,22 @@
     <div class="container">
         <div class="wares">
             <div class="wares-title">Recommended Customisation Services for this Product</div>
-
             <div class="ware">
-
                 <div class="ware-img">
-                    <img src="pic.jpg" alt="Шаблон Веб-сайта Пакет">
+                    <img src="ware-icon.jpg" alt="Шаблон Веб-сайта Пакет">
                 </div>
-
                 <div class="ware-info">Шаблон Веб-сайта + Пакет Быстрого Запуска
                     <div>Предоставляется TemplateMonster Web Studio &nbsp;&nbsp;&nbsp;<a href="">Детали</a></div>
                 </div>
-
                 <div class="ware-price">
                     <div class="old-price">99 $</div>
                     <div class="new-price"></div>
                     <a class="add-ware" href="#">+</a>
                 </div>
             </div>
-
             <div class="ware">
-
                 <div class="ware-img">
-                    <img src="pic.jpg" alt="Template Upload and Setup">
+                    <img src="ware-icon.jpg" alt="Template Upload and Setup">
                 </div>
 
                 <div class="ware-info">Template Upload and Setup
@@ -44,33 +38,29 @@
                     <a class="add-ware" href="#">+</a>
                 </div>
             </div>
-
             <div class="ware">
-
                 <div class="ware-img">
-                    <img src="ware-icon.jpg" alt="Шаблон веб-сайта Пакет">
+                    <img src="ware-icon-favorite.jpg" alt="Шаблон веб-сайта Пакет">
                 </div>
-
                 <div class="ware-info">Шаблон Cайта + Установка
                     <div>Предоставляется TemplateMonster Web Studio &nbsp;&nbsp;&nbsp;<a href="">Детали</a></div>
                 </div>
-
                 <div class="ware-price">
                     <div class="old-price">99 $</div>
                     <div class="new-price"></div>
                     <a class="add-ware" href="#">+</a>
                 </div>
             </div>
-
         </div>
-
-        
-         
-       
-
-      
         <div class="cart"></div>
-
     </div>
+    <script>
+        [...document.querySelectorAll("a")].map((item) => {
+       item.addEventListener("click", function (e) {
+         e.preventDefault();
+         alert("В разработке");
+       });
+     });
+   </script>       
 </body>
 </html>

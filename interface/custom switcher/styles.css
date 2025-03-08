@@ -1,0 +1,80 @@
+body {
+    background-color: lightgray;
+}
+
+.toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 530px;
+    height: 280px;
+    background-color: #9e9e9e87;
+    margin: 100px auto 0 auto;
+}
+
+.toggle-title {
+    position: absolute;
+    top: 30px;
+    font-size: 20px;
+    font-family: Calibri, sans-serif;
+    font-weight: 600;
+    color: bisque;
+}
+
+.toggle-title p {
+    margin: 0;
+}
+
+#slider {
+    display: none;
+}
+
+.slider-label {
+    position: absolute;
+    width: 95px;
+    height: 45px;
+    top: 112px;
+    left: 205px;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(155, 148, 148);
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.slider-label::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    content: "";
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 25px;
+    transition: 0.5s;
+    z-index: 100;
+}
+
+#slider:checked + .slider-label::after{
+    display: block;
+    position: absolute;
+    top: -45px;
+    left: -35px;
+    content: "Настройка применена";
+    width: auto;
+    font-size: 20px;
+    white-space: nowrap;
+    font-weight: 600;
+    font-family: Calibri, sans-serif;
+}
+
+#slider:checked + .slider-label {
+    background-color: rgb(27 207 50 / 60%);
+    cursor: pointer;
+}
+
+#slider:checked + .slider-label::before {
+    transform: translateX(50px);
+}

@@ -188,35 +188,49 @@ header {
 
 
 .thumbs .thumbs-layout__item:nth-child(1) .thumbs-layout__item-bg {
-  background: url("../img/thumbnails/vape-thumbnail.png") center center/ cover no-repeat;
+  background: url("../img/thumbnails/vape-thumbnail.webp") center top/ cover no-repeat;
 }
 
 .thumbs a:nth-child(2) .thumbs-layout__item-bg {
-  background: url("../img/thumbnails/vine-shop-thumbnail.jpg") center center/cover;
+  background: url("../img/thumbnails/mobiles.webp") center top/cover;
 }
 
 .thumbs a:nth-child(3) .thumbs-layout__item-bg {
-  background: url("../img/thumbnails/investments.jpg") center center/cover;
+  background: url("../img/thumbnails/vine-shop-thumbnail.webp") center center/cover;
 }
 
 .thumbs a:nth-child(4) .thumbs-layout__item-bg {
-  background: url("../img/thumbnails/furniture.jpg") center center/100% 100% no-repeat;
+  background: url("../img/thumbnails/investments.webp") center top / 100% no-repeat;
 }
 
 .thumbs a:nth-child(5) .thumbs-layout__item-bg {
-  background: url("../img/thumbnails/burgers.jpg") center center/cover;
+  background: url("../img/thumbnails/furniture.webp") center center/100% 100% no-repeat;
 }
 
 .thumbs a:nth-child(6) .thumbs-layout__item-bg {
-  background: url("../img/thumbnails/natural-artifacts.jpg") center center/cover;
+  background: url("../img/thumbnails/burgers.webp") center center/cover;
 }
 
 .thumbs a:nth-child(7) .thumbs-layout__item-bg {
-  background: url("../img/thumbnails/personnel-reserve.jpg") center center/cover;
+  background: url("../img/thumbnails/natural-artifacts.webp") center center/cover;
 }
 
 .thumbs a:nth-child(8) .thumbs-layout__item-bg {
-  background: url("../img/thumbnails/foodwagon.jpg") center center/cover;
+  background: url("../img/thumbnails/personnel-reserve.webp") center center/cover;
+}
+
+.thumbs a:nth-child(9) .thumbs-layout__item-bg {
+  background: url("../img/thumbnails/foodwagon.webp") center center/cover;
+}
+.thumbs a:nth-child(10) .thumbs-layout__item-bg {
+  background: url("../img/thumbnails/real-estate.webp") center center / 100% 100% no-repeat;
+}
+
+.thumbs a:nth-child(11) .thumbs-layout__item-bg {
+  background: url("../img/thumbnails/rebel_rover.webp") center top / 100% no-repeat;
+}
+.thumbs a:nth-child(12) .thumbs-layout__item-bg {
+  background: url("../img/thumbnails/askexperts.webp") center top / 100% no-repeat;
 }
 
 
