@@ -6,7 +6,7 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="header flex items-center max-w-[1178px] justify-between mx-auto py-[19px]">
+    <div class="header flex items-center max-w-[1080px] justify-between mx-auto py-[19px] gap-[161px]">
       <div class="header-logo flex items-center gap-1.5">
         <div class="header-logo__image flex"><img src="./src/icons/site-logo.svg" alt=""></div>
         <div class="header-logo__text flex flex-col">
@@ -25,11 +25,11 @@
     </div>
 
     <div class="jumbotron py-[78px] px-[101px] bg-[url('./img/jumbotron-bg.webp')] bg-cover bg-no-repeat">
-      <div class="jumbotron-container w-[1178px] mx-auto">
+      <div class="jumbotron-container w-[1080px] mx-auto">
         <div class="jumbotron-title text-[15px] text-[var(--first-black)]">Quality cleaning at a fair price.</div>
         <div class="jumbotron-subtitle max-w-[447px] text-[39px] font-bold text-[var(--first-black)] leading-11 mt-[9px] mb-[18px]">Specialized, efficient and thorough cleaning services</div>
         <div class="jumbotron-description max-w-[380px] text-[13.5px] text-[var(--third-black)] leading-[22px]">We provide performing cleaning tasks using the least amount of time, energy and money.</div>
-        <div class="jumbotron-buttons flex gap-[19px] mt-[20px]">
+        <div class="jumbotron-buttons inline-flex gap-[19px] mt-[20px]">
             <a href="#" class="jumbotron-buttons__item text-[12px] text-[var(--basic-white)] font-bold bg-[var(--light-green)] py-[9.4px] px-[28.9px] rounded-[4.5px]">Get Start Now</a>
             <a href="#" class="jumbotron-buttons__item text-[12px] font-bold text-[var(--first-black)] py-[10.4px] px-[25.2px] rounded-[4.5px] border-1 border-[var(--third-black)]">View All Services</a>
         </div>
@@ -37,8 +37,52 @@
     </div>
 
 
-    <div class="services">
-      
+    <div class="services max-w-[1080px] mb-[79px]  mx-auto">
+
+        <div class="services-intro flex justify-between items-center mt-[112px] pb-[30px] border-b-1 border-[var(--first-grey)]">
+          <div class="services-intro__title max-w-[402px] text-[33px] font-bold text-[var(--first-black)] capitalize leading-10">We always provide the best service</div>
+          <div class="services-intro__description ml-[380px]">
+            <div class="services-intro__description-item text-[15px] font-bold text-[var(--first-black)]">Services</div>
+            <div class="services-intro__description-item max-w-[324px] text-[12px] text-[var(--third-black)]">While we can customize your cleaning plan to suit your needs, most clients schedule regular cleaning services:</div>
+          </div>
+        </div>
+
+        <div class="services-detailed flex justify-between mt-[30px]">
+          <div class="services-detailed__card">
+            <img src="img/services-picture_1.webp" alt="">
+            <div class="services-detailed__title text-[18px] font-bold text-[var(--first-black)] capitalize my-[12px]">office cleaning</div>
+            <div class="services-detailed__description max-w-[257px] text-[12px] text-[var(--third-black)] mb-[18px]">
+              While we can customize your cleaning plan to suit your needs, most clients schedule regular cleaning services:
+            </div>
+            <a href="#" class="services-detailed__button flex justify-center max-w-[112px] text-[12px] text-[var(--first-black)] border-1 border-[var(--third-black)] py-[6.8px] rounded-[4.5px]">
+              <span>Book Now</span>
+              <img src="icons/arrow_1.svg" class="inline-flex w-[15px] aspect-1 ml-[7px]" alt="">
+            </a>
+          </div>
+          <div class="services-detailed__card">
+            <img src="img/services-picture_2.webp" alt="">
+            <div class="services-detailed__title text-[18px] font-bold text-[var(--first-black)] capitalize my-[12px]">spring cleaning</div>
+            <div class="services-detailed__description max-w-[257px] text-[12px] text-[var(--third-black)] mb-[18px]">
+              While we can customize your cleaning plan to suit your needs, most clients schedule regular cleaning services:
+            </div>
+            <a href="#" class="services-detailed__button flex justify-center max-w-[112px] text-[12px] text-[var(--basic-white)] bg-[var(--light-green)] border-1 border-none py-[7.5px] rounded-[4.5px]">
+              <span>Book Now</span>
+              <img src="icons/arrow_2.svg" class="inline-flex w-[15px] aspect-1 ml-[7px]" alt="">
+            </a>
+          </div>
+          <div class="services-detailed__card">
+            <img src="img/services-picture_3.webp" alt="">
+            <div class="services-detailed__title text-[18px] font-bold text-[var(--first-black)] capitalize my-[12px]">house cleaning</div>
+            <div class="services-detailed__description max-w-[257px] text-[12px] text-[var(--third-black)] mb-[18px]">
+              While we can customize your cleaning plan to suit your needs, most clients schedule regular cleaning services:
+            </div>
+            <a href="#" class="services-detailed__button flex justify-center max-w-[112px] text-[12px] text-[var(--first-black)] border-1 border-[var(--third-black)] py-[6.8px] rounded-[4.5px]">
+              <span>Book Now</span>
+              <img src="icons/arrow_1.svg" class="inline-flex w-[15px] aspect-1 ml-[7px]" alt="">
+            </a>
+          </div>
+        </div>
+
     </div>
 
     <script type="module" src="/src/main.js"></script>
