@@ -1,0 +1,48 @@
+@font-face {
+    font-weight: 100;
+    font-family: BeVietnamPro-Regular;
+    src: url("../fonts/BeVietnamPro-Regular.ttf");
+  }
+  
+  @font-face {
+    font-weight: 300;
+    font-family: BeVietnamPro-Light;
+    src: url("../fonts/BeVietnamPro-Light.ttf");
+  }
+
+  @font-face {
+    font-weight: 500;
+    font-family: BeVietnamPro-SemiBold;
+    src: url("../fonts/BeVietnamPro-SemiBold.ttf");
+  }
+  
+  @font-face {
+    font-weight: 600;
+    font-family: BeVietnamPro-Bold;
+    src: url("../fonts/BeVietnamPro-Bold.ttf");
+  }
+
+
+  @font-face {
+    font-weight: 100;
+    font-family: Poppins-Regular;
+    src: url("../fonts/Poppins.ttf");
+  }
+  
+  @font-face {
+    font-weight: 300;
+    font-family: Poppins-Light;
+    src: url("../fonts/Poppins-Light.ttf");
+  }
+
+  @font-face {
+    font-weight: 500;
+    font-family: Poppins-SemiBold;
+    src: url("../fonts/Poppins-SemiBold.ttf");
+  }
+  
+  @font-face {
+    font-weight: 600;
+    font-family: Poppins-Bold;
+    src: url("../fonts/Poppins-Bold.ttf");
+  }
