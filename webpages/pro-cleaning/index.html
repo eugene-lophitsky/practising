@@ -6,16 +6,14 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="header flex items-center max-w-[1080px] justify-between mx-auto py-[19px]">
-
+    <div class="header flex items-center max-w-[1178px] justify-between mx-auto py-[19px]">
       <div class="header-logo flex items-center gap-1.5">
         <div class="header-logo__image flex"><img src="./src/icons/site-logo.svg" alt=""></div>
         <div class="header-logo__text flex flex-col">
-          <div><span class="text-[18.7px] font-bold text-[var(--light-green)]">Pro</span><span class="text-[18.7px] font-bold text-[var(--first-black)]">Cleaning</span></div>
+          <div><span class="text-[18.7px] font-extrabold text-[var(--light-green)]">Pro</span><span class="text-[18.7px] font-extrabold text-[var(--first-black)]">Cleaning</span></div>
           <span class="text-[9px] text-[var(--second-black)]">Cleaning Services Company</span>
         </div>
       </div>
-
       <div class="header-nav flex gap-[22px]">
         <a href="#" class="text-[12px] text-[var(--light-green)]">Home</a>
         <a href="#" class="text-[12px] ">About Us</a>
@@ -23,10 +21,21 @@
         <a href="#" class="text-[12px] ">Blog</a>
         <a href="#" class="text-[12px] ">Contact</a>
       </div>
-
-      <a href="#" class="header-button text-[12px] text-[var(--basic-white)] bg-[var(--light-green)] py-[9px] px-[28.2px] rounded-[4.5px]">Get a quote</a>
-
+      <a href="#" class="header-button text-[12px] font-[Poppins] text-[var(--basic-white)] bg-[var(--light-green)] py-[9px] px-[28.2px] rounded-[4.5px]"><span>Get</span>&nbsp;<span class="font-bold">a quote<span></a>
     </div>
+
+    <div class="jumbotron py-[78px] px-[101px] bg-[url('./img/jumbotron-bg.webp')] bg-cover bg-no-repeat">
+      <div class="jumbotron-container w-[1178px] mx-auto">
+        <div class="jumbotron-title text-[15px] text-[var(--first-black)]">Quality cleaning at a fair price.</div>
+        <div class="jumbotron-subtitle max-w-[447px] text-[39px] font-bold text-[var(--first-black)] leading-11 mt-[9px] mb-[18px]">Specialized, efficient and thorough cleaning services</div>
+        <div class="jumbotron-description max-w-[380px] text-[13.5px] text-[var(--third-black)] leading-[22px]">We provide performing cleaning tasks using the least amount of time, energy and money.</div>
+        <div class="jumbotron-buttons flex gap-[19px] mt-[20px]">
+            <a href="#" class="jumbotron-buttons__item text-[12px] text-[var(--basic-white)] font-bold bg-[var(--light-green)] py-[9.4px] px-[28.9px] rounded-[4.5px]">Get Start Now</a>
+            <a href="#" class="jumbotron-buttons__item text-[12px] font-bold text-[var(--first-black)] py-[10.4px] px-[25.2px] rounded-[4.5px] border-1 border-[var(--third-black)]">View All Services</a>
+        </div>
+      </div>
+    </div>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
