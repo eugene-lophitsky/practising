@@ -4,3 +4,11 @@
     src: url("../fonts/Inter-VariableFont_opsz_wght.ttf");
   }
   
+  @font-face {
+    font-weight: 100;
+    font-family: Inter;
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+  }
+
+
+  
