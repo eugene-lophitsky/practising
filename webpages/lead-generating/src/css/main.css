@@ -558,3 +558,15 @@
    padding: 62.5px 88px;
    border-radius: 30px;
 }
+
+.clients-feedback--size {
+    max-width: 1780px;
+
+}
+
+.clients-feedback--position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
