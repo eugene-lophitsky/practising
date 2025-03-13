@@ -926,3 +926,14 @@
 	background: var(--third-grey);
     border: 1px solid var(--third-grey);
 }
+
+.presentation--size {
+    max-width: 1780px;
+}
+
+.presentation--position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
