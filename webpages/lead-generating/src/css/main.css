@@ -699,7 +699,6 @@
     transform: rotate(181deg);
 }
 
-
 .lead-conveyor__title {
     display: flex;
     align-items: end;
@@ -731,4 +730,60 @@
     font-family: Inter, sans-serif;
     font-weight: 400;
     color: var(--dark-grey);
+}
+
+.registration {
+    background-color: var(--dark-grey);
+    border-radius: 40px;
+}
+
+.registration--size {
+    max-width: 1780px;
+    display: flex;
+    justify-content: center;
+    gap: 97px;
+    padding: 60px 0;
+}
+
+.registration--position {
+    display: flex;
+    margin: 0 auto 120px auto;
+}
+
+.registration-common__button {
+    display: inline-flex;
+    font-size: 24px;
+    font-family: Inter, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--default-white);
+    background-color: var(--orange-juice);
+    padding: 22px 237.2px;
+    white-space: nowrap;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.registration-common__title {
+    max-width: 720px;
+    font-size: 48px;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    line-height: 1.1;
+    color: var(--default-white);
+}
+
+.registration__image {
+    position: relative;
+}
+
+.registration__image::before {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left: 22px;
+    display: inline-flex;
+    width: 88px;
+    height: 88px;
+    background: url("../icons/star_2.svg");
 }
