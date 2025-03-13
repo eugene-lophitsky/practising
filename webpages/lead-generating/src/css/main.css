@@ -690,12 +690,13 @@
 .lead-conveyor__image::after {
     content: "";
     position: absolute;
-    bottom: -38px;
-    right: 20px;
+    bottom: -23px;
+    right: 29px;
     display: block;
     width: 57px;
     aspect-ratio: 1;
     background: url("../icons/star_4.svg") no-repeat;
+    transform: rotate(181deg);
 }
 
 
