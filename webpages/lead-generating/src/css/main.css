@@ -750,7 +750,7 @@
     margin: 0 auto 120px auto;
 }
 
-.registration-common__button {
+.registration-button {
     display: inline-flex;
     font-size: 24px;
     font-family: Inter, sans-serif;
@@ -1049,4 +1049,63 @@
 .our-advantages__card-title--bold {
     font-weight: 700;
     color: var(--grey);
+}
+
+.get-success {
+    background-color: var(--dark-grey);
+    border-radius: 40px;
+}
+
+.get-success--size {
+    padding: 60px 0;
+    max-width: 1780px;
+}
+
+.get-success--position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 43px;
+    margin: 120px auto;
+}
+
+.get-success__image {
+    position: relative;
+}
+
+.get-success__image::before {
+    position: absolute;
+    top: 8px;
+    content: "";
+    display: block;
+    width: 87px;
+    aspect-ratio: 1;
+    background: url("../icons/star_2.svg") no-repeat;
+    transform: rotate(19deg);
+}
+
+.get-success__image::after {
+    position: absolute;
+    bottom: 22px;
+    right: 41px;
+    content: "";
+    display: block;
+    width: 87px;
+    aspect-ratio: 1;
+    background: url("../icons/star_2.svg") no-repeat;
+    transform: rotate(1deg);
+}
+
+.get-success__info {
+    max-width: 762px;
+    font-size: 48px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 62px;
+    color: var(--default-white);
+}
+
+.registration-button--get-success {
+    padding: 10px 230.8px;
 }
