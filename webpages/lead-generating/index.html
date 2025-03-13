@@ -535,6 +535,134 @@
         </div>
     </div>
 
+    <div class="how-does-it-work">
+      <div class="slider how-does-it-work--position">
+        <ul>
+
+            <li>
+              <span class="slide">
+                <span class="slide__title">Как это работает?</span>
+                <span class="slide-body">
+
+                  <div class="slide-body_short">
+                    <span>
+                      <span class="slide-body_short-step">01</span>
+                      <img class="slide-body_short-icon" src="./src/icons/man_technologist.svg" alt="">
+                    </span>
+                    <span class="slide-body_short-text">Регистрация и добавление проекта в систему</span>
+                  </div>
+
+                  <ol class="slide-body-details">
+                    <li class="slide-body-details-item">Зарегистрируйтесь в нашем личном кабинете</li>
+                    <li class="slide-body-details-item">При добавление проекта вам необходимо указать URL (адрес) своего сайта</li>
+                    <li class="slide-body-details-item">Для вашего сайта будет сгенерирован уникальный код, который необходимо установить на свой сайт (в шаблоне сайта, перед тегом </head>)</li>
+                  </ol>
+              </span>
+                <!-- </span> -->
+            </li>
+                  
+            <li>
+              <span class="slide">
+                <span class="slide__title">Как это работает?</span>
+                <span class="slide-body">
+
+                  <div class="slide-body_short">
+                    <span>
+                      <span class="slide-body_short-step">02</span>
+                      <img class="slide-body_short-icon" src="./src/icons/check_mark.svg" alt="">
+                    </span>
+                    <span class="slide-body_short-text">Выбор пакета и количества Лидов</span>
+                  </div>
+
+                  <ol class="slide-body-details">
+                    <li class="slide-body-details-item slide-body-details--no-marker">После добавления проекта в систему, вам необходимо выбрать тот пакет и количество Лидов, которое вам необходимо.</li>
+                  </ol>
+              </span>
+                <!-- </span> -->
+            </li>
+
+            <li>
+              <span class="slide">
+                <span class="slide__title">Как это работает?</span>
+                <span class="slide-body">
+
+                  <div class="slide-body_short">
+                    <span>
+                      <span class="slide-body_short-step">03</span>
+                      <img class="slide-body_short-icon" src="./src/icons/money_with_wings.svg" alt="">
+                    </span>
+                    <span class="slide-body_short-text">Оплата проекта</span>
+                  </div>
+
+                  <ol class="slide-body-details slide-body-details--no-marker">
+                    <li class="slide-body-details-item">Оплатить Лидов вы сможете пластиковой картой или безналичным переводом.</li>
+                  </ol>
+              </span>
+                <!-- </span> -->
+            </li>
+
+            <li>
+              <span class="slide">
+                <span class="slide__title">Как это работает?</span>
+                <span class="slide-body">
+
+                  <div class="slide-body_short">
+                    <span>
+                      <span class="slide-body_short-step">04</span>
+                      <img class="slide-body_short-icon" src="./src/icons/locked.svg" alt="">
+                    </span>
+                    <span class="slide-body_short-text slide-body_short-text--nowrap">Получение кода для сайта</span>
+                  </div>
+
+                  <ol class="slide-body-details slide-body-details--no-marker">
+                    <li class="slide-body-details-item">После оплаты система для вас сгенерирует код, который вам необходимо установить на свой сайт (в шаблоне сайта, перед тегом </head>).</li>
+                  </ol>
+              </span>
+                <!-- </span> -->
+            </li>
+
+            <li>
+              <span class="slide">
+                <span class="slide__title">Как это работает?</span>
+                <span class="slide-body">
+
+                  <div class="slide-body_short">
+                    <span>
+                      <span class="slide-body_short-step">05</span>
+                      <img class="slide-body_short-icon" src="./src/icons/star_struck.svg" alt="">
+                    </span>
+                    <span class="slide-body_short-text slide-body_short-text--nowrap">Начало получения Лидов</span>
+                  </div>
+
+                  <ol class="slide-body-details slide-body-details--no-marker">
+                    <li class="slide-body-details-item">В зависимости от вашей тематики (услуги или товара), 
+                      а также объёма вашего трафика сайта система будет добавлять в личном кабинете контакты потенциальных клиентов, заинтересованных в вашей услуге и из вашего региона.</li>
+                  </ol>
+              </span>
+                <!-- </span> -->
+            </li>
+
+        </ul>
+      </div>
+    </div>
+
+
+
+    <script src="./src/js/jquery.min.js"></script>
+    <script src="./src/js/jquery.bxslider.min.js"></script>
+    
+    <script>
+    $(document).ready(function(){
+      $('.slider ul').bxSlider({
+        pager: true,
+        controls: false,
+        auto: true,
+        pause: 10000,
+        minSlides: 1,
+        maxSlides: 1
+      });
+    });
+    </script>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

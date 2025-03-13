@@ -787,3 +787,142 @@
     height: 88px;
     background: url("../icons/star_2.svg");
 }
+
+.how-does-it-work--position {
+    margin: 0 auto;
+}
+
+.how-does-it-work--size {
+    max-width: 1780px;
+}
+
+.slide {
+    display: flex;
+    flex-direction: column;
+    max-width: 1780px;
+    padding: 80px 150px;
+    margin: 0 auto;
+}
+
+.slide__title {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    color: var(--dark-grey);
+    margin-bottom: 60px;
+}
+
+.slide-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slide-body_short {
+    font-size: 80px;
+}
+
+.slide-body_short-step {
+    font-size: 80px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    color: var(--dark-grey);
+}
+
+.slide-body_short-text {
+    max-width: 680px;
+    font-size: 48px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+}
+
+.slide-body_short {
+    display: flex;
+    flex-direction: column;
+    max-width: 610px;
+}
+
+.slide-body_short-icon {
+    display: inline-flex;
+    margin-left: 10px;
+}
+
+.slide-body-details {
+    display: flex;
+    max-width: 730px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.slide-body-details-item {
+    font-size: 24px;
+    font-family: Montserrat, sans-serif;
+}
+
+.slide-body-details--no-marker {
+    list-style-type: none;
+}
+
+.slide-body_short-text--nowrap {
+    width: 100%;
+}
+
+.slider {
+    position: relative;
+    max-width: 1780px;
+	height: 628px;
+    background-color: var(--light-grey);
+	overflow: hidden;
+    border-radius: 40px;
+    margin-top: 100px;
+}
+.slider ul {
+	margin: 0;
+	padding: 0;
+}
+.slider .bx-wrapper {
+	position: relative;
+}
+
+.slider .bx-controls {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: -8px;
+}
+.slider .bx-pager {
+    position: absolute;
+    right: 45%;
+    bottom: -40px;
+    text-align: center;
+}
+.slider .bx-pager-item {
+	display: inline-block;
+	margin: 0 4px;
+	position: relative;
+	z-index: 100;
+}
+.slider .bx-pager-item a {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	overflow: hidden;
+	text-indent: 999px;
+	background: var(--third-grey);
+	border-radius: 50%;
+	border: 1px solid var(--third-grey);
+}
+.slider .bx-pager-item a.active {
+	background: var(--orange-juice);;
+}
+.slider .bx-pager-item a:hover {
+	background: var(--third-grey);
+    border: 1px solid var(--third-grey);
+}
