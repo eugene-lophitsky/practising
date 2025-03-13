@@ -927,6 +927,92 @@
     border: 1px solid var(--third-grey);
 }
 
+.faq-icon-minus {
+    display: none;
+  }
+  .faq-text {
+    display: none;
+  }
+  
+  .faq.is-active .faq-text {
+    display: block;
+  }
+  
+  .faq.is-active .faq-icon-minus {
+    display: block;
+  }
+  .faq.is-active .faq-icon-plus {
+    display: none;
+  }
+
+  .accordion {
+    padding: 30px;
+    max-width: 880px;
+  }
+  
+  .accordion .box {
+    position: relative;
+    margin-bottom: 20px; 
+  }
+  
+  .accordion .box:last-child {
+    margin-bottom: 0; 
+  }
+  
+  .accordion .box .label {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    padding: 20px; 
+    background-color: #f6f6f6; 
+    color: #2d2d2d; 
+    cursor: pointer; 
+    border-radius: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .accordion .box .label::after {
+    content: "+"; 
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%);
+    right: 20px;
+    font-size: 46px;
+  }
+  
+  .accordion .box.active .label::after {
+    content: "\2014"; 
+  }
+  
+  .accordion .box .content {
+    position: relative;
+    color: #2d2d2d;
+    background-color: #f6f6f6; 
+    overflow: hidden;
+    max-height: 0; 
+    transition: 0.3s; 
+    border-radius: 40px;
+  }
+  
+  .accordion .box .content p {
+    font-size: 24px;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    padding: 20px;
+  }
+
+.accordion-text-wrap {
+    max-width: 690px;
+    padding: 7px 0 0 40px;
+}
+
 .presentation--size {
     max-width: 1780px;
 }
@@ -1104,8 +1190,41 @@
     font-weight: bold;
     line-height: 62px;
     color: var(--default-white);
+    padding: 40px 0;
 }
 
 .registration-button--get-success {
     padding: 10px 230.8px;
+}
+
+.questions--size {
+    max-width: 1780px;
+}
+
+.questions--position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.questions__title {
+    font-size: 48px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 52px;
+    color: var(--dark-grey);
+    margin-top: 40px;
+}
+
+.questions-body {
+    max-width: 1780px;
+    display: flex;
+}
+
+.questions-body__image img {
+    max-width: 879px;
+    display: inline-flex;
+    margin-top: 28px;
 }
