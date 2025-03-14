@@ -927,7 +927,7 @@
     border: 1px solid var(--third-grey);
 }
 
-.faq-icon-minus {
+/* .faq-icon-minus {
     display: none;
   }
   .faq-text {
@@ -943,23 +943,24 @@
   }
   .faq.is-active .faq-icon-plus {
     display: none;
-  }
+  } */
 
+  
   .accordion {
     padding: 30px;
     max-width: 880px;
-  }
-  
-  .accordion .box {
+}
+
+.accordion .box {
     position: relative;
     margin-bottom: 20px; 
-  }
-  
-  .accordion .box:last-child {
+}
+
+.accordion .box:last-child {
     margin-bottom: 0; 
-  }
-  
-  .accordion .box .label {
+}
+
+.accordion .box .label {
     position: relative;
     display: flex;
     align-items: center;
@@ -974,22 +975,26 @@
     cursor: pointer; 
     border-radius: 40px;
     margin-bottom: 20px;
-  }
-  
-  .accordion .box .label::after {
-    content: "+"; 
+}
+
+.accordion .box .label::after {
+    content: ""; 
     position: absolute;
     top: 50%; 
     transform: translateY(-50%);
     right: 20px;
-    font-size: 46px;
-  }
-  
-  .accordion .box.active .label::after {
-    content: "\2014"; 
-  }
-  
-  .accordion .box .content {
+    width: 50px;
+    height: 50px;
+    background-image: url("../icons/plus.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.accordion .box.active .label::after {
+    background-image: url("../icons/minus.svg");
+}
+
+.accordion .box .content {
     position: relative;
     color: var(--dark-grey);
     background-color: var(--light-grey);
@@ -998,21 +1003,23 @@
     transition: 0.3s;
     padding: 0 40px 0 40px; 
     border-radius: 40px;
-  }
-  
-  .accordion .box .content p {
+}
+
+.accordion .box .content p {
     font-size: 24px;
     font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 29px;
     padding: 20px;
-  }
+}
 
 .accordion-text-wrap {
     max-width: 690px;
     padding: 7px 0 0 40px;
 }
+
+
 
 .presentation--size {
     max-width: 1780px;
