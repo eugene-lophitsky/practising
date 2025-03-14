@@ -171,8 +171,9 @@
     text-transform: uppercase;
     color: var(--default-white);
     background-color: var(--orange-juice);
-    padding: 23px 257px;
+    padding: 21.6px 257px;
     white-space: nowrap;
+    border: none;
     border-radius: 20px;
     margin-top: 40px;
 }
@@ -408,8 +409,9 @@
     color: var(--default-white);
     background-color: var(--orange-juice);
     text-align: center;
-    padding: 22.5px 202.9px;
+    padding: 21.6px 202.9px;
     border-radius: 20px;
+    border: none;
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -484,6 +486,7 @@
 
 .additional-service__button {
     display: inline-flex;
+    justify-content: center;
     max-width: 500px;
     font-size: 24px;
     font-family: Inter, sans-serif;
@@ -492,8 +495,9 @@
     color: var(--default-white);
     background-color: var(--orange-juice);
     text-align: center;
-    padding: 22.5px 277.9px;
+    padding: 22.4px 325.1px;
     border-radius: 20px;
+    border: none;
     margin-top: 40px;
     margin-bottom: 40px;
 }
@@ -758,8 +762,9 @@
     text-transform: uppercase;
     color: var(--default-white);
     background-color: var(--orange-juice);
-    padding: 22px 237.2px;
+    padding: 22.3px 237.2px;
     white-space: nowrap;
+    border: none;
     border-radius: 20px;
     margin-top: 40px;
 }
@@ -871,6 +876,7 @@
 
 .slide-body_short-text--nowrap {
     width: 100%;
+    white-space: nowrap;
 }
 
 .slider {
@@ -1202,7 +1208,8 @@
 }
 
 .registration-button--get-success {
-    padding: 10px 230.8px;
+    font-weight: 500;
+    padding: 22.3px 234.4px;
 }
 
 .questions--size {
@@ -1280,8 +1287,9 @@
     text-transform: uppercase;
     color: var(--default-white);
     background-color: var(--orange-juice);
-    padding: 22px 259.3px;
+    padding: 22.3px 259.3px;
     white-space: nowrap;
+    border: none;
     border-radius: 20px;
     margin-top: 40px;
 }
