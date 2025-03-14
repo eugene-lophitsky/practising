@@ -5,6 +5,17 @@
     padding: 0;
 }
 
+a {
+    color: var(--default-white);
+}
+
+a:hover {
+    color: var(--second-grey);
+}
+
+a:active {
+    color: var(--orange-juice);
+}
 
 .header {
     background-color: var(--dark-grey);
@@ -57,12 +68,10 @@
 .header__nav-item {
     font-size: 24px;
     font-family: Inter, sans-serif;
-    color: var(--default-white);
     text-decoration: none;
 }
 
 .header__nav-item:hover {
-    color: var( --second-grey);
     cursor: pointer;
 }
 
@@ -176,6 +185,14 @@
     border: none;
     border-radius: 20px;
     margin-top: 40px;
+}
+
+.jumbotron-detailed__button:hover {
+    background-color: var(--button-hover);
+}
+
+.jumbotron-detailed__button:active {
+    background-color: var(--button-active);
 }
 
 .jumbotron-tabs {
@@ -341,10 +358,6 @@
     outline: 1px solid var(--default-white);
 }
 
-.text--maroon {
-    color: #df5009;
-}
-
 .text--bold {
     font-weight: bold;
 }
@@ -370,6 +383,12 @@
     font-family: Inter, sans-serif;
     font-weight: bold;
     color: var(--dark-grey);
+}
+
+.technologies-cost__expensives-sum {
+    background-image: linear-gradient(90deg, #FF6600, #F06177,  #CA46D2);
+    background-clip: text;
+    color: transparent;
 }
 
 .technologies-cost__details {
@@ -414,6 +433,14 @@
     border: none;
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+.technologies-card-button:hover {
+    background-color: var(--button-hover);
+}
+
+.technologies-card-button:active {
+    background-color: var(--button-active);
 }
 
 .additional-services {
@@ -500,6 +527,14 @@
     border: none;
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+.additional-service__button:hover {
+    background-color: var(--button-hover);
+}
+
+.additional-service__button:active {
+    background-color: var(--button-active);
 }
 
 .clients {
@@ -767,6 +802,14 @@
     border: none;
     border-radius: 20px;
     margin-top: 40px;
+}
+
+.registration-button:hover {
+    background-color: var(--button-hover);
+}
+
+.registration-button:active {
+    background-color: var(--button-active);
 }
 
 .registration-common__title {
@@ -1292,6 +1335,14 @@
     border: none;
     border-radius: 20px;
     margin-top: 40px;
+}
+
+.lead-generating__button:hover {
+    background-color: var(--button-hover);
+}
+
+.lead-generating__button:active {
+    background-color: var(--button-active);
 }
 
 .lead-generating__description {
