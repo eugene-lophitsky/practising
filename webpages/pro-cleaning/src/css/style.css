@@ -2,6 +2,19 @@
 @import "./colors.css";
 @import "./fonts.css";
 
+@tailwindcss/preflight base;
+@tailwind utilities;
+
+@layer utilities {
+  .bg-card-bg {
+    background-image: url('./src/img/feedback-card-bg.webp');
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+
+
 :root {
 	padding: 0px;
 	margin: 0px;
