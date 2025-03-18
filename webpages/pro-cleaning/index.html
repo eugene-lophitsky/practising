@@ -388,16 +388,16 @@
         </div>
     </div>
 
-    <div class="contacts-area max-w-[877px] mt-[112px] mx-auto">
+    <div class="contacts-area max-w-[877px] flex justify-between  mt-[112px] mx-auto">
 
-        <div class="contacts-area__methods">
+        <div class="contacts-area__methods flex flex-col self-end">
             <div class="contacts-area__title text-[30px] font-semibold text-[var(--first-black)] font-BeVietnamPro mb-[30px]">Find us</div>
             <div class="contacts-area__method max-w-[450px] bg-[var(--third-grey)] rounded-[9px] py-[7px] pl-[15px] mb-[22.5px]">
                 <div class="flex items-center">
                     <div>
                       <img src="./src/icons/call_icon.webp" alt="">
                     </div>
-                    <div class="flex flex-col ml-[9px]">
+                    <div class="flex flex-col ml-[9px] pr-[240px]">
                       <span class="text-[15px] font-semibold text-[var(--first-black)]">Call Us</span>
                       <span class="text-[12px] font-normal text-[var(--third-black)]">+(08) 255 201 888</span>
                     </div>
@@ -408,7 +408,7 @@
                     <div>
                       <img src="./src/icons/email_icon.webp" alt="">
                     </div>
-                    <div class="flex flex-col ml-[9px]">
+                    <div class="flex flex-col ml-[9px] pr-[240px]">
                       <span class="text-[15px] font-semibold text-[var(--first-black)]">Email Now</span>
                       <span class="text-[12px] font-normal text-[var(--third-black)]">Hello@procleaning.com</span>
                     </div>
@@ -419,16 +419,26 @@
                     <div>
                       <img src="./src/icons/address_icon.webp" alt="">
                     </div>
-                    <div class="flex flex-col ml-[9px]">
+                    <div class="flex flex-col ml-[9px] pr-[240px]">
                       <span class="text-[15px] font-semibold text-[var(--first-black)]">Address</span>
-                      <span class="text-[12px] font-normal text-[var(--third-black)]">7510, Brand Tower, New York, USA</span>
+                      <span class="text-[12px] font-normal text-[var(--third-black)]">7510, Helsinki, Finland</span>
                     </div> 
                 </div>
             </div>
         </div>
 
-        <div class="contacts-area-form">
-
+        <div class="contacts-area-form max-w-[375px] font-BeVietnamPro">
+              <div class="text-[12px] font-normal text-[var(--first-black)]">Contact info</div>
+              <div class="text-[27px] font-semibold text-[var(--first-black)] mt-[6px] mb-[12px]">Keep In Touch</div>
+              <div class="text-[12px] font-normal text-[var(--third-black)] mb-[30px]">We prioritize responding to your inquiries promptly to ensure you
+                receive the assistance you need in a timely manner
+              </div>
+              <form class="flex flex-col">
+                  <input type="text" placeholder="Name" class="placeholder:text-[12px] font-normal font-BeVietnamPro placeholder:text-[var(--third-black)] py-[9px] pl-[15px] outline-1 outline-[var(--light-grey)] rounded-[3px] mb-[22.5px] contacts-box-shadow">
+                  <input type="text" placeholder="Email" class="placeholder:text-[12px] font-normal font-BeVietnamPro placeholder:text-[var(--third-black)] py-[9px] pl-[15px] outline-1 outline-[var(--light-grey)] rounded-[3px] mb-[22.5px] contacts-box-shadow">
+                  <textarea placeholder="Message" name="" id="" class="placeholder:text-[12px] font-normal font-BeVietnamPro placeholder:text-[var(--third-black)] py-[9px] pl-[15px] outline-1 outline-[var(--light-grey)] resize-none rounded-[3px] contacts-box-shadow"></textarea>
+                  <a href="#" class="inline-flex max-w-[116px] text-[12px] text-[var(--basic-white)] justify-center font-normal bg-[var(--light-green)] py-[6.5px] rounded-[4.5px] mt-[22.5px]">Send Message</a>
+              </form>
         </div>
 
     </div>

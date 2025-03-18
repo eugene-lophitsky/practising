@@ -5,16 +5,6 @@
 @tailwindcss/preflight base;
 @tailwind utilities;
 
-@layer utilities {
-  .bg-card-bg {
-    background-image: url('./src/img/feedback-card-bg.webp');
-    background-position: center;
-    background-size: cover;
-  }
-}
-
-
-
 :root {
 	padding: 0px;
 	margin: 0px;
@@ -30,4 +20,22 @@
 body {
     font-family: BeVietnamPro, sans-serif;
 }
+
+@layer utilities {
+  .bg-card-bg {
+    background-image: url('./src/img/feedback-card-bg.webp');
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@layer utilities {
+  .contacts-box-shadow {
+    box-shadow: 1px 1px 3px 0 lightgray;
+  }
+}
+
+
+
+
 
