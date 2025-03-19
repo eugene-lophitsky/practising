@@ -27,13 +27,40 @@ body {
     background-position: center;
     background-size: cover;
   }
-}
-
-@layer utilities {
+ 
+  .services-detailed__title {
+    font-size: 18px;
+    font-family: BeVietnamPro, sans-serif;
+    font-weight: bold;
+    color: var(--first-black);
+    text-transform: uppercase;
+    padding: 12px 0;
+  }
+  .services-detailed__description {
+    max-width: 257px;
+    font-size: 12px; 
+    color: var(--third-black);
+    margin-bottom: 18px;
+  }
+  .experts-team__detailed {
+    max-width: 227px;
+    font-size: 12px;
+    color: var(--third-black);
+    padding-left: 15px;
+  }
+  .our-pricing__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--basic-white);
+    padding: 22.5px 33.5px; 
+    border-radius: 15px;
+  }
   .contacts-box-shadow {
     box-shadow: 1px 1px 3px 0 lightgray;
   }
 }
+
 
 
 
