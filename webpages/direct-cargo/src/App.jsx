@@ -13,6 +13,11 @@ import fourth from "/public/jumbotron_slider_img_4.jpg";
 function App() {
   return (
     <>
+    <div className="header">
+      <div className="header-logo"></div>
+      <nav className="header__links"></nav>
+      <a href="" className="header__button"></a>
+    </div>
   <div className="swiper">
         <Swiper modules={[ Navigation, Pagination, Scrollbar]} slidesPerView={1} navigation pagination={{clickable:true}} loop={true} centeredSlidesBounds={true} centeredSlides={true}>
         <SwiperSlide>
