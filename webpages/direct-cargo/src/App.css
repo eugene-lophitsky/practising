@@ -1,3 +1,9 @@
+@import "./css/colors.css";
+
+body {
+    background-color: var(--basic-black);
+}
+
 .swiper {
     position: relative;
 }
