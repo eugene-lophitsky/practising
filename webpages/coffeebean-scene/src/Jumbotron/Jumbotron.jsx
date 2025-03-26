@@ -1,8 +1,10 @@
+import "./jumbotron.css";
+
 function Header () {
     return (
-        <>
-        Jumbotron
-        </>
+        <div className="jumbotron">
+   
+        </div>
     )
 }
 

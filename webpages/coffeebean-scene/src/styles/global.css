@@ -1,0 +1,36 @@
+@import "./colors.css";
+@import "./fonts.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul,
+ul li {
+    list-style-type: none;
+}
+
+.header {
+    background: url("../assets/img/header-bg.webp") contain no-repeat;
+    width: 1000px;
+    height: 300px;
+}
+
+.header-wrapper {
+    max-width: 945px;
+    margin: 0 auto;
+}
+
+.header__logo {
+    font-size: 35px;
+    font-family: Calibri, sans-serif;
+    color: var(--basic-white);
+}
