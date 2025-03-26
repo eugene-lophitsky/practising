@@ -18,7 +18,8 @@ ul li {
     list-style-type: none;
 }
 
-a, a:hover {
+a,
+a:hover {
     text-decoration: none;
 }
 
@@ -81,7 +82,7 @@ a, a:hover {
 
 .jumbotron-wrapper {
     max-width: 1145px;
-    padding: 115px 0 95px 0;
+    padding: 145px 0 195px 0;
     margin: 0 auto;
 }
 
@@ -106,8 +107,15 @@ a, a:hover {
     font-family: PlayfairDisplay Regular, sans-serif;
     line-height: 34px;
     color: var(--basiс-white);
+    margin-bottom: 40px;
 }
 
 .jumbotron__button {
-
+    font-size: 16px;
+    font-weight: bold;
+    font-family: PlayfairDisplay Regular, sans-serif;
+    color: var(--alternative-black);
+    background-color: var(--saturated-yellow);
+    padding: 13.5px 27.6px;
+    border-radius: 24px;
 }
