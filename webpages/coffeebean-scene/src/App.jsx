@@ -4,8 +4,10 @@ import Jumbotron from "./Jumbotron/Jumbotron.jsx"
 function App() {
   return (
     <>
+      <div className="hero">
       <Header/>
       <Jumbotron/>
+      </div>
     </>
   )
 }

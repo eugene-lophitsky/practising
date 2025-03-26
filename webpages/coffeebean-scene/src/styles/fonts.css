@@ -1,36 +1,30 @@
 @font-face {
-    font-weight: 100;
-    font-family: "ClickerScript";
-    src: url("../fonts/ClickerScript-Regular.ttf");
+    font-weight: normal;
+    font-family: "Clicker Script";
+    src: url("../assets/fonts/ClickerScript-Regular.ttf");
 }
 @font-face {
     font-weight: 100;
     font-family: "PlayfairDisplay Regular";
-    src: url("../fonts/PlayfairDisplay-Regular.ttf");
+    src: url("../assets/fonts/PlayfairDisplay-Regular.ttf");
 }
 @font-face {
     font-weight: 400;
     font-family: "PlayfairDisplay Semibold";
-    src: url("../fonts/PlayfairDisplay-SemiBold.ttf");
+    src: url("../assets/fonts/PlayfairDisplay-SemiBold.ttf");
 }
 @font-face {
     font-weight: 600;
     font-family: "PlayfairDisplay Bold";
-    src: url("../fonts/PlayfairDisplay-Bold.ttf");
+    src: url("../assets/fonts/PlayfairDisplay-Bold.ttf");
 }
 @font-face {
     font-weight: 800;
     font-family: "PlayfairDisplay Extrabold";
-    src: url("../fonts/PlayfairDisplay-ExtraBold.ttf");
+    src: url("../assets/fonts/PlayfairDisplay-ExtraBold.ttf");
 }
 @font-face {
     font-style: italic;
     font-family: "PlayfairDisplay Italic";
-    src: url("../fonts/PlayfairDisplay-Italic.ttf");
+    src: url("../assets/fonts/PlayfairDisplay-Italic.ttf");
 }
-
-
-
-
-
-

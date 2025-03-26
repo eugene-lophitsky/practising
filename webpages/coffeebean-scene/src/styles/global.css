@@ -1,5 +1,5 @@
-@import "./colors.css";
-@import "./fonts.css";
+@import "../styles/colors.css";
+@import "../styles/fonts.css";
 
 * {
     padding: 0;
@@ -18,19 +18,96 @@ ul li {
     list-style-type: none;
 }
 
-.header {
-    background: url("../assets/img/header-bg.webp") contain no-repeat;
-    width: 1000px;
-    height: 300px;
+a, a:hover {
+    text-decoration: none;
+}
+
+.hero {
+    background: url("../assets/img/hero-bg.webp") top center/cover no-repeat;
 }
 
 .header-wrapper {
-    max-width: 945px;
+    max-width: 1145px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 21px 0;
     margin: 0 auto;
 }
 
 .header__logo {
     font-size: 35px;
-    font-family: Calibri, sans-serif;
-    color: var(--basic-white);
+    font-weight: normal;
+    font-family: Clicker Script, sans-serif;
+    color: var(--basiс-white);
+}
+
+.header__links {
+    display: flex;
+    gap: 60px;
+}
+
+.header__link {
+    display: inline-flex;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Cambria, sans-serif;
+    color: var(--basiс-white);
+}
+
+.header-signing__signin-link {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Cambria, sans-serif;
+    color: var(--basiс-white);
+}
+
+.header-signing__signup-button {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Cambria, sans-serif;
+    color: var(--alternative-black);
+    background-color: var(--saturated-yellow);
+    padding: 13.5px 25px;
+    border-radius: 24px;
+    margin-left: 35px;
+    border: 1px solid var(--saturated-yellow);
+}
+.header-signing__signup-button:hover {
+    color: var(--saturated-yellow);
+    background-color: transparent;
+    border-color: var(--saturated-yellow);
+}
+
+.jumbotron-wrapper {
+    max-width: 1145px;
+    padding: 115px 0 95px 0;
+    margin: 0 auto;
+}
+
+.jumbotron__initial-phrase {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: PlayfairDisplay Regular, sans-serif;
+    color: var(--basiс-white);
+}
+
+.jumbotron__logo {
+    font-size: 220px;
+    font-weight: normal;
+    font-family: Clicker Script, sans-serif;
+    color: var(--basiс-white);
+}
+
+.jumbotron__description {
+    max-width: 527px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: PlayfairDisplay Regular, sans-serif;
+    line-height: 34px;
+    color: var(--basiс-white);
+}
+
+.jumbotron__button {
+
 }
