@@ -116,6 +116,11 @@ a:hover {
     font-family: PlayfairDisplay Regular, sans-serif;
     color: var(--alternative-black);
     background-color: var(--saturated-yellow);
-    padding: 13.5px 27.6px;
+    padding: 12.5px 26.6px;
+    border: 1px solid var(--saturated-yellow);
     border-radius: 24px;
+}
+.jumbotron__button:hover {
+    color: var(--saturated-yellow);
+    background-color: transparent;
 }
