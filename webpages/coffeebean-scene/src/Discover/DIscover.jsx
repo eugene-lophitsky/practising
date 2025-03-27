@@ -1,7 +1,8 @@
 function Discover () {
     return (
-        <div>
-            
+        <div className="discover">
+            <div className="discover-detailed"></div>
+            <div className="discover__image"></div>
         </div>
     )
 }
