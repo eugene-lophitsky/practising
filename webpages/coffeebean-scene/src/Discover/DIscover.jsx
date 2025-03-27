@@ -15,7 +15,7 @@ function Discover () {
                      doubt that you will enjoy this coffee more 
                      than others you have ever tasted.
                 </div>
-                <a href="#" className="discover-detailed__button"></a>
+                <a href="#" className="discover-detailed__button">Learn More</a>
             </div>
             <div className="discover__image">
                 <img src={coffeeCup} alt="" />
