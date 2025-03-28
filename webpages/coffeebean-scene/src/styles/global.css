@@ -66,10 +66,10 @@ a:hover {
 .header-signing__signup-button {
     font-size: 16px;
     font-weight: 400;
-    font-family: Cambria, sans-serif;
+    font-family: PlayfairDisplay Regular, sans-serif;
     color: var(--alternative-black);
     background-color: var(--saturated-yellow);
-    padding: 13.5px 25px;
+    padding: 12.5px 23.6px;
     border-radius: 24px;
     margin-left: 35px;
     border: 1px solid var(--saturated-yellow);
@@ -125,6 +125,11 @@ a:hover {
     background-color: transparent;
 }
 
+.discover {
+    width: 100%;
+    height: 1000px;
+}
+
 .discover-wrapper {
     max-width: 1145px;
     display: flex;
@@ -140,12 +145,26 @@ a:hover {
     color: var(--coffee);
 }
 .discover-detailed__description {
+    position: relative;
     max-width: 585px;
     font-size: 20px;
     font-weight: normal;
     font-family: PlayfairDisplay Regular, sans-serif;
+    line-height: 34px;
     color: var(--asphalt);
     margin: 49px 0;
+}
+
+.discover-detailed__description::before {
+    position: absolute;
+    top: 210px;
+    left: -380px;
+    content: "";
+    display: inline-flex;
+    width: 600px;
+    height: 320px;
+    background: url("/src/assets/img/coffee_blast.webp") center / cover no-repeat;
+    z-index: 1;
 }
 
 .discover-detailed__button {
