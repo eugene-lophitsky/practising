@@ -46,15 +46,15 @@ function BlendList() {
                 </div>
                 <div className="blend-cards">
                     {blends.map((item)=>(
-                            <div className="blend__card" key={item.id}>
-                                <span className="blend__card-image">
+                            <div className="blend-card" key={item.id}>
+                                <span className="blend-card__image">
                                     <img src={item.image} alt="" />
                                 </span>
                                 <div className="blend-card__body">
-                                    <div className="blend__card-title">{item.name}</div>
-                                    <div className="blend__card-proportions">{item.proportions}</div>
-                                    <div className="blend__card-price">{item.price}</div>
-                                    <div className="blend__card-orderButton">{item.orderButton}</div>
+                                    <div className="blend-card__title">{item.name}</div>
+                                    <div className="blend-card__proportions">{item.proportions}</div>
+                                    <div className="blend-card__price">{item.price}</div>
+                                    <div className="blend-card__orderButton">{item.orderButton}</div>
                                 </div>
                             </div>
                     ))}
