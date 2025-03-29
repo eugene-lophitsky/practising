@@ -40,8 +40,10 @@ function BlendList() {
     return (
         <div className="blend">
             <div className="blend-wrapper">
-                <div className="blend__title"></div>
-                <div className="blend__subtitle"></div>
+                <div className="blend__title">Enjoy a new blend of coffee style</div>
+                <div className="blend__subtitle">
+                    Explore all flavours of coffee with us. There is always a new cup worth experiencing
+                </div>
                 <div className="blend-cards">
                 {blends.map((item)=>(
                         <div className="blend__card" key={item.id}>
