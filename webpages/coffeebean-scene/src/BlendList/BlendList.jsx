@@ -45,17 +45,19 @@ function BlendList() {
                     Explore all flavours of coffee with us. There is always a new cup worth experiencing
                 </div>
                 <div className="blend-cards">
-                {blends.map((item)=>(
-                        <div className="blend__card" key={item.id}>
-                            <div className="blend__card-image">
-                            <img src={item.image} alt="" />
+                    {blends.map((item)=>(
+                            <div className="blend__card" key={item.id}>
+                                <span className="blend__card-image">
+                                    <img src={item.image} alt="" />
+                                </span>
+                                <div className="blend-card__body">
+                                    <div className="blend__card-title">{item.name}</div>
+                                    <div className="blend__card-proportions">{item.proportions}</div>
+                                    <div className="blend__card-price">{item.price}</div>
+                                    <div className="blend__card-orderButton">{item.orderButton}</div>
+                                </div>
                             </div>
-                            <div className="blend__card-title">{item.name}</div>
-                            <div className="blend__card-proportions">{item.proportions}</div>
-                            <div className="blend__card-price">{item.price}</div>
-                            <div className="blend__card-orderButton">{item.orderButton}</div>
-                        </div>
-                ))}
+                    ))}
                 </div>
             </div>
         </div>

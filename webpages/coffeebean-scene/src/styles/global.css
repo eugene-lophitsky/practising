@@ -206,3 +206,46 @@ a:hover {
     display: flex;
     gap: 20px;
 }
+
+.blend-card {
+    background-color: var(--card-body);
+}
+
+.blend__card-image {
+    display: inline-flex;
+}
+.blend__card-image img{
+    display: inline-flex;
+    height: 100%;
+}
+
+.blend-card__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--card-body);
+    border: 1px solid var(--card-body-stroke);
+}
+
+.blend__card-title {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: PlayfairDisplay Regular, sans-serif;
+    color: var(--coffee);
+    margin-top: 14px;
+}   
+
+.blend__card-proportions {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: PlayfairDisplay Regular, sans-serif;
+    color: var(--alternative-black);
+    margin: 6px 0;
+}
+
+.blend__card-price {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: PlayfairDisplay Regular, sans-serif;
+    color: var(--coffee);
+}
