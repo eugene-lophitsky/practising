@@ -8,12 +8,12 @@ function App() {
     return (
         <>
             <div className="hero">
-                <Header />
-                <Jumbotron />
+            <Header />
+            <Jumbotron />
             </div>
             <Discover />
-            <BlendList/>
-            <WhyDifferent/>
+            <BlendList />
+            <WhyDifferent />
         </>
     );
 }
