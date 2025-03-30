@@ -63,9 +63,9 @@ function BlendList() {
                                 <div className="blend-card__price">
                                     {item.price}
                                 </div>
-                                <div className="blend-card__orderButton">
+                                <a href="#" className="blend-card__orderButton">
                                     {item.orderButton}
-                                </div>
+                                </a>
                             </div>
                         </div>
                     ))}
