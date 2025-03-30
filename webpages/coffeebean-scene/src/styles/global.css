@@ -163,7 +163,8 @@ a:hover {
     display: inline-flex;
     width: 600px;
     height: 320px;
-    background: url("/src/assets/img/coffee_blast.webp") center / cover no-repeat;
+    background: url("/src/assets/img/coffee_blast.webp") center / cover
+        no-repeat;
     z-index: 1;
 }
 
@@ -208,6 +209,7 @@ a:hover {
 }
 
 .blend-card {
+    position: relative;
     display: flex;
     flex-direction: column;
     background-color: var(--card-body);
@@ -232,7 +234,7 @@ a:hover {
     font-family: PlayfairDisplay Regular, sans-serif;
     color: var(--coffee);
     margin-top: 14px;
-}   
+}
 
 .blend-card__proportions {
     font-size: 16px;
@@ -247,10 +249,11 @@ a:hover {
     font-weight: bold;
     font-family: PlayfairDisplay Regular, sans-serif;
     color: var(--coffee);
-    margin-bottom: 18px;
+    margin-bottom: 43px;
 }
 
 .blend-card__orderButton {
+    position: absolute;
     display: inline-flex;
     font-size: 16px;
     font-weight: bold;
@@ -260,4 +263,5 @@ a:hover {
     padding: 12.5px 26.6px;
     border: 1px solid var(--saturated-yellow);
     border-radius: 24px;
+    bottom: -24px;
 }
