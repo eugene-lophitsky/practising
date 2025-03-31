@@ -289,3 +289,10 @@ a:hover {
     color: var(--asphalt);
     margin: 16px 0 32px 0;
 }
+
+.why-different-advantages {
+    display: flex;
+}
+
+
+/* --card-body */
