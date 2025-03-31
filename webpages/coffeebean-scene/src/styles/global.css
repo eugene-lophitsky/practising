@@ -292,7 +292,33 @@ a:hover {
 
 .why-different-advantages {
     display: flex;
+    gap: 20px;
 }
 
+.why-different-advantage {
+    /* max-width: 285px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--card-body);
+    padding: 36px 0;
+    border: 1px solid var(--card-body-stroke);
+}
+ 
+.why-different-advantage__title {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: PlayfairDisplay Regular, sans-serif;
+    color: var(--coffee);
+    padding: 19px 49px 8px 49px;
+}
 
-/* --card-body */
+.why-different-advantage__description {
+    max-width: 192px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: PlayfairDisplay Regular, sans-serif;
+    color: var(--asphalt);
+}
