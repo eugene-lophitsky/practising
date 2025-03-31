@@ -291,12 +291,13 @@ a:hover {
 }
 
 .why-different-advantages {
+    max-width: 1200px;
     display: flex;
     gap: 20px;
 }
 
 .why-different-advantage {
-    /* max-width: 285px; */
+    width: 1/4;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -307,11 +308,17 @@ a:hover {
     border: 1px solid var(--card-body-stroke);
 }
  
+.why-different-advantage:hover {
+    background-color: var(--card-body-hovered);
+}
+
+
 .why-different-advantage__title {
     font-size: 28px;
     font-weight: bold;
     font-family: PlayfairDisplay Regular, sans-serif;
     color: var(--coffee);
+    white-space: nowrap;
     padding: 19px 49px 8px 49px;
 }
 
