@@ -45,9 +45,11 @@ function WhyDifferent () {
                 </div>
 
                 <div className="why-different-afterwords">
-                    <div className="why-different-afterwords__slogan"></div>
-                    <div className="why-different-afterwords__appeal"></div>
-                    <a href="" className="why-different-afterwords__appeal"></a>
+                    <div className="why-different-afterwords__slogan">
+                        Great ideas start with great coffee, Lets help you achieve that
+                    </div>
+                    <div className="why-different-afterwords__appeal">Get started today.</div>
+                    <a href="#" className="why-different-afterwords__button">Join Us</a>
                 </div>    
 
             </div>
