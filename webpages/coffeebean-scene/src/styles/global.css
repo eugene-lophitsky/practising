@@ -280,10 +280,10 @@ a:hover {
     content: "";
     display: inline-flex;
     position: absolute;
-    top: -180px;
+    top: -140px;
     right: 0;
-    width: 600px;
-    height: 300px;
+    width: 478px;
+    height: 261px;
     background: url("../assets/img/coffee_blast.webp") center/ cover no-repeat;
     transform: scaleX(-1);
 }   
