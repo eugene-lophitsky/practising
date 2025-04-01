@@ -267,6 +267,7 @@ a:hover {
 }
 
 .why-different-wrapper {
+    position: relative;
     max-width: 2128px;
     display: flex;
     flex-direction: column;
@@ -274,6 +275,19 @@ a:hover {
     align-items: center;
     margin: 105px auto 0 auto;
 }
+
+.why-different-wrapper::before {
+    content: "";
+    display: inline-flex;
+    position: absolute;
+    top: -180px;
+    right: 0;
+    width: 600px;
+    height: 300px;
+    background: url("../assets/img/coffee_blast.webp") center/ cover no-repeat;
+    transform: scaleX(-1);
+}   
+
 
 .why-different__title {
     font-size: 54px;
@@ -311,7 +325,6 @@ a:hover {
 .why-different-advantage:hover {
     background-color: var(--card-body-hovered);
 }
-
 
 .why-different-advantage__title {
     font-size: 28px;
