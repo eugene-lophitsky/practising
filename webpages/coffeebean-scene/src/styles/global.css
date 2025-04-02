@@ -382,3 +382,9 @@ a:hover {
 .amazing-morning {
     background: url("../assets/img/amazing-morning-bg.webp") center / cover no-repeat;
 }
+
+.amazing-morning-wrapper {
+    max-width: 1200px;
+    padding: 54px 0 53px 0;
+    margin-inline: auto;
+}
