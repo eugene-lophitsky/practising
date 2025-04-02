@@ -385,6 +385,7 @@ a:hover {
 
 .amazing-morning-wrapper {
     max-width: 1200px;
+    display: flex;
     padding: 54px 0 53px 0;
     margin-inline: auto;
 }
