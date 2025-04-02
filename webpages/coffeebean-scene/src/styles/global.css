@@ -379,3 +379,6 @@ a:hover {
     margin-top: 24px;
 }
 
+.amazing-morning {
+    background: url("../assets/img/amazing-morning-bg.webp") center / cover no-repeat;
+}

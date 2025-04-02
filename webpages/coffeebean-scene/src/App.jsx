@@ -15,6 +15,7 @@ function App() {
             <Discover />
             <BlendList />
             <WhyDifferent />
+            <AmazingMorning/>
         </>
     );
 }
