@@ -389,3 +389,22 @@ a:hover {
     padding: 54px 0 53px 0;
     margin-inline: auto;
 }
+
+.amazing-morning-detailed__title {
+    max-width: 575px;
+    font-size: 54px;
+    font-weight: bold;
+    font-family: PlayfairDisplay Regular, sans-serif;
+    color: var(--basiс-white);
+}
+
+.amazing-morning-detailed__subtitle {
+    max-width: 409px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: PlayfairDisplay Regular, sans-serif;
+    line-height: 34px;
+    color: var(--basiс-white);
+    margin: 22px 0;
+}
+
