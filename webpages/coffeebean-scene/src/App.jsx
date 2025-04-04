@@ -4,6 +4,7 @@ import Discover from "./Discover/DIscover.jsx";
 import BlendList from "./BlendList/BlendList.jsx";
 import WhyDifferent from "./WhyDifferent/WhyDifferent.jsx";
 import AmazingMorning from "./AmazingMorning/AmazingMorning.jsx";
+import Feedback from "./Feedback/Feedback.jsx";
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
             <BlendList />
             <WhyDifferent />
             <AmazingMorning/>
+            <Feedback/>
         </>
     );
 }
