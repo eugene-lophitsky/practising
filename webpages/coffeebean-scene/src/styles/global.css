@@ -422,7 +422,6 @@ a:hover {
 }
 
 .feedback-wrapper {
-    max-width: 980px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -442,4 +441,21 @@ a:hover {
     font-weight: normal;
     font-family: PlayfairDisplay Regular, sans-serif;
     color: var(--asphalt);
+}
+
+.feedback-body {
+    max-width: 980px;
+    background-color: var(--card-body);
+    border: 1px solid var(--card-body-stroke);
+    margin: 0 auto;
+}
+
+.feedback-body__quote {
+    
+    font-size: 18px;
+    font-weight:600;
+    font-family: PlayfairDisplay Regular, sans-serif;
+    color: var(--asphalt);
+    text-align: center;
+    padding: 129px 100px 101px 100px;
 }
