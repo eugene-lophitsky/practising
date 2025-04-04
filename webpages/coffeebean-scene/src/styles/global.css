@@ -423,6 +423,10 @@ a:hover {
 
 .feedback-wrapper {
     max-width: 980px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
 }
 
@@ -431,4 +435,11 @@ a:hover {
     font-weight: bold;
     font-family: PlayfairDisplay Regular, sans-serif;
     color: var(--coffee);
+}
+
+.feedback__subtitle {
+    font-size: 20px;
+    font-weight: normal;
+    font-family: PlayfairDisplay Regular, sans-serif;
+    color: var(--asphalt);
 }
