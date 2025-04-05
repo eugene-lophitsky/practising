@@ -463,13 +463,22 @@ a:hover {
 }
 
 .feedback-body__quote {
+    position: relative;
     font-size: 18px;
-    font-weight:600;
+    font-weight: 600;
     font-family: PlayfairDisplay Regular, sans-serif;
     color: var(--asphalt);
     text-align: center;
     line-height: 36px;
     padding: 129px 100px 0 100px;
+}
+
+.feedback-body__quote-sign {
+    position: absolute;
+    left: 33px;
+    font-size: 200px;
+    font-weight: bold;
+    color: var(--coffee);
 }
 
 .feedback-body__author {
