@@ -426,7 +426,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 82px auto 138px auto;
 }
 
 .feedback__title {
@@ -441,6 +441,7 @@ a:hover {
     font-weight: normal;
     font-family: PlayfairDisplay Regular, sans-serif;
     color: var(--asphalt);
+    margin: 16px 0 45px 0;
 }
 
 .feedback-body {
