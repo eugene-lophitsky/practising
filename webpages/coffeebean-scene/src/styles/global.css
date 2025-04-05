@@ -421,6 +421,35 @@ a:hover {
     border: 1px solid var(--saturated-yellow);
 }
 
+.feedback {
+    position: relative;
+}
+
+.feedback::before {
+    content: "";
+    display: inline-flex;
+    position: absolute;
+    bottom: -55px;
+    left: 0;
+    right: 0;
+    width: 498px;
+    height: 261px;
+    background: url("/src/assets/img/coffee_blast_2.webp") center / cover no-repeat;
+    z-index: 100;
+}
+
+.feedback::after {
+    content: "";
+    display: inline-flex;
+    position: absolute;
+    top: 55px;
+    right: 0;
+    width: 498px;
+    height: 261px;
+    background: url("/src/assets/img/coffee_blast.webp") center / cover no-repeat;
+    transform: scaleX(-1);
+}
+
 .feedback-wrapper {
     display: flex;
     flex-direction: column;
