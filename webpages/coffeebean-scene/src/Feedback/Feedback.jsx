@@ -1,3 +1,5 @@
+import feedbackAvatar from "../assets/img/feedback-avatar.svg";
+
 function Feedback () {
     return (
         <div className="feedback">
@@ -18,6 +20,13 @@ function Feedback () {
                     electronic typesetting, remaining essentially
                     unchanged. It was popularised in the 1960s
                      with the release of Letraset.....
+                    </div>
+                    <div className="feedback-body__author">
+                        <div className="feedback-body__author-name">Jonny Thomas</div>
+                        <div className="feedback-body__author-post">Project Manager</div>
+                    </div>
+                    <div className="feedback-body__avatar">
+                        <img src={feedbackAvatar} alt="" />
                     </div>
                 </div>
 

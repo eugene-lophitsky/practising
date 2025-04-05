@@ -445,18 +445,50 @@ a:hover {
 }
 
 .feedback-body {
+    position: relative;
     max-width: 980px;
     background-color: var(--card-body);
     border: 1px solid var(--card-body-stroke);
     margin: 0 auto;
 }
 
+.feedback-body__avatar {
+    position: absolute;
+    bottom: -52px;
+    left: 43%;
+    right: 50%;
+    display: block;
+    max-width: 112px;
+    max-height: 112px;
+}
+
 .feedback-body__quote {
-    
     font-size: 18px;
     font-weight:600;
     font-family: PlayfairDisplay Regular, sans-serif;
     color: var(--asphalt);
     text-align: center;
-    padding: 129px 100px 101px 100px;
+    line-height: 36px;
+    padding: 129px 100px 0 100px;
+}
+
+.feedback-body__author {
+    text-align: center;
+    margin: 33px auto 101px auto;
+}
+
+.feedback-body__author-name {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: PlayfairDisplay Regular, sans-serif;
+    color: var(--coffee);
+    margin-bottom: 4px;
+}
+.feedback-body__author-post {
+    font-size: 20px;
+    font-weight: normal;
+    font-family: PlayfairDisplay Regular, sans-serif;
+    color: var(--asphalt);
+    line-height: 34px;
+    margin-bottom: 4px;
 }
