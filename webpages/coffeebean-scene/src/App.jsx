@@ -11,15 +11,15 @@ function App() {
     return (
         <>
             <div className="hero">
-            <Header />
-            <Jumbotron />
+                <Header />
+                <Jumbotron />
             </div>
             <Discover />
             <BlendList />
             <WhyDifferent />
-            <AmazingMorning/>
-            <Feedback/>
-            <Subscribe/>
+            <AmazingMorning />
+            <Feedback />
+            <Subscribe />
         </>
     );
 }

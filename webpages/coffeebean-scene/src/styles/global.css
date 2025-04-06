@@ -530,3 +530,7 @@ a:hover {
     line-height: 34px;
     margin-bottom: 4px;
 }
+
+.subscribe {
+    background: url("/src/assets/img/subscribe-bg.webp") center / cover no-repeat;
+}

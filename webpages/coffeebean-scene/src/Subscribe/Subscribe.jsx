@@ -1,8 +1,8 @@
 function Subscribe () {
     return (
-        <>
+        <div className="subscribe">
         
-        </>
+        </div>
     )
 }
 
