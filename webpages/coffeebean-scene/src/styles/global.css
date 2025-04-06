@@ -534,3 +534,26 @@ a:hover {
 .subscribe {
     background: url("/src/assets/img/subscribe-bg.webp") center / cover no-repeat;
 }
+
+.subscribe-wrapper {
+    max-width: 980px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-inline: auto;
+}
+
+.subscribe__title {
+    font-size: 54px;
+    font-weight: bold;
+    font-family: PlayfairDisplay Regular, sans-serif;
+    color: var(--basiс-white);
+}
+
+.subscribe__subtitle {
+    font-size: 20px;
+    font-weight: normal;
+    font-family: PlayfairDisplay Regular, sans-serif;
+    line-height: 34px;
+    color: var(--basiс-white);
+}
