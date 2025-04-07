@@ -558,16 +558,43 @@ a:hover {
     font-family: PlayfairDisplay Regular, sans-serif;
     line-height: 34px;
     color: var(--basiс-white);
+    margin-bottom: 26px;
 }
 
 .subscribe__form {
-
+    max-width: 642px;
+    position: relative;
+    margin: 0 auto;
 }
 
-.subscribe__form-input::placeholder {
+.subscribe__form-input {
     font-size: 20px;
     font-weight: normal;
     font-family: PlayfairDisplay Regular, sans-serif;
     line-height: 34px;
     color: var(--asphalt);
+    background-color: var(--pale-yellow);
+    padding: 16px 384px 16px 30px;
+    border-radius: 4px;
+}
+
+.subscribe__form-input:focus {
+    outline: none;
+}
+
+.subscribe__form-input::placeholder {
+    font-size: 20px;
+}
+
+.subscribe__form-button {
+    position: absolute;
+    right: 0;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: PlayfairDisplay Regular, sans-serif;
+    color: var(--coffee);
+    background-color: var(--saturated-yellow);
+    padding: 18px 19.9px;
+    border-radius: 4px;
+    z-index: 112;
 }
