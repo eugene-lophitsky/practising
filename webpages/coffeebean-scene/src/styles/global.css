@@ -532,6 +532,7 @@ a:hover {
 }
 
 .subscribe {
+    position: relative;
     background: url("/src/assets/img/subscribe-bg.webp") center / cover no-repeat;
 }
 
@@ -597,4 +598,28 @@ a:hover {
     padding: 18px 19.9px;
     border-radius: 4px;
     z-index: 112;
+}
+
+.subscribe::before {
+    position: absolute;
+    top: 20px;
+    content: "";
+    display: block;
+    width: 444px;
+    height: 544px;
+    background: url("/src/assets/img/subscribe__coffee__cup.webp") center / cover no-repeat;
+    z-index: 150;
+}
+
+.subscribe::after {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    content: "";
+    display: block;
+    width: 444px;
+    height: 544px;
+    background: url("/src/assets/img/subscribe__coffee__cup.webp") center / cover no-repeat;
+    transform: scale(-1, 1);
+    z-index: 188;
 }
