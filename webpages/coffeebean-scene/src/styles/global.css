@@ -559,3 +559,15 @@ a:hover {
     line-height: 34px;
     color: var(--basiс-white);
 }
+
+.subscribe__form {
+
+}
+
+.subscribe__form-input::placeholder {
+    font-size: 20px;
+    font-weight: normal;
+    font-family: PlayfairDisplay Regular, sans-serif;
+    line-height: 34px;
+    color: var(--asphalt);
+}
