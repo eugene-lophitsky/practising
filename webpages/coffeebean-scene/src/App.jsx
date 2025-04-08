@@ -6,6 +6,7 @@ import WhyDifferent from "./WhyDifferent/WhyDifferent.jsx";
 import AmazingMorning from "./AmazingMorning/AmazingMorning.jsx";
 import Feedback from "./Feedback/Feedback.jsx";
 import Subscribe from "./Subscribe/Subscribe.jsx";
+import Footer from "./Footer/Footer.jsx";
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
             <AmazingMorning />
             <Feedback />
             <Subscribe />
+            <Footer/>
         </>
     );
 }

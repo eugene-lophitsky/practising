@@ -619,7 +619,29 @@ a:hover {
     display: block;
     width: 444px;
     height: 544px;
-    background: url("/src/assets/img/subscribe__coffee__cup.webp") center / cover no-repeat;
+    background: url('/src/assets/img/subscribe__coffee__cup.webp') center / cover no-repeat;
     transform: scale(-1, 1);
     z-index: 188;
+}
+
+.footer {
+    background: url('/src/assets/img/footer-bg.webp') center / cover no-repeat;
+}
+
+.footer-wrapper {
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+.footer-common {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-common__logo {
+
+}
+
+.footer-common__description {
+    max-width: 380px;
 }
