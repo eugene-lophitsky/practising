@@ -10,7 +10,7 @@ function Subscribe() {
                     offers
                 </div>
                 <div className="subscribe__form">
-                    <input type="text" className="subscribe__form-input" />
+                    <input type="text" className="subscribe__form-input" placeholder="Enter your email"/>
                     <button className="subscribe__form-button">
                         Subscribe
                     </button>

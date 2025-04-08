@@ -1,6 +1,7 @@
 :root {
     --basiс-white: #ffffff;
     --alternative-black: #1e1e1e;
+    --faded-black: rgba(0, 0, 0, 0.34);
     --saturated-yellow: #f9c06A;
     --pale-yellow: #fff9f1;
     --coffee: #603809;

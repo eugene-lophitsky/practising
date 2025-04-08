@@ -573,7 +573,7 @@ a:hover {
     font-weight: normal;
     font-family: PlayfairDisplay Regular, sans-serif;
     line-height: 34px;
-    color: var(--asphalt);
+    color: var(--faded-black);
     background-color: var(--pale-yellow);
     padding: 16px 384px 16px 30px;
     border-radius: 4px;

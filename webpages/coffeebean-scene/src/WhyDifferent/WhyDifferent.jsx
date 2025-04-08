@@ -22,16 +22,11 @@ function WhyDifferent () {
             description: "Our Coffee prices are easy to afford",
         }
     ];
-
-
     return (
-
         <div className="why-different">
-
             <div className="why-different-wrapper">
                 <div className="why-different__title">Why are we different?</div>
                 <div className="why-different__subtitle">We don’t just make your coffee, we make your day!</div>
-
                 <div className="why-different-advantages">
                     {advantages.map((item) => (
                         <div key={item.title} className="why-different-advantage">
@@ -43,7 +38,6 @@ function WhyDifferent () {
                         </div>
                     ))}
                 </div>
-
                 <div className="why-different-afterwords">
                   <div className="why-different-afterwords-wrapper">
                   <div className="why-different-afterwords__slogan">
@@ -53,9 +47,7 @@ function WhyDifferent () {
                     <a href="#" className="why-different-afterwords__button">Join Us</a>
                   </div>
                 </div>    
-
             </div>
-
         </div>
     )
 }
