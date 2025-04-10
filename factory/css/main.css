@@ -2,3 +2,58 @@
 @import './reset.css';
 
 
+.hero {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--black-main);
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 894px;
+    display: flex;
+    justify-content: end;
+    margin: -128px 0 0 auto;
+}
+
+.hero-image__wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1300;
+}
+
+.header__wrapper {
+    max-width: 1620px;
+    display: flex;
+    align-items: center;
+    padding: 43px 0;
+    align-self: self-start;
+    margin-left: clamp(20px, 15vw, 161px);
+}
+
+.header__logo {
+    max-width: 80px;
+    font-size: 36px;
+    color: white;
+}
+
+.header__links {
+    display: flex;
+    gap: 29px;
+    margin-left: clamp(60px, 10.67vw, 205px);
+}
+
+.header__links-item {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    color: var(--bg-white);
+}
+
