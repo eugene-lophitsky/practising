@@ -57,3 +57,25 @@
     color: var(--bg-white);
 }
 
+.promo {
+    position: absolute;
+    top: 35%;
+    margin-left: clamp(20px, 16vw, 161px);
+}
+
+.promo__title {
+    font-size: clamp(22px, 4.28vw, 80px);
+    color: white;
+}
+
+.promo__subtitle {
+    max-width: 497px;
+    font-size: clamp(19px, 2.65vw, 50px);
+    color: white;
+    margin: 20px 0 40px 0;
+}
+
+.promo__achievement {
+    font-size: clamp(20px, 2.08vw, 40px);
+    color: white;
+}
