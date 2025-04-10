@@ -34,15 +34,14 @@
     max-width: 1620px;
     display: flex;
     align-items: center;
-    padding: 43px 0;
+    padding: 35px 0;
     align-self: self-start;
     margin-left: clamp(20px, 15vw, 161px);
 }
 
 .header__logo {
-    max-width: 80px;
     font-size: 36px;
-    color: white;
+    color: var(--bg-white);
 }
 
 .header__links {
@@ -53,7 +52,6 @@
 
 .header__links-item {
     font-family: Arial, sans-serif;
-    font-style: italic;
     color: var(--bg-white);
 }
 
@@ -65,17 +63,36 @@
 
 .promo__title {
     font-size: clamp(22px, 4.28vw, 80px);
-    color: white;
+    color: var(--bg-white);
 }
 
 .promo__subtitle {
     max-width: 497px;
     font-size: clamp(19px, 2.65vw, 50px);
-    color: white;
+    color: var(--bg-white);
     margin: 20px 0 40px 0;
 }
 
-.promo__achievement {
-    font-size: clamp(20px, 2.08vw, 40px);
-    color: white;
+.promo__achievements {
+    max-width: 330px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
 }
+
+.promo__achievement {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    font-size: clamp(18px, 1.29vw, 24px);
+    color: var(--bg-white);
+    background-color: var(--alternative-black);
+    padding-right: 15px;
+    border-radius: 5px;
+}
+.promo__achievement-amount {
+    font-size: clamp(20px, 2.4vw, 40px);
+    color: var(--bg-white);
+    margin-right: 15px;
+}
+
