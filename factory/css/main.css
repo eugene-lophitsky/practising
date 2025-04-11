@@ -115,6 +115,11 @@
 
 .about-us__wrapper {
     display: flex;
+    padding: 100px 0;
+}
+
+.about-us__image img {
+    height: 684px;
 }
 
 .about-us__text {
@@ -126,4 +131,12 @@
     font-size: 24px;
     font-family: Arial, sans-serif;
     color: var(--bg-white);
+}
+
+.horizontal-line {
+    width: 100%;
+    max-width: 614px;
+    height: 1px;
+    background-color: var(--color-iron);
+    margin: 40px 0;
 }
