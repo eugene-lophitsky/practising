@@ -108,3 +108,22 @@
     border-radius: 4px;
     margin-top: 40px;
 }
+
+.about-us {
+    background-color: var(--alternative-black);
+}
+
+.about-us__wrapper {
+    display: flex;
+}
+
+.about-us__text {
+    max-width: 614px;
+    margin: 0 53px;
+}
+
+.about-us__text-item {
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    color: var(--bg-white);
+}
