@@ -156,6 +156,7 @@
     font-weight: bold;
     font-family: Arial, sans-serif;
     color: var(--alternative-black);
+    text-transform: uppercase;
     background-color: var(--bg-white);
     padding: 27.5px 18px;
     border-radius: 4px;
@@ -170,6 +171,7 @@
     max-width: 1600px;
     display: flex;justify-content: space-between;
     background-color: var(--bg-white);
+    border-radius: 30px;
     margin: 0 auto;
 }
 
@@ -254,4 +256,8 @@
 
 .feedback__image {
     display: inline-flex;
+}
+.feedback__image img {
+    display: inline-flex;
+    border-radius: 0 30px 30px 0;
 }
