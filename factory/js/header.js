@@ -9,7 +9,7 @@ function addHeaderStroke () {
         headerStroke.style.transition = "0.3s";
     } 
     else {
-        headerStroke.style.background = "transparent";
+        return;
     }
 }
 window.addEventListener("scroll", addHeaderStroke);
