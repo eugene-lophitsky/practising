@@ -177,7 +177,7 @@
 
 .feedback-form {
     max-width: 781px;
-    padding: 71px 45px 71px 134px;
+    margin: 71px 45px 71px 134px;
 }
 
 .feedback-form__title {
