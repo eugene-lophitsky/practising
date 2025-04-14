@@ -261,3 +261,7 @@
     display: inline-flex;
     border-radius: 0 30px 30px 0;
 }
+
+.footer {
+    background-color: var(--black-main);
+}
