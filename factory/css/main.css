@@ -14,7 +14,7 @@
     max-width: 894px;
     display: flex;
     justify-content: end;
-    margin: -128px 0 0 auto;
+    margin: -172px 0 0 auto;
 }
 
 .hero-image__wrapper {
@@ -39,8 +39,18 @@
     margin-left: clamp(20px, 15vw, 161px);
 }
 
-.header__logo {
-    font-size: 36px;
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.logo__image {
+    max-width: 100px;
+}
+
+.logo__text {
+    font-size: 30px;
     color: var(--bg-white);
 }
 
