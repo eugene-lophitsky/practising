@@ -6,7 +6,7 @@ import twitter from "../assets/icons/twitter.svg";
 function Footer () {
     return (
         <div className="footer">
-            <div className="footer-wrapper">
+            <div className="footer__wrapper">
                 <div className="footer-common">
                     <div className="footer-common__logo">Bean Scene</div>
                     <div className="footer-common__description">
@@ -34,6 +34,11 @@ function Footer () {
                        
                     </div>
                 </div>
+
+                <div className="footer-links">
+                    
+                </div>
+
             </div>
         </div>
     )

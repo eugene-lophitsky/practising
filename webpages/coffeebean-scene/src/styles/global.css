@@ -628,8 +628,9 @@ a:hover {
     background: url('/src/assets/img/footer-bg.webp') center / cover no-repeat;
 }
 
-.footer-wrapper {
+.footer__wrapper {
     max-width: 1200px;
+    padding: 182px 0 60px 0;
     margin-inline: auto;
 }
 
@@ -651,7 +652,7 @@ a:hover {
     font-family: PlayfairDisplay Regular, sans-serif;
     line-height: 22px;
     color: var(--basiс-white);
-    margin: 20px 0;
+    margin: 20px 0 40px 0;
 }
 
 .footer-common__social {
