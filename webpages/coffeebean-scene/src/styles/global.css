@@ -664,9 +664,25 @@ a:hover {
 
 .footer__navigation {
     display: flex;
+    gap: 66px;
 }
 
 .footer__navigation-links {
     display: flex;
     flex-direction: column;
+}
+
+.footer__navigation-title {
+    font-size: 26px;
+    font-family: PlayfairDisplay Regular, sans-serif;
+    font-weight: bold;
+    color: var(--basiс-white);
+    margin-bottom: 55px;
+}
+
+.footer__navigation-link {
+    font-size: 18px;
+    font-family: PlayfairDisplay Regular, sans-serif;
+    line-height: 42px;
+    color: var(--basiс-white);
 }
