@@ -629,6 +629,8 @@ a:hover {
 }
 
 .footer__wrapper {
+    display: flex;
+    align-items: center;
     max-width: 1200px;
     padding: 182px 0 60px 0;
     margin-inline: auto;
@@ -658,4 +660,13 @@ a:hover {
 .footer-common__social {
     display: flex;
     gap: 20px;
+}
+
+.footer__navigation {
+    display: flex;
+}
+
+.footer__navigation-links {
+    display: flex;
+    flex-direction: column;
 }

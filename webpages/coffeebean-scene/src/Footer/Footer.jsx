@@ -35,8 +35,21 @@ function Footer () {
                     </div>
                 </div>
 
-                <div className="footer-links">
-                    
+                <div className="footer__navigation">
+                    <div className="footer__navigation-links">
+                        <div className="footer__navigation-title">About</div>
+                        <a href="#" className="footer__navigation-link">Menu</a>
+                        <a href="#" className="footer__navigation-link">Features</a>
+                        <a href="#" className="footer__navigation-link">News & Blogs</a>
+                        <a href="#" className="footer__navigation-link">Help & Supports</a>
+                    </div>
+                    <div className="footer__navigation-links">
+                        <div className="footer__navigation-title">Company</div>
+                        <a href="#" className="footer__navigation-link">How we work</a>
+                        <a href="#" className="footer__navigation-link">Terms of service</a>
+                        <a href="#" className="footer__navigation-link">Pricing</a>
+                        <a href="#" className="footer__navigation-link">FAQ</a>
+                    </div>
                 </div>
 
             </div>
