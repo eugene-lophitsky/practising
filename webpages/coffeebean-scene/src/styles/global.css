@@ -630,7 +630,6 @@ a:hover {
 
 .footer__wrapper {
     display: flex;
-    align-items: center;
     max-width: 1200px;
     padding: 182px 0 60px 0;
     margin-inline: auto;
@@ -684,5 +683,36 @@ a:hover {
     font-size: 18px;
     font-family: PlayfairDisplay Regular, sans-serif;
     line-height: 42px;
+    color: var(--basiс-white);
+}
+
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-contacts__title {
+    font-size: 26px;
+    font-family: PlayfairDisplay Regular, sans-serif;
+    font-weight: bold;
+    color: var(--basiс-white);
+}
+
+.footer-contacts__address {
+    font-size: 18px;
+    font-family: PlayfairDisplay Regular, sans-serif;
+    color: var(--basiс-white);
+    margin: 31px 0 22px 0;
+}
+
+.footer-contacts__communication {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.footer-contacts__communication-item {
+    font-size: 18px;
+    font-family: PlayfairDisplay Regular, sans-serif;
     color: var(--basiс-white);
 }

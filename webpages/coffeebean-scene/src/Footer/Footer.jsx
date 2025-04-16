@@ -53,8 +53,8 @@ function Footer () {
                 </div>
 
                 <div className="footer-contacts">
-                    <div className="footer-contacts__title"></div>
-                    <div className="footer-contacts__address"></div>
+                    <div className="footer-contacts__title">Contact Us</div>
+                    <div className="footer-contacts__address">Akshya Nagar 1st Block 1st Cross, Rammurthy nagar, Bangalore-560016</div>
                     <div className="footer-contacts__communication">
                        <a href="tel:+1 202-918-2132" className="footer-contacts__communication-item">+1 202-918-2132</a>
                        <a href="mailto: beanscene@mail.com" className="footer-contacts__communication-item">beanscene@mail.com</a>
