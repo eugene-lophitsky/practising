@@ -52,6 +52,16 @@ function Footer () {
                     </div>
                 </div>
 
+                <div className="footer-contacts">
+                    <div className="footer-contacts__title"></div>
+                    <div className="footer-contacts__address"></div>
+                    <div className="footer-contacts__communication">
+                       <a href="tel:+1 202-918-2132" className="footer-contacts__communication-item">+1 202-918-2132</a>
+                       <a href="mailto: beanscene@mail.com" className="footer-contacts__communication-item">beanscene@mail.com</a>
+                       <a href="http://www.beanscene.com" className="footer-contacts__communication-item">www.beanscene.com</a> 
+                    </div>
+                </div>    
+
             </div>
         </div>
     )
