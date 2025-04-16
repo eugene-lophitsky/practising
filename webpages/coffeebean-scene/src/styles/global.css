@@ -638,6 +638,7 @@ a:hover {
 .footer-common {
     display: flex;
     flex-direction: column;
+    margin-right: 66px;
 }
 
 .footer-common__logo {
@@ -687,8 +688,10 @@ a:hover {
 }
 
 .footer-contacts {
+    max-width: 332px;
     display: flex;
     flex-direction: column;
+    margin-left: 66px;
 }
 
 .footer-contacts__title {
