@@ -1,7 +1,7 @@
 function Header() {
     return (
         <div className="jumbotron">
-            <div className="jumbotron-wrapper">
+            <div className="jumbotron__wrapper">
                 <div className="jumbotron__initial-phrase">
                     We’ve got your morning covered with
                 </div>

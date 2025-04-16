@@ -1,7 +1,7 @@
 function Subscribe() {
     return (
         <div className="subscribe">
-            <div className="subscribe-wrapper">
+            <div className="subscribe__wrapper">
                 <div className="subscribe__title">
                     Subscribe to get the Latest News
                 </div>

@@ -3,7 +3,7 @@ import coffeeCup from "../assets/img/сup-of-coffee.webp"
 function Discover () {
     return (
         <div className="discover">
-            <div className="discover-wrapper">
+            <div className="discover__wrapper">
             <div className="discover-detailed">
                 <div className="discover-detailed__title">Discover the best coffee</div>
                 <div className="discover-detailed__description">

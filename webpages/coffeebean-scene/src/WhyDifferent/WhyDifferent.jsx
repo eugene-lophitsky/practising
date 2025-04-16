@@ -24,7 +24,7 @@ function WhyDifferent () {
     ];
     return (
         <div className="why-different">
-            <div className="why-different-wrapper">
+            <div className="why-different__wrapper">
                 <div className="why-different__title">Why are we different?</div>
                 <div className="why-different__subtitle">We don’t just make your coffee, we make your day!</div>
                 <div className="why-different-advantages">
@@ -39,7 +39,7 @@ function WhyDifferent () {
                     ))}
                 </div>
                 <div className="why-different-afterwords">
-                  <div className="why-different-afterwords-wrapper">
+                  <div className="why-different-afterwords__wrapper">
                   <div className="why-different-afterwords__slogan">
                         Great ideas start with great coffee, Lets help you achieve that
                     </div>

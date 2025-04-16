@@ -2,7 +2,7 @@
 function Header () {
     return (
         <div className="header">
-            <div className="header-wrapper">
+            <div className="header__wrapper">
                 <span className="header__logo">Bean Scene</span>
                 <span className="header__links">
                     <a href="#" className="header__link">Home</a>

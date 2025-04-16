@@ -34,7 +34,6 @@ function Footer () {
                        
                     </div>
                 </div>
-
                 <div className="footer__navigation">
                     <div className="footer__navigation-links">
                         <div className="footer__navigation-title">About</div>
@@ -51,7 +50,6 @@ function Footer () {
                         <a href="#" className="footer__navigation-link">FAQ</a>
                     </div>
                 </div>
-
                 <div className="footer-contacts">
                     <div className="footer-contacts__title">Contact Us</div>
                     <div className="footer-contacts__address">Akshya Nagar 1st Block 1st Cross, Rammurthy nagar, Bangalore-560016</div>
@@ -61,7 +59,6 @@ function Footer () {
                        <a href="http://www.beanscene.com" className="footer-contacts__communication-item">www.beanscene.com</a> 
                     </div>
                 </div>    
-
             </div>
         </div>
     )

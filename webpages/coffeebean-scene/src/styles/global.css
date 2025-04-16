@@ -27,7 +27,7 @@ a:hover {
     background: url("../assets/img/hero-bg.webp") top center/cover no-repeat;
 }
 
-.header-wrapper {
+.header__wrapper {
     max-width: 1145px;
     display: flex;
     justify-content: space-between;
@@ -80,7 +80,7 @@ a:hover {
     border-color: var(--saturated-yellow);
 }
 
-.jumbotron-wrapper {
+.jumbotron__wrapper {
     max-width: 1145px;
     padding: 145px 0 195px 0;
     margin: 0 auto;
@@ -129,7 +129,7 @@ a:hover {
     margin-bottom: 200px;
 }
 
-.discover-wrapper {
+.discover__wrapper {
     max-width: 1145px;
     display: flex;
     justify-content: space-between;
@@ -179,7 +179,7 @@ a:hover {
     border-radius: 24px;
 }
 
-.blend-wrapper {
+.blend__wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -265,7 +265,7 @@ a:hover {
     bottom: -24px;
 }
 
-.why-different-wrapper {
+.why-different__wrapper {
     position: relative;
     max-width: 2128px;
     display: flex;
@@ -275,7 +275,7 @@ a:hover {
     margin: 105px auto 82px auto;
 }
 
-.why-different-wrapper::before {
+.why-different__wrapper::before {
     content: "";
     display: inline-flex;
     position: absolute;
@@ -341,7 +341,7 @@ a:hover {
     color: var(--asphalt);
 }
 
-.why-different-afterwords-wrapper {
+.why-different-afterwords__wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -382,7 +382,7 @@ a:hover {
     background: url("../assets/img/amazing-morning-bg.webp") center / cover no-repeat;
 }
 
-.amazing-morning-wrapper {
+.amazing-morning__wrapper {
     max-width: 1200px;
     display: flex;
     justify-content: space-between;
@@ -450,7 +450,7 @@ a:hover {
     transform: scaleX(-1);
 }
 
-.feedback-wrapper {
+.feedback__wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -536,7 +536,7 @@ a:hover {
     background: url("/src/assets/img/subscribe-bg.webp") center / cover no-repeat;
 }
 
-.subscribe-wrapper {
+.subscribe__wrapper {
     max-width: 980px;
     display: flex;
     flex-direction: column;

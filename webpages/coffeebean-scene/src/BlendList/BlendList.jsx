@@ -39,7 +39,7 @@ function BlendList() {
 
     return (
         <div className="blend">
-            <div className="blend-wrapper">
+            <div className="blend__wrapper">
                 <div className="blend__title">
                     Enjoy a new blend of coffee style
                 </div>

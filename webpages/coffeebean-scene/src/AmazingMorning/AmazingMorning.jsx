@@ -3,7 +3,7 @@ import cupWithLid from "../assets/img/cup-with-a-lid.webp";
 function AmazingMorning () {
     return (
         <div className="amazing-morning">
-            <div className="amazing-morning-wrapper">
+            <div className="amazing-morning__wrapper">
                 <div className="amazing-morning-detailed">
                     <div className="amazing-morning-detailed__title">
                         Get a chance to have an Amazing morning
