@@ -275,3 +275,19 @@
 .footer {
     background-color: var(--black-main);
 }
+
+.footer__wrapper {
+    max-width: 1577px;
+    margin: 0 auto;
+}
+
+.footer-common {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-common__social {
+    display: flex;
+    gap: 32px;
+}
