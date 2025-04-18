@@ -291,3 +291,16 @@
     display: flex;
     gap: 32px;
 }
+
+.footer-marks__copyright {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: var(--bg-white);
+}
+
+.footer-marks__privacy-policy,
+.footer-marks__terms-of-use {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: var(--pale-brown);
+}
