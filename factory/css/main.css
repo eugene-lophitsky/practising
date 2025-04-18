@@ -278,6 +278,7 @@
 
 .footer__wrapper {
     max-width: 1577px;
+    padding: 64px 0 54px 0;
     margin: 0 auto;
 }
 
@@ -287,9 +288,23 @@
     align-items: center;
 }
 
+.footer-common--padding {
+    padding-bottom: 54px;
+}
+
 .footer-common__social {
     display: flex;
     gap: 32px;
+}
+
+.footer-marks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-marks--position {
+    max-width: 1560px;
+    margin: 0 auto;
 }
 
 .footer-marks__copyright {
