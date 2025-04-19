@@ -3,7 +3,6 @@
 
 
 .hero {
-    position: relative;
     display: flex;
     flex-direction: column;
     background-color: var(--black-main);
@@ -20,14 +19,6 @@
 .hero-image__wrapper {
     display: flex;
     justify-content: flex-end;
-}
-
-.header {
-    position: sticky;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1300;
 }
 
 .header__wrapper {
