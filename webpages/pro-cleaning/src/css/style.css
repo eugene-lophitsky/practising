@@ -23,7 +23,7 @@ body {
 
 @layer utilities {
   .bg-card-bg {
-    background-image: url('./src/img/feedback-card-bg.webp');
+    background-image: url('/feedback-card-bg.webp');
     background-position: center;
     background-size: cover;
   }
