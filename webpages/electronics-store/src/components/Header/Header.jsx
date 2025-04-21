@@ -1,4 +1,5 @@
 import Menu from "../Menu/Menu";
+import HeaderWidgets from "../HeaderWidgets/HeaderWidgets";
 
 function Header () {
     return (
@@ -6,6 +7,7 @@ function Header () {
             <div className="header__wrapper">
                 <span className="header-menu__logo">Lux Techstore</span>
                 <Menu/>
+                <HeaderWidgets/>
             </div>
         </div>
     )

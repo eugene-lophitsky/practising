@@ -27,9 +27,13 @@
   background-image: linear-gradient(-21deg,black 55%,white 36%, black);
   background-clip: text;
   color: transparent;
+  user-select: none;
 }
 
 .header-menu > a {
   font-family: Poppins, sans-serif;
 }
 
+.header-widgets {
+  max-width: 347px;
+}
