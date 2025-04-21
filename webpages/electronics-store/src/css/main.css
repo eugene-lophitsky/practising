@@ -1,1 +1,15 @@
-@import './colors.css'
+@import './colors.css';
+
+a {
+    font-size: 20px;
+}
+
+.active {
+    text-decoration: none;
+    color: rgb(202, 117, 37);
+}
+
+.header-menu {
+    display: flex;
+    gap: 48px;
+}

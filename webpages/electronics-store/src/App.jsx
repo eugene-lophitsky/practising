@@ -1,13 +1,25 @@
-import './css/main.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import MainLayout from './components/MainLayout/MainLayout.jsx';
+import Home from './components/Home/Home.jsx';
+import Contacts from './components/Contacts/Contacts.jsx';
+import About from './components/About/About.jsx';
+import SignUp from './components/SignUp/SignUp.jsx';
+
+import "./css/main.css";
 
 function App() {
-
-
-  return (
-    <div>
-   
-    </div>
-  )
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path='/' element={<MainLayout />}>
+                    <Route index element={<Home />} />
+                    <Route path='contacts' element={<Contacts />} />
+                    <Route path='about' element={<About />} />
+                    <Route path='sign-up' element={<SignUp />} />
+                </Route>
+            </Routes>
+        </BrowserRouter>
+    );
 }
 
 export default App;
