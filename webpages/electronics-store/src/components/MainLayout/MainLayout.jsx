@@ -1,10 +1,10 @@
 import { Outlet } from "react-router-dom";
-import Menu from "../Menu/Menu";
+import Header from "../Header/Header.jsx";
 
 function MainLayout () {
     return (
         <>
-        <Menu/>
+        <Header/>
         <Outlet/>
         </>
     )

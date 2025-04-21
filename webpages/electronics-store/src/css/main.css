@@ -1,15 +1,24 @@
 @import './colors.css';
+@import './fonts.css';
 
-a {
-    font-size: 20px;
+.header {
+  display: flex;
+  justify-content: space-between;
 }
 
-.active {
-    text-decoration: none;
-    color: rgb(202, 117, 37);
+.header__wrapper {
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 .header-menu {
+    max-width: 385px;
     display: flex;
     gap: 48px;
+}
+
+.header-menu > a {
+  font-family: Poppins, sans-serif;
 }
