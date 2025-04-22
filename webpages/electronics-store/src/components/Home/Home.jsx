@@ -1,8 +1,10 @@
-
+import Jumbotron from "../Jumbotron/Jumbotron";
 
 function Home () {
     return (
-        <div></div>
+        <div className="main">
+            <Jumbotron/>
+        </div>
     )
 }
 

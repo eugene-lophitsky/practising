@@ -5,7 +5,7 @@ function Header () {
     return (
         <div className="header">
             <div className="header__wrapper">
-                <span className="header-menu__logo">Lux Techstore</span>
+                <span className="header-menu__logo">Lux Store</span>
                 <Menu/>
                 <HeaderWidgets/>
             </div>

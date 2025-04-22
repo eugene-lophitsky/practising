@@ -69,3 +69,30 @@
 .header-widgets__shopping-favorites {
   margin: 0 16px 0 24px;
 }
+
+.header-widgets__shopping-favicon {
+  max-width: 26px;
+  height: 26px;
+}
+
+.jumbotron__wrapper {
+  max-width: 1170px;
+  margin: 40px auto 0 auto;
+}
+
+.jumbotron__menu {
+  max-width: 217px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.jumbotron__menu-link {
+  font-family: Poppins, sans-serif;
+  text-decoration: none;
+  color: var(--standard-black);
+}
+
+.jumbotron__menu-link:hover {
+  text-decoration: underline;
+}

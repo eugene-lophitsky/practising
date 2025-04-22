@@ -4,7 +4,6 @@ import Home from './components/Home/Home.jsx';
 import Contacts from './components/Contacts/Contacts.jsx';
 import About from './components/About/About.jsx';
 import SignUp from './components/SignUp/SignUp.jsx';
-
 import "./css/main.css";
 
 function App() {
