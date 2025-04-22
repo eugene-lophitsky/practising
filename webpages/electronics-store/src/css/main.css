@@ -11,6 +11,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 40px 0 16px 0;
   margin: 0 auto;
 }
 
@@ -35,5 +36,36 @@
 }
 
 .header-widgets {
+  display: flex;
+}
+
+.header-widgets__search {
   max-width: 347px;
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--gray);
+  padding: 0 12px 0 20px;
+  border-radius: 4px;
+}
+
+.header-widgets__search-input {
+  color: var(--search-field-text);
+  background-color: var(--gray);
+  padding: 11.5px 24px 11.5px 0;
+}
+.header-widgets__search-input:focus {
+  outline: none;
+}
+
+.header-widgets__search-button {
+  display: inline-flex;
+}
+
+.header-widgets__shopping {
+  display: flex;
+  align-items: center;
+}
+
+.header-widgets__shopping-favorites {
+  margin: 0 16px 0 24px;
 }
