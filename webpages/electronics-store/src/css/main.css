@@ -77,14 +77,16 @@
 
 .jumbotron__wrapper {
   max-width: 1170px;
-  margin: 40px auto 0 auto;
+  margin: 0 auto 0 auto;
 }
 
 .jumbotron__menu {
-  max-width: 217px;
+  width: fit-content;
   display: flex;
   flex-direction: column;
   gap: 16px;
+  padding: 40px 96px 0 0;
+  border-right: 1px solid var(--header-border);
 }
 
 .jumbotron__menu-link {
