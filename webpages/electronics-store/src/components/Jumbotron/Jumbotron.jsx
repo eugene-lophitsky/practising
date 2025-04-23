@@ -1,3 +1,5 @@
+import Slider from '../Slider/MySwiper.jsx';
+
 function Jumbotron () {
     return (
         <div className="jumbotron">
@@ -13,6 +15,7 @@ function Jumbotron () {
                     <a className="jumbotron__menu-link" href="#">Groceries & Pets</a>
                     <a className="jumbotron__menu-link" href="#">Health & Beauty</a>
                 </div>
+                <Slider/>
             </div>
         </div>
     )

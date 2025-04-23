@@ -77,6 +77,8 @@
 
 .jumbotron__wrapper {
   max-width: 1170px;
+  display: flex;
+  align-items: center;
   margin: 0 auto 0 auto;
 }
 
@@ -92,9 +94,35 @@
 .jumbotron__menu-link {
   font-family: Poppins, sans-serif;
   text-decoration: none;
+  white-space: nowrap;
   color: var(--standard-black);
 }
 
 .jumbotron__menu-link:hover {
   text-decoration: underline;
+}
+
+.swiper {
+  width: 100%;
+  max-width: 892px;
+  height: 100%;
+  max-height: 344px;
+  margin: 40px 0 0 40px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  max-width: 892px;
+  height: 100%;
+  object-fit: cover;
 }
