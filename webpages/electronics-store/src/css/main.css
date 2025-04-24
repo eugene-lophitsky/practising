@@ -205,3 +205,8 @@
   font-weight: 600;
   color: var(--standard-black);
 }
+
+.flash-sales-slide {
+  background-color: var(--gray);
+  padding: 7px 11px;
+}
