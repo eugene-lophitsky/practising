@@ -10,7 +10,6 @@ import sliderImg4 from '/flashsales_slider_img4.webp';
 function FlashsalesSlider() {
 
   return (
-      <div className="swiper-wrapper">
         <Swiper
         modules={[Navigation]}
         spaceBetween={50}
@@ -27,7 +26,6 @@ function FlashsalesSlider() {
         <SwiperSlide><img src={sliderImg3} alt="" /></SwiperSlide>
         <SwiperSlide><img src={sliderImg4} alt="" /></SwiperSlide>
         </Swiper>
- </div>
   );
 }
 

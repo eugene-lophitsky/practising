@@ -181,6 +181,10 @@
   margin: 0 auto;
 }
 
+.flash-sales__wrapper {
+  margin: 140px 0 60px 0;
+}
+
 .flash-sales__caption {
   display: flex;
   align-items: center;
@@ -211,9 +215,3 @@
   padding: 7px 11px;
 }
 
-.swiper-button-prev,
-.swiper-button-next {
-  position: static;
-  position: absolute;
-
-}
