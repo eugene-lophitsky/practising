@@ -1,6 +1,6 @@
-import Slider from '../Slider/MySwiper.jsx';
+import Slider from './JumbotronSlider.jsx';
 
-function Jumbotron () {
+function JumbotronSlider () {
     return (
         <div className="jumbotron">
             <div className="jumbotron__wrapper">
@@ -21,4 +21,4 @@ function Jumbotron () {
     )
 }
 
-export default Jumbotron;
+export default JumbotronSlider;

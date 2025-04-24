@@ -176,5 +176,25 @@
 
 .flash-sales {
   max-width: 1170px;
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
+}
+
+.flash-sales__caption {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.flash-sales__caption-tab {
+  width: 20px;
+  height: 40px;
+  background-color: var(--red);
+  border-radius: 4px;
+}
+
+.flash-sales__caption-text {
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
 }
