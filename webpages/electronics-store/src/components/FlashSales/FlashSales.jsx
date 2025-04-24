@@ -6,6 +6,7 @@ function FlashSales () {
             <div className="flash-sales__caption-tab"></div>
             <div className="flash-sales__caption-text">Today's</div>
           </div>
+          <div className="flash-sales__title">Flash Sales</div>
         </div>
     </div>
   )
