@@ -1,0 +1,9 @@
+.headerMenu {
+    max-width: 385px;
+    display: flex;
+    gap: 48px;
+}
+
+  .headerMenu > a {
+    font-family: Poppins, sans-serif;
+  }

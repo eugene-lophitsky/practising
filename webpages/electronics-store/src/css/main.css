@@ -2,7 +2,7 @@
 @import './fonts.css';
 @import './reset.css';
 
-.header {
+/* .header {
   border-bottom: 1px solid var(--header-border);
 }
 
@@ -73,9 +73,9 @@
 .header-widgets__shopping-favicon {
   max-width: 26px;
   height: 26px;
-}
+} */
 
-.jumbotron__wrapper {
+/* .jumbotron__wrapper {
   max-width: 1170px;
   display: flex;
   align-items: center;
@@ -100,7 +100,7 @@
 
 .jumbotron__menu-link:hover {
   text-decoration: underline;
-}
+} */
 
 .swiper-wrapper {
   position: relative;

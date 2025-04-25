@@ -8,7 +8,7 @@ import secondSlide from '/jumbotron_slider_img_2.webp';
 import thirdSlide from '/jumbotron_slider_img_3.webp';
 import appleLogo from '../../icons/slider-apple-logo.png';
 
-function MySwiper() {
+function JumbotronSlider() {
   return (
    <div className="swiper-wrapper">
     <Swiper
@@ -34,4 +34,4 @@ function MySwiper() {
   );
 }
 
-export default MySwiper;
+export default JumbotronSlider;

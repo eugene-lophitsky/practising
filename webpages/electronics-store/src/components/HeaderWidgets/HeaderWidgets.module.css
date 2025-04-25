@@ -1,0 +1,39 @@
+.headerWidgets {
+  display: flex;
+}
+
+.headerWidgetsSearch {
+  max-width: 347px;
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--gray);
+  padding: 0 12px 0 20px;
+  border-radius: 4px;
+}
+
+.headerWidgetsSearchInput {
+  color: var(--search-field-text);
+  background-color: var(--gray);
+  padding: 11.5px 24px 11.5px 0;
+}
+.headerWidgetsSearchInput:focus {
+  outline: none;
+}
+
+.headerWidgetsSearchButton {
+  display: inline-flex;
+}
+
+.headerWidgetsShopping {
+  display: flex;
+  align-items: center;
+}
+
+.headerWidgetsShoppingSavorites {
+  margin: 0 16px 0 24px;
+}
+
+.headerWidgetsShoppingFavicon {
+  max-width: 26px;
+  height: 26px;
+} 

@@ -1,4 +1,4 @@
-import FlashsalesSlider from "./FlashsalesSlider";
+import FlashsalesSlider from "./FlashsalesSlider.jsx";
 
 function FlashSales () {
   return (

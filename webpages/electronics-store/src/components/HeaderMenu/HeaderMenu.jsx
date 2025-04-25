@@ -1,8 +1,9 @@
 import { NavLink } from "react-router-dom";
+import styles from '../HeaderMenu/HeaderMenu.module.css';
 
-function Menu () {
+function HeaderMenu () {
   return (
-    <div className="header-menu">
+    <div className={styles.headerMenu}>
         <NavLink style={({isActive}) => ({textDecoration: isActive ? "underline" : "none", color: isActive ? "000000" : "#000000"})} to="/">Home</NavLink>
         <NavLink style={({isActive}) => ({textDecoration: isActive ? "underline" : "none", color: isActive ? "000000" : "#000000"})} to="contacts">Contacts</NavLink>
         <NavLink style={({isActive}) => ({textDecoration: isActive ? "underline" : "none", color: isActive ? "000000" : "#000000"})} to="about">About</NavLink>
@@ -11,4 +12,4 @@ function Menu () {
   )
 }
 
-export default Menu;
+export default HeaderMenu;
