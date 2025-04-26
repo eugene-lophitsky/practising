@@ -1,20 +1,20 @@
 import JumbotronSlider from './JumbotronSlider.jsx';
-import styles from '../Jumbotron/Jumbotron.module.css';
+import '../Jumbotron/Jumbotron.css';
 
 function Jumbotron () {
     return (
-        <div className={styles.jumbotron}>
-            <div className={styles.jumbotronWrapper}>
-                <div className={styles.jumbotronMenu}>
-                    <a className={styles.jumbotronMenuLink} href="#">Woman’s Fashion</a>
-                    <a className={styles.jumbotronMenuLink} href="#">Men’s Fashion</a>
-                    <a className={styles.jumbotronMenuLink} href="#">Electronics</a>
-                    <a className={styles.jumbotronMenuLink} href="#">Home & Lifestyle</a>
-                    <a className={styles.jumbotronMenuLink} href="#">Medicine</a>
-                    <a className={styles.jumbotronMenuLink} href="#">Sports & Outdoor</a>
-                    <a className={styles.jumbotronMenuLink} href="#">Baby’s & Toys</a>
-                    <a className={styles.jumbotronMenuLink} href="#">Groceries & Pets</a>
-                    <a className={styles.jumbotronMenuLink} href="#">Health & Beauty</a>
+        <div className="jumbotron">
+            <div className="jumbotron__wrapper">
+                <div className="jumbotron-menu">
+                    <a className="jumbotron-menu-link" href="#">Woman’s Fashion</a>
+                    <a className="jumbotron-menu-link" href="#">Men’s Fashion</a>
+                    <a className="jumbotron-menu-link" href="#">Electronics</a>
+                    <a className="jumbotron-menu-link" href="#">Home & Lifestyle</a>
+                    <a className="jumbotron-menu-link" href="#">Medicine</a>
+                    <a className="jumbotron-menu-link" href="#">Sports & Outdoor</a>
+                    <a className="jumbotron-menu-link" href="#">Baby’s & Toys</a>
+                    <a className="jumbotron-menu-link" href="#">Groceries & Pets</a>
+                    <a className="jumbotron-menu-link" href="#">Health & Beauty</a>
                 </div>
                 <JumbotronSlider/>
             </div>

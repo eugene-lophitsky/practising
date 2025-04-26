@@ -1,0 +1,35 @@
+.flashSales {
+    max-width: 1170px;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    margin: 160px auto 60px auto;
+    box-sizing: border-box;
+  }
+  
+  .flashSalesCaption {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .flashSalesCaptionTab {
+    width: 20px;
+    height: 40px;
+    background-color: var(--red);
+    border-radius: 4px;
+  }
+  
+  .flashSalesCaptionText {
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+  }
+  
+  .flashSalesTitle {
+    font-size: 36px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    color: var(--standard-black);
+  }
+  
+  

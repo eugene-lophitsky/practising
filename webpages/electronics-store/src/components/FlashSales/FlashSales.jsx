@@ -1,16 +1,15 @@
-import FlashsalesSlider from "./FlashsalesSlider.jsx";
+import FlashSalesSlider from "../FlashSales/SalesSlider.jsx";
+import styles from '../FlashSales/FlashSales.module.css';
 
 function FlashSales () {
   return (
-    <div className="flash-sales">
-        <div className="flash-sales__wrapper">
-          <div className="flash-sales__caption">
-            <div className="flash-sales__caption-tab"></div>
-            <div className="flash-sales__caption-text">Today&apos;s</div>
+    <div className={styles.flashSales}>
+          <div className={styles.flashSalesCaption}>
+            <div className={styles.flashSalesCaptionTab}></div>
+            <div className={styles.flashSalesCaptionText}>Today&apos;s</div>
           </div>
-          <div className="flash-sales__title">Flash Sales</div>
-          <FlashsalesSlider/>
-        </div>
+          <div className={styles.flashSalesTitle}>Flash Sales</div>
+          <FlashSalesSlider />
     </div>
   )
 }

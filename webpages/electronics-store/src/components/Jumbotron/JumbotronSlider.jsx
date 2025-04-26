@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import {Pagination } from 'swiper/modules';
+import {Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -7,17 +7,18 @@ import firstSlide from '/jumbotron_slider_img_1.webp';
 import secondSlide from '/jumbotron_slider_img_2.webp';
 import thirdSlide from '/jumbotron_slider_img_3.webp';
 import appleLogo from '../../icons/slider-apple-logo.png';
+import '../Jumbotron/Jumbotron.css';
 
 function JumbotronSlider() {
   return (
    <div className="swiper-wrapper">
     <Swiper
-      modules={[Pagination]}
+      modules={[Pagination, Autoplay]}
       spaceBetween={50}
       slidesPerView={1}
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
-      onSlideChange={() => console.log('slide change')}
+      autoplay={true}
       >
       <SwiperSlide><img src={firstSlide} alt="" /></SwiperSlide>
       <SwiperSlide><img src={secondSlide} alt="" /></SwiperSlide>

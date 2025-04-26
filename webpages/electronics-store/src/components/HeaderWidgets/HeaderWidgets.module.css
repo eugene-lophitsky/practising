@@ -25,12 +25,14 @@
 }
 
 .headerWidgetsShopping {
+  width: fit-content;
   display: flex;
   align-items: center;
 }
 
 .headerWidgetsShoppingSavorites {
-  margin: 0 16px 0 24px;
+  display: inline-flex;
+  margin: 0 16px 0 22px;
 }
 
 .headerWidgetsShoppingFavicon {
