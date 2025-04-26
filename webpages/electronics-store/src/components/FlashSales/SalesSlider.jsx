@@ -9,6 +9,8 @@ import sliderImg4 from '/flashsales_slider_img4.webp';
 import fourStar from '../../icons/four-star.svg';
 import fourHalfStar from '../../icons/four-half-star.svg';
 import fiveStar from '../../icons/five_star.svg';
+import favorites from '../../icons/add-to-favorites_small.svg';
+import toggle from '../../icons/toggle.svg';
 import '../FlashSales/FlashSales.css';
 
 function SalesSlider() {
@@ -25,59 +27,104 @@ function SalesSlider() {
         loop={true}
       >
         <SwiperSlide className="swiper-slide"> 
+          <div className="swiper-slide__widgets">
+            <div className="swiper-slide__widgets-favorites">
+              <img className="swiper-slide__widgets-favIcon" src={favorites} alt="" />
+            </div>
+            <div className="swiper-slide__widgets-toggle">
+              <img className="swiper-slide__widgets-toggleIcon" src={toggle} alt="" />
+            </div>
+          </div>
+          <div className="swiper-slide__discount-die">-40%</div>
           <div className="swiper-slide__image"><img src={sliderImg1} alt="" /></div>
           <div className="swiper-slide__title">HAVIT HV-G92 Gamepad</div>
           <div className="swiper-slide__price">
-              <div className="swiper-slide__price-new">$120</div>
-              <div className="swiper-slide__price-old">$160</div>
+              <div className="swiper-slide__price-new">¥120</div>
+              <div className="swiper-slide__price-old">¥160</div>
           </div>
           <div className="swiper-slide__rating">
             <img src={fiveStar} alt="" />
-            <span className="swiper-slide__rating-count"></span>
+            <span className="swiper-slide__rating-count">(88)</span>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="swiper-slide">  
+        <SwiperSlide className="swiper-slide">
+        <div className="swiper-slide__widgets">
+            <div className="swiper-slide__widgets-favorites">
+              <img className="swiper-slide__widgets-favIcon" src={favorites} alt="" />
+            </div>
+            <div className="swiper-slide__widgets-toggle">
+              <img className="swiper-slide__widgets-toggleIcon" src={toggle} alt="" />
+            </div>
+          </div>
+          <div className="swiper-slide__discount-die">-35%</div>
         <div className="swiper-slide__image"><img src={sliderImg2} alt="" /></div>
           <div className="swiper-slide__title">AK-900 Wired Keyboard</div>
           <div className="swiper-slide__price">
-              <div className="swiper-slide__price-new">$960</div>
-              <div className="swiper-slide__price-old">$1160</div>
+              <div className="swiper-slide__price-new">¥960</div>
+              <div className="swiper-slide__price-old">¥1160</div>
           </div>
           <div className="swiper-slide__rating">
             <img src={fourStar} alt="" />
-            <span className="swiper-slide__rating-count"></span>
+            <span className="swiper-slide__rating-count">(75)</span>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="swiper-slide">  
+        <SwiperSlide className="swiper-slide">
+          <div className="swiper-slide__widgets">
+            <div className="swiper-slide__widgets-favorites">
+              <img className="swiper-slide__widgets-favIcon" src={favorites} alt="" />
+            </div>
+            <div className="swiper-slide__widgets-toggle">
+              <img className="swiper-slide__widgets-toggleIcon" src={toggle} alt="" />
+            </div>
+          </div>
+          <div className="swiper-slide__discount-die">-30%</div>
         <div className="swiper-slide__image"><img src={sliderImg3} alt="" /></div>
           <div className="swiper-slide__title">IPS LCD Gaming Monitor</div>
           <div className="swiper-slide__price">
-              <div className="swiper-slide__price-new">$370</div>
-              <div className="swiper-slide__price-old">$400</div>
+              <div className="swiper-slide__price-new">¥370</div>
+              <div className="swiper-slide__price-old">¥400</div>
           </div>
           <div className="swiper-slide__rating">
             <img src={fiveStar} alt="" />
-            <span className="swiper-slide__rating-count"></span>
+            <span className="swiper-slide__rating-count">(99)</span>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="swiper-slide">  
+        <SwiperSlide className="swiper-slide">
+            <div className="swiper-slide__widgets">
+              <div className="swiper-slide__widgets-favorites">
+                <img className="swiper-slide__widgets-favIcon" src={favorites} alt="" />
+              </div>
+              <div className="swiper-slide__widgets-toggle">
+                <img className="swiper-slide__widgets-toggleIcon" src={toggle} alt="" />
+              </div>
+            </div>
+            <div className="swiper-slide__discount-die">-25%</div>
         <div className="swiper-slide__image"><img src={sliderImg4} alt="" /></div>
           <div className="swiper-slide__title">S-Series Comfort Chair</div>
           <div className="swiper-slide__price">
-              <div className="swiper-slide__price-new">$375</div>
-              <div className="swiper-slide__price-old">$400</div>
+              <div className="swiper-slide__price-new">¥375</div>
+              <div className="swiper-slide__price-old">¥400</div>
           </div>
           <div className="swiper-slide__rating">
             <img src={fourHalfStar} alt="" />
-            <span className="swiper-slide__rating-count"></span>
+            <span className="swiper-slide__rating-count">(99)</span>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="swiper-slide">  
+        <SwiperSlide className="swiper-slide">
+        <div className="swiper-slide__widgets">
+            <div className="swiper-slide__widgets-favorites">
+              <img className="swiper-slide__widgets-favIcon" src={favorites} alt="" />
+            </div>
+            <div className="swiper-slide__widgets-toggle">
+              <img className="swiper-slide__widgets-toggleIcon" src={toggle} alt="" />
+            </div>
+          </div>
+          <div className="swiper-slide__discount-die"></div>
         <div className="swiper-slide__image"><img src={sliderImg3} alt="" /></div>
           <div className="swiper-slide__title">IPS LCD Gaming Monitor</div>
           <div className="swiper-slide__price">
-              <div className="swiper-slide__price-new">$370</div>
-              <div className="swiper-slide__price-old">$400</div>
+              <div className="swiper-slide__price-new">¥370</div>
+              <div className="swiper-slide__price-old">¥400</div>
           </div>
           <div className="swiper-slide__rating">
             <img src={fiveStar} alt="" />

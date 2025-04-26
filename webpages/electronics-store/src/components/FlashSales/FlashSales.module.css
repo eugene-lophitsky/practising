@@ -22,7 +22,8 @@
   
   .flashSalesCaptionText {
     font-family: Poppins, sans-serif;
-    font-weight: 500;
+    font-weight: 600;
+    color: var(--red);
   }
   
   .flashSalesTitle {
@@ -30,6 +31,7 @@
     font-family: Poppins, sans-serif;
     font-weight: 600;
     color: var(--standard-black);
+    margin-top: 18px;
   }
   
   
