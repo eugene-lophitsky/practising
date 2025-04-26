@@ -60,9 +60,9 @@
 .swiper-button-prev {
   position: static;
   margin-top: 0;
-  width: 40px;
-  height: 40px;
-  background: rgb(255, 255, 255);
+  width: 46px;
+  height: 46px;
+  background: var(--gray);
   border-radius: 50%;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   display: flex;
@@ -72,8 +72,28 @@
   color: #000;
 }
 
-.swiper-button-next:after,
+.swiper-button-prev:after {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url("../../icons/flashsale-slider-icon-arrow-left.svg");
+  padding: 4px;
+}
+
+.swiper-button-next:after {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url("../../icons/flashsale-slider-icon-arrow-right.svg");
+}
+
+
+
+
+/* .swiper-button-next:after,
 .swiper-button-prev:after {
   font-size: 20px;
   font-weight: bold;
-}
+} */
