@@ -31,13 +31,30 @@
 }
 
 .swiper-slide__title {
-
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+  color: var(--standard-black);
+  margin: 16px 0 8px 0;
 }
 
 .swiper-slide__price {
-
+  display: flex;
+  gap: 12px;
+  margin-bottom: 8px;
 }
 
+.swiper-slide__price-new {
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+  color: var(--red);
+}
+
+.swiper-slide__price-old {
+  font-size: 16px;
+  font-family: Poppins, sans-serif;
+  text-decoration: line-through;
+  color: var(--flashsales-slider-price);
+}
 
 .swiper-button-next,
 .swiper-button-prev {
