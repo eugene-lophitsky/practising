@@ -66,6 +66,7 @@
 
 .swiper-slide__rating-count {
   font-size: 14px;
+  font-family: Poppins, sans-serif;
   font-weight: 600;
   color: var(--flashsales-slider-price);
 }
@@ -113,6 +114,7 @@
 }
 
 .swiper-slide__widgets-favorites {
+  display: inline-flex;
   padding: 9px 8px;
   background-color: var(--standard-white);
   border-radius: 100%;
@@ -137,7 +139,7 @@
 .swiper-slide__discount-die {
   position: absolute;
   top: 0.95em;
-  left: 0.75em;
+  left: 0.85em;
   font-size: 12px;
   font-family: Poppins, sans-serif;
   color: var(--standard-white);

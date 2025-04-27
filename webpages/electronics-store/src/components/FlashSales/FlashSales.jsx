@@ -10,6 +10,8 @@ function FlashSales () {
           </div>
           <div className={styles.flashSalesTitle}>Flash Sales</div>
           <FlashSalesSlider />
+          <a href="#" className={styles.flashSalesButton}>View All Products</a>
+          <div className={styles.flashSalesDivider}></div>
     </div>
   )
 }

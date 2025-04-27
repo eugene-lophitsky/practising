@@ -28,12 +28,12 @@ function SalesSlider() {
       >
         <SwiperSlide className="swiper-slide"> 
           <div className="swiper-slide__widgets">
-            <div className="swiper-slide__widgets-favorites">
+            <a href="#" className="swiper-slide__widgets-favorites">
               <img className="swiper-slide__widgets-favIcon" src={favorites} alt="" />
-            </div>
-            <div className="swiper-slide__widgets-toggle">
+            </a>
+            <a href="#" className="swiper-slide__widgets-toggle">
               <img className="swiper-slide__widgets-toggleIcon" src={toggle} alt="" />
-            </div>
+            </a>
           </div>
           <div className="swiper-slide__discount-die">-40%</div>
           <div className="swiper-slide__image"><img src={sliderImg1} alt="" /></div>
@@ -49,12 +49,12 @@ function SalesSlider() {
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
         <div className="swiper-slide__widgets">
-            <div className="swiper-slide__widgets-favorites">
+            <a href="#" className="swiper-slide__widgets-favorites">
               <img className="swiper-slide__widgets-favIcon" src={favorites} alt="" />
-            </div>
-            <div className="swiper-slide__widgets-toggle">
+            </a>
+            <a href="#" className="swiper-slide__widgets-toggle">
               <img className="swiper-slide__widgets-toggleIcon" src={toggle} alt="" />
-            </div>
+            </a>
           </div>
           <div className="swiper-slide__discount-die">-35%</div>
         <div className="swiper-slide__image"><img src={sliderImg2} alt="" /></div>
@@ -70,12 +70,12 @@ function SalesSlider() {
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
           <div className="swiper-slide__widgets">
-            <div className="swiper-slide__widgets-favorites">
+            <a href="#" className="swiper-slide__widgets-favorites">
               <img className="swiper-slide__widgets-favIcon" src={favorites} alt="" />
-            </div>
-            <div className="swiper-slide__widgets-toggle">
+            </a>
+            <a href="#" className="swiper-slide__widgets-toggle">
               <img className="swiper-slide__widgets-toggleIcon" src={toggle} alt="" />
-            </div>
+            </a>
           </div>
           <div className="swiper-slide__discount-die">-30%</div>
         <div className="swiper-slide__image"><img src={sliderImg3} alt="" /></div>
@@ -91,12 +91,12 @@ function SalesSlider() {
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
             <div className="swiper-slide__widgets">
-              <div className="swiper-slide__widgets-favorites">
+              <a href="#" className="swiper-slide__widgets-favorites">
                 <img className="swiper-slide__widgets-favIcon" src={favorites} alt="" />
-              </div>
-              <div className="swiper-slide__widgets-toggle">
+              </a>
+              <a href="#" className="swiper-slide__widgets-toggle">
                 <img className="swiper-slide__widgets-toggleIcon" src={toggle} alt="" />
-              </div>
+              </a>
             </div>
             <div className="swiper-slide__discount-die">-25%</div>
         <div className="swiper-slide__image"><img src={sliderImg4} alt="" /></div>
@@ -112,14 +112,14 @@ function SalesSlider() {
         </SwiperSlide>
         <SwiperSlide className="swiper-slide">
         <div className="swiper-slide__widgets">
-            <div className="swiper-slide__widgets-favorites">
+            <a href="#" className="swiper-slide__widgets-favorites">
               <img className="swiper-slide__widgets-favIcon" src={favorites} alt="" />
-            </div>
-            <div className="swiper-slide__widgets-toggle">
+            </a>
+            <a href="#" className="swiper-slide__widgets-toggle">
               <img className="swiper-slide__widgets-toggleIcon" src={toggle} alt="" />
-            </div>
+            </a>
           </div>
-          <div className="swiper-slide__discount-die"></div>
+          <div className="swiper-slide__discount-die">-30%</div>
         <div className="swiper-slide__image"><img src={sliderImg3} alt="" /></div>
           <div className="swiper-slide__title">IPS LCD Gaming Monitor</div>
           <div className="swiper-slide__price">
