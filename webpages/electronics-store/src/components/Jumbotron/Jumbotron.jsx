@@ -1,20 +1,14 @@
 import JumbotronSlider from './JumbotronSlider.jsx';
 import '../Jumbotron/Jumbotron.css';
+import { links } from './links.js';
 
 function Jumbotron () {
+
     return (
         <div className="jumbotron">
             <div className="jumbotron__wrapper">
                 <div className="jumbotron-menu">
-                    <a className="jumbotron-menu-link" href="#">Woman’s Fashion</a>
-                    <a className="jumbotron-menu-link" href="#">Men’s Fashion</a>
-                    <a className="jumbotron-menu-link" href="#">Electronics</a>
-                    <a className="jumbotron-menu-link" href="#">Home & Lifestyle</a>
-                    <a className="jumbotron-menu-link" href="#">Medicine</a>
-                    <a className="jumbotron-menu-link" href="#">Sports & Outdoor</a>
-                    <a className="jumbotron-menu-link" href="#">Baby’s & Toys</a>
-                    <a className="jumbotron-menu-link" href="#">Groceries & Pets</a>
-                    <a className="jumbotron-menu-link" href="#">Health & Beauty</a>
+                   {links.map(link => <a href="#" key={link} className="jumbotron-menu__link">{link}</a>)}
                 </div>
                 <JumbotronSlider/>
             </div>

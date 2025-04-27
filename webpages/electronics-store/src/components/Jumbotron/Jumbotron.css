@@ -14,7 +14,7 @@
     border-right: 1px solid var(--header-border);
 }
 
-.jumbotron-menu-link {
+.jumbotron-menu__link {
     font-family: Poppins, sans-serif;
     text-decoration: none;
     white-space: nowrap;
