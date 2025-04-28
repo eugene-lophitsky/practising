@@ -1,0 +1,1 @@
+export const categories = ['Phones', 'Computers', 'SmartWatch', 'Camera', 'HeadPhones', 'Games'];
