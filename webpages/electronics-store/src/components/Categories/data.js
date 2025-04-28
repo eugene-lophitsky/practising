@@ -1,0 +1,1 @@
+export const data = ['Phones', 'Computers', 'SmartWatch', 'Camera', 'HeadPhones', 'Games'];

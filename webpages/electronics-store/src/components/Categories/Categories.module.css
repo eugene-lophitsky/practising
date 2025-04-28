@@ -1,0 +1,21 @@
+.categories {
+    max-width: 1170px;
+    margin: 0 auto;    
+}
+
+.categoriesDie {
+
+}
+
+.categoriesTitle {
+    margin: 20px 0 60px 0;
+}
+
+.categoriesList {
+    display: flex;
+    gap: 30px;
+}
+
+.categoriesListItem {
+    
+}
