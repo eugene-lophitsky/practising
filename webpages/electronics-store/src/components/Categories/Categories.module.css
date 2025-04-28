@@ -4,18 +4,70 @@
 }
 
 .categoriesDie {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 
+.categoriesDieImg {
+    width: 20px;
+    height: 40px;
+    background-color: var(--red);
+    border-radius: 4px;
+}
+
+.categoriesDieText {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    color: var(--red);
 }
 
 .categoriesTitle {
-    margin: 20px 0 60px 0;
+    font-size: 36px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    color: var(--standard-black);
 }
 
 .categoriesList {
+    max-width: 1170px;
     display: flex;
     gap: 30px;
+    margin: 0 auto;
 }
 
 .categoriesListItem {
-    
+    max-width: 170px;
+    height: auto;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid var(--slightly-black);
+    padding: 25px 57px 21px 57px;
+    border-radius: 4px;
+}
+
+.categoriesListItemIcon {
+    width: 56px;
+    aspect-ratio: 1;
+    background-color: var(--standard-black);
+    mask: url("/../../../src/icons/phones.svg") center no-repeat;
+}
+
+.categoriesListItemTitle {
+    font-family: Poppins, sans-serif;
+    margin-top: 16px;
+}
+
+.categoriesListItem:hover .categoriesListItemIcon, .categoriesListItemTitle {
+    background-color: var(--standard-white);
+}
+
+.categoriesListItem:hover {
+    background-color: var(--red);
+}
+
+.categoriesListItem:hover .categoriesListItemTitle {
+    color: var(--standard-white);
+    background-color: var(--red);
 }

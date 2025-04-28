@@ -1,6 +1,7 @@
 :root {
     --standard-white: #ffffff;
     --standard-black: #000000;
+    --slightly-black: rgba(0, 0, 0, 0.3);
     --graphite: #363738;
     --gray: #f5f5f5;
     --beige: #fefaf1;
