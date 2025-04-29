@@ -5,9 +5,9 @@ function Bestsellers () {
     <div className={styles.bestsellers}>
         <div className={styles.bestsellersDie}>
             <div className={styles.bestsellersDieImg}></div>
-            <div className={styles.bestsellersDieText}></div>
+            <div className={styles.bestsellersDieText}>This Month</div>
         </div>
-        <div className={styles.bestsellersTitle}></div>
+        <div className={styles.bestsellersTitle}>Best Selling Products</div>
         <div className={styles.bestsellersList}></div>
     </div>
   )
