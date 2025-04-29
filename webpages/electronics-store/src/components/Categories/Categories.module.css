@@ -33,7 +33,7 @@
     max-width: 1170px;
     display: flex;
     gap: 30px;
-    margin: 0 auto;
+    margin: 60px auto 70px auto;
 }
 
 .categoriesListItem {
@@ -43,15 +43,8 @@
     align-items: center;
     flex-direction: column;
     border: 1px solid var(--slightly-black);
-    padding: 25px 57px 21px 57px;
+    padding: 25px 57px 24px 57px;
     border-radius: 4px;
-}
-
-.categoriesListItemIcon {
-    width: 56px;
-    aspect-ratio: 1;
-    background-color: var(--standard-black);
-    mask: url("/../../../src/icons/phones.svg") center no-repeat;
 }
 
 .categoriesListItemTitle {
@@ -70,4 +63,15 @@
 .categoriesListItem:hover .categoriesListItemTitle {
     color: var(--standard-white);
     background-color: var(--red);
+}
+
+.categoriesDivider {
+    width: 100%;
+    height: 1px;
+    background-color: var(--header-border);
+    margin-top: 60px;
+}
+
+.categoriesListItem:hover .categoriesListItemIcon {
+    background-color: var(--standard-white) !important;
 }

@@ -11,9 +11,11 @@ function Jumbotron () {
                    {links.map(link => <a href="#" key={link} className="jumbotron-menu__link">{link}</a>)}
                 </div>
                 <JumbotronSlider/>
+                
             </div>
         </div>
     )
 }
 
 export default Jumbotron;
+
