@@ -29,3 +29,21 @@
     color: var(--standard-black);
     margin-top: 20px;
 }
+
+.bestsellersList {
+    max-height: 1170px;
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.bestsellersItem {
+    width: 270px;
+    height: 250px;
+}
+
+.bestsellersImage {
+    width: 250px;
+    height: 250px;
+    border: 1px solid red;
+}

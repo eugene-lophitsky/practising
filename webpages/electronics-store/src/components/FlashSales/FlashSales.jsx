@@ -1,4 +1,4 @@
-import FlashSalesSlider from "../FlashSales/SalesSlider.jsx";
+// import FlashSalesSlider from "../FlashSales/SalesSlider.jsx";
 import styles from '../FlashSales/FlashSales.module.css';
 
 function FlashSales () {
@@ -9,7 +9,7 @@ function FlashSales () {
             <div className={styles.flashSalesCaptionText}>Today&apos;s</div>
           </div>
           <div className={styles.flashSalesTitle}>Flash Sales</div>
-          <FlashSalesSlider />
+          {/* <FlashSalesSlider /> */}
           <a href="#" className={styles.flashSalesButton}>View All Products</a>
           <div className={styles.flashSalesDivider}></div>
     </div>
