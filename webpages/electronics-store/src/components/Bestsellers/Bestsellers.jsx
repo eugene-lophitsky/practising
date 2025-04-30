@@ -14,10 +14,19 @@ function Bestsellers() {
             <div className={styles.bestsellersList}>
                 {bestsellers.map(item => (
                     <div key={item.title} className={styles.bestsellersItem}>
-                       <div><img src={item.img} alt="" className={styles.bestsellersImage} /></div>
-                        <div>{item.title}</div>
-                        <div><span>{item.price.new}</span><span>{item.price.old}</span></div>
-                        <div><span><img src={item.rating.picture} alt="" /></span><span>{item.rating.count}</span></div>
+                           <div className={styles.bestsellersWidgets}>
+                                <a href="#" className={styles.bestsellersWidgetsFavorites}>
+                                    <img className={styles.bestsellersWidgetsFavIcon} src={item.favorites} alt="" />
+                                </a>
+                                <a href="#" className={styles.bestsellersWidgetsToggle}>
+                                    <img className={styles.bestsellersWidgetsToggleIcon} src={item.toggle} alt="" />
+                                </a>
+                            </div>
+
+                       <div><img src={item.img} alt="" className={styles.bestsellersItemImage} /></div>
+                        <div className={styles.bestsellersItemTitle}>{item.title}</div>
+                        <div className={styles.bestsellersItemPrice}><span className={styles.bestsellersItemPriceNew}>{item.price.new}</span><span className={styles.bestsellersItemPriceOld}>{item.price.old}</span></div>
+                        <div className={styles.bestsellersRating}><img src={item.rating.picture} alt="" /><span className={styles.bestsellersRatingCount}>{item.rating.count}</span></div>
                     </div>
                 ))}
             </div>
@@ -27,3 +36,5 @@ function Bestsellers() {
 }
 
 export default Bestsellers;
+
+

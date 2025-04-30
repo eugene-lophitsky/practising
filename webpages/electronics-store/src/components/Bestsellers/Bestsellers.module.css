@@ -25,9 +25,9 @@
 .bestsellersTitle {
     font-size: 36px;
     font-family: Poppins, sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     color: var(--standard-black);
-    margin-top: 20px;
+    margin: 20px 0 60px 0;
 }
 
 .bestsellersList {
@@ -38,12 +38,83 @@
 }
 
 .bestsellersItem {
-    width: 270px;
-    height: 250px;
+    position: relative;
+    border-radius: 4px;
 }
 
-.bestsellersImage {
-    width: 250px;
-    height: 250px;
-    border: 1px solid red;
+.bestsellersItemImage {
+    background-color: var(--gray);
+    padding: 35px 40px;
+    border-radius: 4px;
 }
+
+.bestsellersItemTitle {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    color: var(--standard-black);
+    margin-top: 16px;
+}
+
+.bestsellersItemPrice {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.bestsellersItemPriceNew {
+    font-family: Poppins, sans-serif;
+    color: var(--red);
+}
+
+.bestsellersItemPriceOld {
+    font-family: Poppins, sans-serif;
+    text-decoration: line-through;
+    color: var(--flashsales-slider-price);
+}
+
+.bestsellersRating {    
+    display: flex;
+    gap: 8px;    
+}
+
+.bestsellersRatingCount {
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    color: var(--flashsales-slider-price);
+}
+
+.bestsellersWidgets {
+    position: absolute;
+    top: 0.75em;
+    right: 0.45em;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.bestsellersWidgetsFavorites {
+    display: inline-flex;
+    padding: 9px 8px;
+    background-color: var(--standard-white);
+    border-radius: 100%;
+}
+
+.bestsellersWidgetsFavIcon {
+    max-width: 16px;
+    height: 14px;
+}
+
+.bestsellersWidgetsToggle {
+    padding: 9px 8px;
+    background-color: var(--standard-white);
+    border-radius: 100%;
+}
+
+.bestsellersWidgetsToggleIcon {
+    max-width: 19px;
+    height: 14px;
+}
+
+
+

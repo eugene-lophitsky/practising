@@ -6,11 +6,11 @@ import sliderImg1 from '/flashsales_slider_img1.webp';
 import sliderImg2 from '/flashsales_slider_img2.webp';
 import sliderImg3 from '/flashsales_slider_img3.webp';
 import sliderImg4 from '/flashsales_slider_img4.webp';
-import fourStar from './four-star.svg';
-import fourHalfStar from './four-half-star.svg';
-import fiveStar from './five_star.svg';
-import favorites from './add-to-favorites_small.svg';
-import toggle from './icons/toggle.svg';
+import fourStar from '/four-star.svg';
+import fourHalfStar from '/four-half-star.svg';
+import fiveStar from '/five_star.svg';
+import favorites from '/add-to-favorites_small.svg';
+import toggle from '/toggle.svg';
 import '../FlashSales/FlashSales.css';
 
 function SalesSlider() {
@@ -120,7 +120,7 @@ function SalesSlider() {
             </a>
           </div>
           <div className="swiper-slide__discount-die">-30%</div>
-        <div className="swiper-slide__image"><img src={sliderImg3} alt="" /></div>
+        {/* <div className="swiper-slide__image"><img src={sliderImg3} alt="" /></div> */}
           <div className="swiper-slide__title">IPS LCD Gaming Monitor</div>
           <div className="swiper-slide__price">
               <div className="swiper-slide__price-new">¥370</div>
