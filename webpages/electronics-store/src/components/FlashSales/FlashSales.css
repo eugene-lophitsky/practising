@@ -115,12 +115,14 @@
 
 .swiper-slide__widgets-favorites {
   display: inline-flex;
+  max-width: 34px;
   padding: 9px 8px;
   background-color: var(--standard-white);
   border-radius: 100%;
 }
 
 .swiper-slide__widgets-toggle {
+  max-width: 34px;
   padding: 9px 8px;
   background-color: var(--standard-white);
   border-radius: 100%;
