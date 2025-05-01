@@ -1,4 +1,6 @@
 .bestsellers {
+    display: flex;
+    flex-direction: column;
     max-width: 1170px;
     margin: 70px auto 140px auto;
 }
@@ -116,5 +118,9 @@
     height: 14px;
 }
 
+.bestsellersSale {
+    max-width: 1170px;
+    margin: 0 auto;
+}
 
 

@@ -31,6 +31,13 @@ function Bestsellers() {
                 ))}
             </div>
 
+            <div className="bestsellersSale">
+               <div className="bestsellersWrapper">
+                  <div className="bestsellersDescription"></div>
+                  <div className="bestsellersImage"></div>
+               </div>
+            </div>    
+
         </div>
     );
 }
