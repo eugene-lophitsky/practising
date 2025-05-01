@@ -41,6 +41,7 @@ function Bestsellers() {
                       <div className={styles.bestsellersDetailsOrderButton}>Buy now!</div>
                   </div>
                   <div className={styles.bestsellersImage}>
+                    <div className={styles.bestsellersImageSubstrate}></div>
                     <img src={boombox} alt="" />
                   </div>
 
