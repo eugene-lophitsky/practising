@@ -1,5 +1,6 @@
 import styles from "../Bestsellers/Bestsellers.module.css";
 import bestsellers from "./data.js";
+import boombox from '../../img/boombox.webp';
 
 
 function Bestsellers() {
@@ -31,10 +32,18 @@ function Bestsellers() {
                 ))}
             </div>
 
-            <div className="bestsellersSale">
-               <div className="bestsellersWrapper">
-                  <div className="bestsellersDescription"></div>
-                  <div className="bestsellersImage"></div>
+            <div className={styles.bestsellersSale}>
+               <div className={styles.bestsellersWrapper}>
+
+                  <div className={styles.bestsellersDetails}>
+                      <div className={styles.bestsellersDetailsTitle}>Categories</div>
+                      <div className={styles.bestsellersDetailsSlogan}>Enhance Your Music Experience</div>
+                      <div className={styles.bestsellersDetailsOrderButton}>Buy now!</div>
+                  </div>
+                  <div className={styles.bestsellersImage}>
+                    <img src={boombox} alt="" />
+                  </div>
+
                </div>
             </div>    
 

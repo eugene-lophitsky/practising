@@ -119,8 +119,20 @@
 }
 
 .bestsellersSale {
+    display: flex;
     max-width: 1170px;
+    background-color: var(--standard-black);
     margin: 0 auto;
 }
 
+.bestsellersDetails {
+    max-width: 443px;
+}
 
+.bestsellersDetailsTitle {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    line-height: 60px;
+    color: var(--standard-white);
+}
