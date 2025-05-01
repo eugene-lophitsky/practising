@@ -120,6 +120,7 @@
 
 .bestsellersSale {
     background-color: var(--standard-black);
+    margin-top: 140px;
 }
 
 .bestsellersWrapper {
@@ -172,10 +173,11 @@
 .bestsellersImageSubstrate {
     position: absolute;
     top: -83px;
+    left: -7px;
     width: 504px;
     height: 500px;
-    background-image: radial-gradient(rgb(107, 106, 106), #000000 75%);
+    background-image: radial-gradient(rgb(105, 104, 104), #000000 76%);
     z-index: -1;
     border-radius: 100%;
-    backdrop-filter: blur(215px);
+    backdrop-filter: blur(295px);
 }
