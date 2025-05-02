@@ -38,7 +38,7 @@ function Bestsellers() {
                   <div className={styles.bestsellersDetails}>
                       <div className={styles.bestsellersDetailsTitle}>Categories</div>
                       <div className={styles.bestsellersDetailsSlogan}>Enhance Your Music Experience</div>
-                      <div className={styles.bestsellersDetailsOrderButton}>Buy now!</div>
+                      <a href="#" className={styles.bestsellersDetailsOrderButton}>Buy now!</a>
                   </div>
                   <div className={styles.bestsellersImage}>
                     <div className={styles.bestsellersImageSubstrate}></div>

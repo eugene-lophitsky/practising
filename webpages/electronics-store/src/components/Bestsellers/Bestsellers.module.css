@@ -158,6 +158,7 @@
     font-weight: 400;
     font-family: Poppins, sans-serif;
     line-height: 24px;
+    text-decoration: none;
     color: var(--standard-white);
     background-color: var(--red);
     padding: 16px 49.8px;

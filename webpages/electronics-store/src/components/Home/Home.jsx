@@ -2,6 +2,7 @@ import Jumbotron from "../Jumbotron/Jumbotron";
 import FlashSales from "../FlashSales/FlashSales";
 import Categories from "../Categories/Categories";
 import Bestsellers from "../Bestsellers/Bestsellers";
+import OurProducts from "../OurProducts/OurProducts";
 
 function Home () {
     return (
@@ -10,6 +11,7 @@ function Home () {
             <FlashSales/>
             <Categories/>
             <Bestsellers/>
+            <OurProducts/>
         </div>
     )
 }
