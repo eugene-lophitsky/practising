@@ -97,7 +97,7 @@
 
 .bestsellersWidgetsFavorites {
     display: inline-flex;
-    padding: 9px 8px;
+    padding: 10px 8px;
     background-color: var(--standard-white);
     border-radius: 100%;
 }
@@ -108,7 +108,8 @@
 }
 
 .bestsellersWidgetsToggle {
-    padding: 9px 8px;
+    display: inline-flex;
+    padding: 10px 7.5px;
     background-color: var(--standard-white);
     border-radius: 100%;
 }

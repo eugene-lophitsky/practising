@@ -35,6 +35,7 @@ function OurProducts() {
                     </div>
                     ))}
                 </div>
+                <a href="#" className={styles.ourProductsAddInfoButton}>View All Products</a>
             </div>
         </div>
     );
