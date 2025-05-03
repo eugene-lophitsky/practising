@@ -13,6 +13,14 @@ function OurProducts() {
                 <div className={styles.ourProductsList}>
                     {products.map(item => (
                           <div className={styles.ourProductsListItem} key={item.title}>
+                            <div className={styles.ourProductsItemWidgets}>
+                                <a href="#" className={styles.ourProductsItemFavorites}>
+                                    <img className={styles.ourProductsItemFavIcon} src={item.favorites} alt="" />
+                                </a>
+                                <a href="#" className={styles.ourProductsItemToggle}>
+                                    <img className={styles.ourProductsItemToggleIcon} src={item.toggle} alt="" />
+                                </a>
+                            </div>  
                           <div className={styles.ourProductsItemImageWrapper}>
                             <img src={item.img} alt="" className={styles.ourProductsItemImage}/>
                           </div>

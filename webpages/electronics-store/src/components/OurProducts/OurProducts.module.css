@@ -38,6 +38,10 @@
     gap: 30px;
 }
 
+.ourProductsListItem {
+    position: relative;
+}
+
 .ourProductsItemImageWrapper {
     background-color: var(--gray);
     padding: 35px 40px;
@@ -77,4 +81,37 @@
     font-family: Poppins, sans-serif;
     font-weight: 600;
     color: var(--flashsales-slider-price);
+}
+
+.ourProductsItemWidgets {
+    position: absolute;
+    top: 0.75em;
+    right: 0.45em;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.ourProductsItemFavorites {
+    display: inline-flex;
+    max-width: 34px;
+    padding: 9px 8px;
+    background-color: var(--standard-white);
+    border-radius: 100%;
+}
+
+.ourProductsItemFavIcon {
+    max-width: 16px;
+    height: 14px;
+}
+
+.ourProductsItemToggle {
+    padding: 9px 8px;
+    background-color: var(--standard-white);
+    border-radius: 100%;
+}
+
+.ourProductsItemToggleIcon {
+    max-width: 19px;
+    height: 14px;
 }
