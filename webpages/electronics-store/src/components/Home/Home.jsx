@@ -3,6 +3,7 @@ import FlashSales from "../FlashSales/FlashSales";
 import Categories from "../Categories/Categories";
 import Bestsellers from "../Bestsellers/Bestsellers";
 import OurProducts from "../OurProducts/OurProducts";
+import Featured from "../Featured/Featured";
 
 function Home () {
     return (
@@ -12,6 +13,7 @@ function Home () {
             <Categories/>
             <Bestsellers/>
             <OurProducts/>
+            <Featured/>
         </div>
     )
 }
