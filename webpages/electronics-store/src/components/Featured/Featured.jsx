@@ -9,7 +9,16 @@ function Featured() {
                     <div className={styles.featuredDieText}>Featured</div>
                 </div>
                 <div className={styles.featuredTitle}>New Arrival</div>
-                <div className={styles.featuredCards}></div>
+                <div className={styles.featuredCards}>
+                    <div className={styles.featuredCardsExample1}>PlayStation 5</div>
+                    <div className={styles.gridContainer}>
+                    <div className={styles.featuredCardsExample2}>Women’s Collections</div>
+                        <div className={styles.gridContainer2}>
+                            <div className={styles.featuredCardsExample3}>Speakers</div>
+                            <div className={styles.featuredCardsExample4}>Perfume</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );

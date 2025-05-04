@@ -29,3 +29,51 @@
     color: var(--standard-black);
     margin: 20px 0 60px 0;
 }
+
+.featuredCards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 32px 30px;
+}
+
+.featuredCardsExample1 {
+    grid-row: 1/2;
+    color: var(--standard-white);
+    padding: 17px;
+    background-color: var(--standard-black);
+    border-radius: 4px;
+}
+.featuredCardsExample2 {
+    grid-row: 50%;
+    color: var(--standard-white);
+    padding: 17px;
+    background-color: var(--standard-black);
+    border-radius: 4px;
+}
+.featuredCardsExample3 {
+    color: var(--standard-white);
+    padding: 17px;
+    background-color: var(--standard-black);
+    border-radius: 4px;
+}
+.featuredCardsExample4 {
+    color: var(--standard-white);
+    padding: 17px;
+    background-color: var(--standard-black);
+    border-radius: 4px;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 32px;
+}
+
+.gridContainer2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    height: 284px;
+}
