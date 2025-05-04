@@ -37,7 +37,8 @@
     gap: 32px 30px;
 }
 
-.featuredCardsExample1 {
+.featuredCardFirst {
+    position: relative;
     display: grid;
     align-items: flex-end;
     grid-row: 1/2;
@@ -45,7 +46,31 @@
     background-color: var(--standard-black);
     border-radius: 4px;
 }
-.featuredCardsExample2 {
+
+.featuredCardText {
+    max-width: 255px;
+    position: absolute;
+    left: 32px;
+    bottom: 32px;
+    display: block;
+}
+
+.featuredCardSecondText {
+    position: absolute;
+    display: block;
+}
+
+.featuredCardThirdText {
+    position: absolute;
+    display: block;
+}
+
+.featuredCardFourthText {
+    position: absolute;
+    display: block;
+}
+
+.featuredCardSecond {
     display: grid;
     justify-items: flex-end;
     align-items: flex-end;
@@ -53,7 +78,7 @@
     background-color: var(--standard-black);
     border-radius: 4px;
 }
-.featuredCardsExample3 {
+.featuredCardThird {
     display: grid;
     justify-items: center;
     align-items: center;
@@ -61,7 +86,7 @@
     background-color: var(--standard-black);
     border-radius: 4px;
 }
-.featuredCardsExample4 {
+.featuredCardFourth {
     display: grid;
     justify-items: center;
     align-items: center;
@@ -82,4 +107,29 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 32px;
     height: 284px;
+}
+
+.featuredCardTitle {
+    font-size: 24px;
+    font-family: Poppins, sans-serif;
+    color: var(--standard-white);
+}
+
+.featuredCardDetails {
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+    line-height: 21px;
+    color: var(--standard-white);
+    margin: 16px 0;
+}
+
+.featuredCardLink {
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    text-decoration: none;
+    line-height: 24px;
+    color: var(--standard-white);
+}
+.featuredCardLink:hover {
+    text-decoration: underline;
 }
