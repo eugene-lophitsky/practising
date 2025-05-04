@@ -1,4 +1,8 @@
 import styles from "../Featured/Featured.module.css";
+import playstation from '/playstation.webp';
+import womens_collections from '/women’s _collections.webp';
+import wireless_speakers from '/wireless_speakers.webp';
+import gucci_parfume from '/gucci_intense_parfume.webp';
 
 function Featured() {
     return (
@@ -10,12 +14,20 @@ function Featured() {
                 </div>
                 <div className={styles.featuredTitle}>New Arrival</div>
                 <div className={styles.featuredCards}>
-                    <div className={styles.featuredCardsExample1}>PlayStation 5</div>
+                    <div className={styles.featuredCardsExample1}>
+                        <img src={playstation} alt="" />
+                        </div>
                     <div className={styles.gridContainer}>
-                    <div className={styles.featuredCardsExample2}>Women’s Collections</div>
+                    <div className={styles.featuredCardsExample2}>
+                        <img src={womens_collections} alt="" />
+                    </div>
                         <div className={styles.gridContainer2}>
-                            <div className={styles.featuredCardsExample3}>Speakers</div>
-                            <div className={styles.featuredCardsExample4}>Perfume</div>
+                            <div className={styles.featuredCardsExample3}>
+                                <img src={wireless_speakers} alt="" />
+                            </div>
+                            <div className={styles.featuredCardsExample4}>
+                                <img src={gucci_parfume} alt="" />
+                            </div>
                         </div>
                     </div>
                 </div>

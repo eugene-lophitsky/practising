@@ -38,28 +38,34 @@
 }
 
 .featuredCardsExample1 {
+    display: grid;
+    align-items: flex-end;
     grid-row: 1/2;
     color: var(--standard-white);
-    padding: 17px;
     background-color: var(--standard-black);
     border-radius: 4px;
 }
 .featuredCardsExample2 {
-    grid-row: 50%;
+    display: grid;
+    justify-items: flex-end;
+    align-items: flex-end;
     color: var(--standard-white);
-    padding: 17px;
     background-color: var(--standard-black);
     border-radius: 4px;
 }
 .featuredCardsExample3 {
+    display: grid;
+    justify-items: center;
+    align-items: center;
     color: var(--standard-white);
-    padding: 17px;
     background-color: var(--standard-black);
     border-radius: 4px;
 }
 .featuredCardsExample4 {
+    display: grid;
+    justify-items: center;
+    align-items: center;
     color: var(--standard-white);
-    padding: 17px;
     background-color: var(--standard-black);
     border-radius: 4px;
 }
