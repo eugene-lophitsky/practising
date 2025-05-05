@@ -7,6 +7,47 @@
     margin: 0 auto;
 }
 
+.footerFeedbackTitle {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Poppins, sans-serif;
+    line-height: 24px;
+    color: var(--standard-white);
+}
+
+.footerFeedbackLink {
+    display: inline-block;
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+    text-decoration: none;
+    line-height: 28px;
+    color: var(--standard-white);
+    margin: 24px 0;
+}
+
+.footerFeedbackOffer {
+    font-weight: 300;
+    font-family: Poppins, sans-serif;
+    line-height: 24px;
+    color: var(--standard-white);
+    margin-bottom: 16px;
+}
+
+.footerFeedbackForm {
+    display: inline-flex;
+    border: 2px solid var(--standard-white);
+    padding: 8px 12px 8px 16px;
+    border-radius: 4px;
+}
+
+.footerFeedbackFormInput {
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    line-height: 24px;
+    color: var(--footer-copyright);
+    background-color: inherit;
+}
+
 
 .footerCopyright {
     text-align: center;

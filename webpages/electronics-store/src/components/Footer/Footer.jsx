@@ -9,11 +9,11 @@ function Footer () {
 
                 <div className={styles.footerFeedback}>
                     <div className={styles.footerFeedbackTitle}>Exclusive</div>
-                    <div className={styles.footerFeedbackLink}>Subscribe</div>
+                    <a href="#" className={styles.footerFeedbackLink}>Subscribe</a>
                     <div className={styles.footerFeedbackOffer}>Get 10% off your first order</div>
                     <form action="" className={styles.footerFeedbackForm}>
-                        <input type="text" className={styles.footerFeedbackFormInput}/>
-                        <a className={styles.footerFeedbackFormButton}>
+                        <input type="text" className={styles.footerFeedbackFormInput} placeholder="Enter your email" />
+                        <a href="#" className={styles.footerFeedbackFormButton}>
                             <img src={iconSend} alt="" />
                         </a>
                     </form>
