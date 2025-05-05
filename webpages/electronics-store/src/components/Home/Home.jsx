@@ -4,6 +4,7 @@ import Categories from "../Categories/Categories";
 import Bestsellers from "../Bestsellers/Bestsellers";
 import OurProducts from "../OurProducts/OurProducts";
 import Featured from "../Featured/Featured";
+import Footer from "../Footer/Footer";
 
 function Home () {
     return (
@@ -14,6 +15,7 @@ function Home () {
             <Bestsellers/>
             <OurProducts/>
             <Featured/>
+            <Footer/>
         </div>
     )
 }
