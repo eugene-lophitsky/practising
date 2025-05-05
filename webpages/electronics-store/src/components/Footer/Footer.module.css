@@ -1,0 +1,16 @@
+.footer {
+    background-color: var(--standard-black);
+}
+
+.footerWrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+.footerCopyright {
+    text-align: center;
+    color: var(--footer-copyright);
+    padding: 16px 0 24px 0;
+}
+
