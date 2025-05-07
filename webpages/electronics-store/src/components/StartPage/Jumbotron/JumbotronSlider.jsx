@@ -6,7 +6,7 @@ import 'swiper/css/pagination';
 import firstSlide from '/jumbotron_slider_img_1.webp';
 import secondSlide from '/jumbotron_slider_img_2.webp';
 import thirdSlide from '/jumbotron_slider_img_3.webp';
-import appleLogo from '../../icons/slider-apple-logo.png';
+import appleLogo from '/slider-apple-logo.png';
 import '../Jumbotron/Jumbotron.css';
 
 function JumbotronSlider() {

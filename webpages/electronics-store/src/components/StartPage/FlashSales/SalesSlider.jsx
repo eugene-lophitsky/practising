@@ -120,7 +120,7 @@ function SalesSlider() {
             </a>
           </div>
           <div className="swiper-slide__discount-die">-30%</div>
-        {/* <div className="swiper-slide__image"><img src={sliderImg3} alt="" /></div> */}
+          <div className="swiper-slide__image"><img src={sliderImg3} alt="" /></div>
           <div className="swiper-slide__title">IPS LCD Gaming Monitor</div>
           <div className="swiper-slide__price">
               <div className="swiper-slide__price-new">¥370</div>

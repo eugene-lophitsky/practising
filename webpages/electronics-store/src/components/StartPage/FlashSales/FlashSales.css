@@ -92,7 +92,7 @@
   display: block;
   width: 24px;
   height: 24px;
-  background: url("../../icons/flashsale-slider-icon-arrow-left.svg");
+  background: url("../../../icons/flashsale-slider-icon-arrow-left.svg");
   padding: 4px;
 }
 
@@ -101,7 +101,7 @@
   display: block;
   width: 24px;
   height: 24px;
-  background: url("../../icons/flashsale-slider-icon-arrow-right.svg");
+  background: url("../../../icons/flashsale-slider-icon-arrow-right.svg");
 }
 
 .swiper-slide__widgets {

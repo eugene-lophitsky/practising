@@ -1,6 +1,6 @@
 import styles from "../Bestsellers/Bestsellers.module.css";
 import bestsellers from "./data.js";
-import boombox from '../../img/boombox.webp';
+import boombox from '../../../img/boombox.webp';
 
 
 function Bestsellers() {

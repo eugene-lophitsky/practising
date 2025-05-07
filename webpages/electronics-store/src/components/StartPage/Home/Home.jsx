@@ -1,4 +1,4 @@
-import Jumbotron from "../Jumbotron/Jumbotron";
+import Jumbotron from "../Jumbotron/Jumbotron.jsx";
 import FlashSales from "../FlashSales/FlashSales";
 import Categories from "../Categories/Categories";
 import Bestsellers from "../Bestsellers/Bestsellers";
