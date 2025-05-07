@@ -1,12 +1,55 @@
 .contacts {
     max-width: 1700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
     margin: 0 auto;
 }
 
 .contactsCommunications {
+    padding: 40px 35px 51px 35px;
+    box-shadow: 0px 4px 9px 0px var(--box-shadow);
+    border-radius: 4px;
+}
 
+
+.contactsCommunicationsCaption {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.contactsCommunicationTitle {
+    font-family: Poppins, sans-serif;
+    line-height: 24px;
+    color: var(--standard-black);
+}
+
+.contactsCommunicationDetails {
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+    line-height: 21px;
+    color: var(--standard-black);
+    margin: 24px 0 16px 0;
+}
+
+.divider {
+    width: 100%;
+    max-width: 270px;
+    height: 1px;
+    background-color: var(--divider);
+    margin: 32px 0;
+}
+
+.contactsCommunicationTouch {
+    font-size: 14px;
+    font-family: Poppins, sans-serif;
+    line-height: 21px;
+    color: var(--standard-black);
 }
 
 .contactsFeedbackForm {
-
+    padding: 40px 32px 40px 31px;
 }
+
