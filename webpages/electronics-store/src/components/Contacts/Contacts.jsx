@@ -28,9 +28,14 @@ function Contacts () {
             </div>
 
             <div className={styles.contactsFeedbackForm}>
-                <form>
-                    <input type="text" placeholder="Your Name *" /><input type="text" placeholder="Your Email *" /><input type="text" placeholder="Your Phone *" /><br />
-                    <textarea name="" id="" placeholder="Your Message"></textarea>
+                <form className={styles.contactsFeedbackFormWrapper}>
+                    <span className={styles.contactsFeedbackFormInputs}>
+                        <input type="text" className={styles.contactsCommunicationInput} placeholder="Your Name *" />
+                        <input type="text" className={styles.contactsCommunicationInput} placeholder="Your Email *" />
+                        <input type="text" className={styles.contactsCommunicationInput} placeholder="Your Phone *" />
+                    </span>
+                    <textarea name="" id="" className={styles.contactsCommunicationTextarea} placeholder="Your Message" cols={88} rows={10} ></textarea>
+                    <a href="#" className={styles.contactsCommunicationButton}>Send Message</a>
                 </form>
             </div>
         </div>

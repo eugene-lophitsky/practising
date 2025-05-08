@@ -1,18 +1,17 @@
 .contacts {
-    max-width: 1700px;
+    max-width: 1170px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    margin: 0 auto;
+    margin: 100px auto 100px auto;
 }
 
 .contactsCommunications {
-    padding: 40px 35px 51px 35px;
+    padding: 39px 41px 43px 41px;
     box-shadow: 0px 4px 9px 0px var(--box-shadow);
     border-radius: 4px;
 }
-
 
 .contactsCommunicationsCaption {
     display: flex;
@@ -31,7 +30,7 @@
     font-family: Poppins, sans-serif;
     line-height: 21px;
     color: var(--standard-black);
-    margin: 24px 0 16px 0;
+    margin: 29px 0 23px 0;
 }
 
 .divider {
@@ -50,6 +49,50 @@
 }
 
 .contactsFeedbackForm {
-    padding: 40px 32px 40px 31px;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 800px;
+    padding: 41px 32px 41px 31px;
+    box-shadow: 0px 4px 9px 0px var(--box-shadow);
+    border-radius: 4px;
 }
 
+.contactsFeedbackFormInputs {
+    display: flex;
+    gap: 16px;
+    margin: 4px 0;
+}
+
+.contactsCommunicationInput {
+    font-size: 16px;
+    font-family: Popins, sans-serif;
+    background-color: var(--gray);
+    padding: 16px 24px 16px 16px;
+    border-radius: 4px;
+}
+
+.contactsCommunicationInput::placeholder {
+    font-family: Popins, sans-serif;
+    background-color: var(--gray);
+}
+
+.contactsCommunicationTextarea {
+    font-size: 16px;
+    font-family: Popins, sans-serif;
+    background-color: var(--gray);
+    resize: none;
+    padding: 13px 0 0 16px;
+    margin: 32px 0;
+}
+
+.contactsCommunicationButton {
+    display: inline-flex;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    text-decoration: none;
+    line-height: 24px;
+    color: var(--standard-white);
+    background-color: var(--red);
+    padding: 16px 49.3px;
+    border-radius: 4px;
+}
