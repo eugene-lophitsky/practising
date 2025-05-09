@@ -1,0 +1,11 @@
+.aboutJumbotron {
+    display: flex;
+}
+
+.aboutJumbotronDescription {
+    display: flex;
+}
+
+.aboutJumbotronImage {
+    display: inline-flex;
+}   
