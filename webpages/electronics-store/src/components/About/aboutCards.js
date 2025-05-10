@@ -2,7 +2,7 @@ const aboutCards = [
     {
         amount: "10.5k ",
         details: "Active Sellers active in our site",
-        categoriesListItemIcon: "/shop.svg",
+        aboutCardIcon: "/shop.svg",
         style: {
             backgroundColor: "var(--standard-black)",
             mask: "url('/../../../src/icons/phones.svg') no-repeat",
@@ -19,7 +19,7 @@ const aboutCards = [
     {
         amount: "33k",
         details: "Monthly Product Sales",
-        categoriesListItemIcon: "/sale.svg",
+        aboutCardIcon: "/sale.svg",
         style: {
             backgroundColor: "var(--standard-black)",
             mask: "url('/../../../src/icons/computers.svg') no-repeat",
@@ -30,7 +30,7 @@ const aboutCards = [
     {
         amount: "45.5k",
         details: "Annual gross sale in our site",
-        categoriesListItemIcon: "/shopping_bag.svg",
+        aboutCardIcon: "/shopping_bag.svg",
         style: {
             backgroundColor: "var(--standard-black)",
             mask: "url('/../../../src/icons/smartWatch.svg') no-repeat",
@@ -41,7 +41,7 @@ const aboutCards = [
     {
         amount: "25k",
         details: "SmartWatch",
-        categoriesListItemIcon: "/moneybag.svg",
+        aboutCardIcon: "/moneybag.svg",
         style: {
             backgroundColor: "var(--standard-black)",
             mask: "url('/../../../src/icons/smartWatch.svg') no-repeat",

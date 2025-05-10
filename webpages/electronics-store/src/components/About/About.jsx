@@ -32,7 +32,10 @@ function About () {
             </div>
             <div className={styles.aboutAchievements}>
                 {aboutCards.map(aboutCard => (
-                    <div key={aboutCard.details}>{aboutCard.details}</div>
+                    <div key={aboutCard.aboutAchievementsCard}>
+                        <div ><img src={aboutCard.aboutCardIcon} alt="" className={styles.aboutCardIcon}/></div>
+                        <div ></div>
+                    </div>
                 ))}
             </div>
             <div className={styles.aboutExperts}></div>
