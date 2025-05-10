@@ -1,5 +1,6 @@
 import styles from './About.module.css';
 import jumbotronPhoto from '/about-us-jumbotron.webp';
+import aboutCards from './aboutCards.js';
 
 function About () {
     return (
@@ -29,7 +30,11 @@ function About () {
                     <img src={jumbotronPhoto} alt="" />
                 </div>
             </div>
-            <div className={styles.aboutAchievements}></div>
+            <div className={styles.aboutAchievements}>
+                {aboutCards.map(aboutCard => (
+                    <div key={aboutCard.details}>{aboutCard.details}</div>
+                ))}
+            </div>
             <div className={styles.aboutExperts}></div>
             <div className={styles.aboutServices}></div>
         </div>
@@ -41,4 +46,3 @@ export default About;
 
 
 
-// about-us-jumbotron.webp
