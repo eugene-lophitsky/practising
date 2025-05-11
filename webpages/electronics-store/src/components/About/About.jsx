@@ -1,5 +1,6 @@
 import Jumbotron from '../About/Jumbotron/Jumbotron.jsx';
 import Achievements from './Achievements/Achievements.jsx';
+import Experts from './Experts/Experts.jsx';
 import styles from './About.module.css';
 
 function About () {
@@ -7,7 +8,7 @@ function About () {
         <div className={styles.about}>
             <Jumbotron/>
             <Achievements/>
-            <div className={styles.aboutExperts}></div>
+            <Experts/>
             <div className={styles.aboutServices}></div>
         </div>
     )
