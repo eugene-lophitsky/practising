@@ -1,7 +1,7 @@
 const aboutCards = [
     {
         amount: "10.5k ",
-        details: "Active Sellers active in our site",
+        details: "Active sellers on site",
         aboutCardIcon: "/shop.svg",
         style: {
             backgroundColor: "var(--standard-black)",
@@ -29,7 +29,7 @@ const aboutCards = [
     },
     {
         amount: "45.5k",
-        details: "Annual gross sale in our site",
+        details: 'Active customers on site',
         aboutCardIcon: "/shopping_bag.svg",
         style: {
             backgroundColor: "var(--standard-black)",
@@ -40,7 +40,7 @@ const aboutCards = [
     },
     {
         amount: "25k",
-        details: "SmartWatch",
+        details: "Annual gross sale on site",
         aboutCardIcon: "/moneybag.svg",
         style: {
             backgroundColor: "var(--standard-black)",
