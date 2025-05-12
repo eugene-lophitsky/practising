@@ -11,7 +11,7 @@
     flex-direction: column;
     align-items: center;
     max-width: 270px;
-    padding: 32px 35px;
+    padding: 29px 35px;
     border: 1px solid var(--header-border);
     border-radius: 4px;
 }

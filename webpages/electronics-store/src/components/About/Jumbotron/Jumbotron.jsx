@@ -24,8 +24,8 @@ function Jumbotron () {
                         </div>
                     </div>
                 </div>
-                <div className={styles.aboutJumbotronImage}>
-                    <img src={jumbotronPhoto} alt="" />
+                <div className={styles.aboutJumbotronImageWrapper}>
+                    <img src={jumbotronPhoto} className={styles.aboutJumbotronImage} alt="" />
                 </div>
             </div>
   )
