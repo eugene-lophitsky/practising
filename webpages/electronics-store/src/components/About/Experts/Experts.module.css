@@ -1,0 +1,26 @@
+.experts {
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 0 auto 100px auto;
+}
+
+.expertsCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: chocolate;
+}
+
+.expertsCardImageWrapper {
+    max-width: 370px;
+    max-height: 430px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--gray);
+    padding: 33px 60px 0 60px;
+    border-radius: 4px;
+}

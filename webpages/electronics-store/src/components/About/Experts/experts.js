@@ -4,7 +4,7 @@ const expertsCards = [
         name: "Tom Cruise",
         occupation: "Founder & Chairman",
         social: {
-            twitter: "url('/icon_twitter_small.svg') no-repeat",
+            twitter: "url('./icon_twitter_small.svg') no-repeat",
             instagram: "url('/icon_instagram_small.svg') no-repeat",
             linkedin: "url('/icon_linkedin_small.svg') no-repeat",
         },
