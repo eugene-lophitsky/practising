@@ -3,7 +3,7 @@ import FlashSales from "../FlashSales/FlashSales";
 import Categories from "../Categories/Categories";
 import Bestsellers from "../Bestsellers/Bestsellers";
 import OurProducts from "../OurProducts/OurProducts";
-import Featured from "../Featured/Featured";
+import Featured from "../Featured/Featured.jsx";
 import Footer from "../Footer/Footer";
 
 function Home () {

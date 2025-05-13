@@ -5,6 +5,7 @@ import instagram from '/icon_instagram_small.svg';
 import linkedin from '/icon_linkedin_small.svg';
 
 function Experts () {
+
   return (
     <div className={styles.experts}>
            {expertsCards.map(card => (
@@ -27,3 +28,6 @@ function Experts () {
 }
 
 export default Experts;
+
+
+                  

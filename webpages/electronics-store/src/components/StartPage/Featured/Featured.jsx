@@ -3,9 +3,7 @@ import playstation from "/playstation.webp";
 import womens_collections from "/women’s _collections.webp";
 import wireless_speakers from "/wireless_speakers.webp";
 import gucci_parfume from "/gucci_intense_parfume.webp";
-import fastDelivery from '/icon-delivery.svg';
-import customerService from '/icon-customer_service.svg';
-import secure from '/icon-secure.svg';
+import data from "./data.js";
 
 function Featured() {
     return (
@@ -55,34 +53,16 @@ function Featured() {
                         </div>
                     </div>
                 </div>
-                <div className={styles.featuredServices}>
-                    <div className={styles.featuredService}>
+                 <div className={styles.featuredServices}>
+                   {data.map(card => (
+                    <div className={styles.featuredService} key={card.details}>
                         <div className={styles.featuredServiceButton}>
-                            <div className={styles.featuredServiceButtonIcon}>
-                                <img src={fastDelivery} alt="" />
-                            </div>
+                            <div className={styles.featuredServiceButtonIcon}><img src={card.aboutCardIcon} alt="" /></div>
                         </div>
-                        <div className={styles.featuredServiceName}>free and fast delivery</div>
-                        <div className={styles.featuredServiceText}>Free delivery for all orders over ¥140</div>
+                        <div className={styles.featuredServiceName}>{card.title}</div>
+                        <div className={styles.featuredServiceText}>{card.details}</div>
                     </div>
-                    <div className={styles.featuredService}>
-                        <div className={styles.featuredServiceButton}>
-                            <div className={styles.featuredServiceButtonIcon}>
-                                <img src={customerService} alt="" />
-                            </div>
-                        </div>
-                        <div className={styles.featuredServiceName}>24/7 customer service</div>
-                        <div className={styles.featuredServiceText}>Friendly 24/7 customer support</div>
-                    </div>
-                    <div className={styles.featuredService}>
-                        <div className={styles.featuredServiceButton}>
-                            <div className={styles.featuredServiceButtonIcon}>
-                                <img src={secure} alt="" />
-                            </div>
-                        </div>
-                        <div className={styles.featuredServiceName}>money back guarantee</div>
-                        <div className={styles.featuredServiceText}>We reurn money within 30 days</div>
-                    </div>
+                   ))}
                 </div>
             </div>
         </div>
