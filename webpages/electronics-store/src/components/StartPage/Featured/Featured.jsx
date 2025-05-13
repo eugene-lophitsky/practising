@@ -53,7 +53,7 @@ function Featured() {
                         </div>
                     </div>
                 </div>
-                 <div className={styles.featuredServices}>
+                <div className={styles.featuredServices}>
                    {data.map(card => (
                     <div className={styles.featuredService} key={card.details}>
                         <div className={styles.featuredServiceButton}>
