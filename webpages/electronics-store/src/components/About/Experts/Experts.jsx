@@ -7,7 +7,6 @@ import linkedin from '/icon_linkedin_small.svg';
 function Experts () {
   return (
     <div className={styles.experts}>
-
            {expertsCards.map(card => (
             <div key={card.name} className={styles.expertsCard}>
                 <div className={styles.expertsCardImageWrapper}>
@@ -16,9 +15,9 @@ function Experts () {
                 <span className={styles.expertsCardName}>{card.name}</span>
                 <span className={styles.expertsCardOccupation}>{card.occupation}</span>
                 <div className={styles.expertsCardSocial}>
-                  <img src={twitter} alt="" />
-                   <img src={instagram} alt="" />
-                  <img src={linkedin} alt="" />
+                  <a href="#"><img src={twitter} alt="" /></a>
+                  <a href="#"><img src={instagram} alt="" /></a> 
+                  <a href="#"><img src={linkedin} alt="" /></a>
               </div>
             </div>
            ))}
@@ -28,8 +27,3 @@ function Experts () {
 }
 
 export default Experts;
-
-
-                    // <img src={card.social.twitter} alt="" />
-                    // <img src={card.social.instagram} alt="" />
-                    // <img src={card.social.twitter} alt="" />

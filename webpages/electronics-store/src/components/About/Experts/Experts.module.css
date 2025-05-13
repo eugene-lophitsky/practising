@@ -3,15 +3,13 @@
     display: flex;
     justify-content: space-between;
     gap: 30px;
-    margin: 0 auto 100px auto;
+    margin: 140px auto;
 }
 
 .expertsCard {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background-color: chocolate;
 }
 
 .expertsCardImageWrapper {
@@ -23,4 +21,26 @@
     background-color: var(--gray);
     padding: 33px 60px 0 60px;
     border-radius: 4px;
+}
+
+.expertsCardName {
+    font-size: 32px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    color: var(--standard-black);
+    margin-top: 32px;
+}
+
+.expertsCardOccupation {
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    line-height: 24px;
+    color: var(--standard-black);
+    margin: 8px 0 16px 0;
+}
+
+.expertsCardSocial {
+    display: flex;
+    gap: 16px;
 }
