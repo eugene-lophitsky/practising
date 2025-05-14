@@ -1,4 +1,12 @@
 import styles from './Footer.module.css';
+import iconSend from '/icon-send.svg';
+import qr from '/qr-code.svg';
+import googlePlay from '/google-play.webp';
+import appStore from '/appstore.webp';
+import facebook from '/icon_facebook.svg';
+import twitter from '/icon_twitter.svg';
+import instagram from '/icon_instagram.svg';
+import linkedin from '/icon_linkedin.svg';
 
 function Footer () {
   return (
