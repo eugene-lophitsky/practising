@@ -12,7 +12,7 @@ function Footer () {
 
   return (
     <div className={styles.footer}>
-    <div className={styles.footerWrapper}>
+     <div className={styles.footerWrapper}>
         <div className={styles.footerCommon}>
             <div className={styles.footerFeedback}>
                 <div className={styles.footerFeedbackTitle}>Exclusive</div>
