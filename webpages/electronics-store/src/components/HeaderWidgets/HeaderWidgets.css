@@ -30,6 +30,10 @@
   align-items: center;
 }
 
+.headerWidgetsShoppingHidden {
+  display: none;
+}
+
 .headerWidgetsShoppingSavorites {
   display: inline-flex;
   margin: 0 16px 0 22px;
@@ -39,3 +43,4 @@
   max-width: 26px;
   height: 26px;
 } 
+

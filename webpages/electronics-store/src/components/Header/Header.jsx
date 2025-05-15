@@ -1,3 +1,4 @@
+
 import HeaderMenu from "../HeaderMenu/HeaderMenu.jsx";
 import HeaderWidgets from "../HeaderWidgets/HeaderWidgets";
 import styles from './Header.module.css';
@@ -9,7 +10,9 @@ function Header () {
             <div className={styles.headerWrapper}>
                 <span className={styles.headerMenuLogo}>Lux Store</span>
                 <HeaderMenu/>
-                <HeaderWidgets/>
+                <HeaderWidgets />
+                
+                
             </div>
         </div>
     )
