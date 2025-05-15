@@ -9,7 +9,11 @@ function SignUp () {
         <div className={styles.signUpWrapper}>
           <div className={styles.signUpTitle}>Create an account</div>
           <div className={styles.signUpSubtitle}>Enter your details below</div>
-          <form></form>
+          <form className={styles.signUpForm}>
+            <input type="text" name="name" className={styles.signUpFormName} placeholder="Name" />
+            <input type="text" className={styles.signUpFormPhoneNumber} placeholder="Email or Phone Number" />
+            <input type="password" className={styles.signUpFormPassword} placeholder="Password" />
+          </form>
         </div>
       </div>
     </div>
