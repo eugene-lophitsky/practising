@@ -1,4 +1,23 @@
 .signUp {
-    max-width: 1170px;
+    display: flex;
+    align-items: center;
+    margin: 60px auto 140px auto;
+}
+
+.signUpForm {
     margin: 0 auto;
+}
+
+.signUpWrapper {
+    max-width: 371px;
+    display: flex;
+    flex-direction: column;
+}
+
+.signUpTitle {
+
+}
+
+.signUpSubtitle {
+
 }
