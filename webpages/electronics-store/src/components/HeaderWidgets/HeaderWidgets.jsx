@@ -1,8 +1,8 @@
+import { useLocation } from 'react-router-dom';
 import searchLens from '../../icons/search-form-lens.webp';
 import addToFavorites from '/add-to-favorites.svg';
 import addToCart from '../../icons/add-to-cart.svg';
 import '../HeaderWidgets/HeaderWidgets.css';
-import { useLocation } from 'react-router-dom';
 
 function HeaderWidgets () {
 

@@ -34,7 +34,7 @@
     font-family: Poppins, sans-serif;
     line-height: 24px;
     color: var(--third-grey);
-    padding: 6px 18px 6px 4px;
+    padding: 6px 169px 6px 0;
     border-bottom: 1px solid var(--flashsales-slider-price);
     margin-bottom: 40px;
 }
@@ -44,7 +44,7 @@
     font-family: Poppins, sans-serif;
     line-height: 24px;
     color: var(--third-grey);
-    padding: 6px 18px 6px 4px;
+    padding: 6px 169px 6px 0;
     border-bottom: 1px solid var(--flashsales-slider-price);
     margin-bottom: 40px;
 }
@@ -54,6 +54,26 @@
     font-family: Poppins, sans-serif;
     line-height: 24px;
     color: var(--third-grey);
-    padding: 6px 18px 6px 4px;
+    padding: 6px 169px 6px 0;
     border-bottom: 1px solid var(--flashsales-slider-price);
+}
+
+.signUpFormName,
+.signUpFormPhoneNumber,
+.signUpFormPassword:focus {
+    outline: none;
+}
+
+
+.signUpFormButton {
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    line-height: 24px;
+    text-decoration: none;
+    text-align: center;
+    color: var(--standard-white);
+    background-color: var(--red);
+    padding: 16px 22px;
+    border-radius: 4px;
+    margin-top: 40px;
 }

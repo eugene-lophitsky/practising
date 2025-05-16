@@ -13,6 +13,7 @@ function SignUp () {
             <input type="text" name="name" className={styles.signUpFormName} placeholder="Name" />
             <input type="text" className={styles.signUpFormPhoneNumber} placeholder="Email or Phone Number" />
             <input type="password" className={styles.signUpFormPassword} placeholder="Password" />
+            <a href="#" className={styles.signUpFormButton}>Create Account</a>
           </form>
         </div>
       </div>
