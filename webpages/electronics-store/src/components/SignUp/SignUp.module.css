@@ -1,6 +1,6 @@
 .signUp {
     display: flex;
-    align-items: center;
-    margin: 60px auto 140px auto;
+    flex-direction: column;
+    margin: 60px auto 0 auto;
 }
 

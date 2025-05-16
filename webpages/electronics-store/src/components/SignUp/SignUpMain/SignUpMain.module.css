@@ -1,4 +1,12 @@
+.signUpMainWrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 140px;
+}
+
 .signUpForm {
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
 }
 
