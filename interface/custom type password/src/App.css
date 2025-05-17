@@ -1,0 +1,46 @@
+.inputWrapper {
+  position: relative;
+  width: 247px;
+  display: flex;
+  align-items: center;
+  margin: 30px 0 0 100px;
+}
+
+.inputLabel {
+  font-size: 22px;
+  font-family: Calibri, sans-serif;
+  margin-right: 10px;
+}
+
+.textfield {
+  font-size: 18px;
+  color: #66727f;
+  background-color: #f5f7fa;
+  padding: 14px 87px 14px 4px;
+  outline: none;
+  border-radius: 4px;
+}
+
+.switcher {
+  position: relative;
+  max-width: 35px;
+  height: 35px;
+  visibility: hidden;
+  outline: none;
+  border-radius: 8px;
+}
+
+label {
+  position: absolute;
+  right: -8.6em;
+  width: 35px;
+  height: 35px;
+  background: url("../public/eye-closed.svg") center / cover;
+  cursor: pointer;
+}
+
+#switcher:checked  + label {
+  background-image: url("../public/eye-opened.svg");
+  transition: 0.2s;
+  cursor: default;
+}

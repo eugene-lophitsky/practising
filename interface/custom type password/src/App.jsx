@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState } from 'react';
 import './App.css';
 
 function App() {
@@ -7,8 +7,9 @@ function App() {
 
   return (
     <div className="inputWrapper">
+         <span className="inputLabel">Пароль:</span>
          <input type={inputType} name="text" className="textfield"  />
-         <input type="checkbox" name="switcher" id="switcher" className="switcher" onChange={(event) => event.target.checked ? setInputType("text") : setInputType("password")} />
+         <input type="checkbox" name="switcher" id="switcher" className="switcher" onChange={(event) => event.target.checked ? setInputType('text') : setInputType('password')} />
          <label htmlFor="switcher"></label>
     </div>
   )
