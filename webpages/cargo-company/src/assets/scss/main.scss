@@ -1,6 +1,6 @@
-@import 'reset';
-@import 'variables';
-@import 'fonts';
+@import "reset";
+@import "variables";
+@import "fonts";
 
 body {
     background-color: $first-black;
@@ -8,6 +8,33 @@ body {
 
 .header__wrapper {
     max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 25px 0;
     margin: 0 auto;
+
+    .header-menu {
+        display: flex;
+        gap: 45.6px;
+    }
+
+    .header-menu__link {
+        font-size: 16px;
+        font-family: Proxima Nova;
+        text-decoration: none;
+        color: $default-white;
+    }
+
+    .header__button {
+        display: inline-flex;
+        font-size: 15px;
+        font-family: Proxima Nova;
+        font-weight: 400;
+        text-decoration: none;
+        color: $default-white;
+        background-color: $orange;
+        padding: 16px 28.4px;
+        border-radius: 90px;
+    }
 }
