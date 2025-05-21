@@ -70,29 +70,8 @@ body {
     background-color: $first-black;
 }
 
-.swiper-pagination {
-        position: absolute;
-        bottom: -60px;
-        left: 0;
-        right: 0;
-        display: flex;
-        justify-content: center;
-        gap: 8px;
-        z-index: 10;
-    }
-
-.swiper-pagination-horizontal {
-    position: absolute;
-    bottom: -60px; // Поднимаем на 60px от низа
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    z-index: 10;
-    
-    // Если нужно поднять ещё выше (на 100px)
-    // bottom: 100px !important;
+.swiper .swiper-pagination {
+    transform: translateY(-73px); /* альтернативный способ */
 }
 
 .swiper-button-next {
@@ -151,9 +130,3 @@ body {
     margin-top: 20px;
 }
 
-
-.swiper-pagination-horizontal {
-    position: absolute;
-    bottom: 100px;
-    z-index: 8800;
-}
