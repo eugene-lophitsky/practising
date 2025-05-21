@@ -71,32 +71,22 @@ body {
 }
 
 .swiper .swiper-pagination {
-    transform: translateY(-73px); /* альтернативный способ */
+    transform: translateY(-73px);
 }
 
-.swiper-button-next {
-    right: 80px !important;
-    color: white;
-    background-color: fff;
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    background-color: transparent;
+    border: 2px solid $default-white;
+    opacity: 1;
 }
 
-.swiper-button-prev {
-    left: 80px !important;
-    color: white;
-    background-color: fff;
-}
-
-.swiper-pagination-bullet {
-    width: 12px;
-    height: 12px;
-    background-color: var(--slider-bullet);
-}
-
-.swiper-pagination-bullet-active {
-    width: 14px;
-    height: 14px;
-    background-color: var(--red);
-    border: 2px solid var(--standard-white);
+.swiper-wrapper .swiper-horizontal .swiper-pagination-bullet-active {
+    width: 8px;
+    height: 8px;
+    background-color: $default-white;
+    border: 2px solid $default-white;
 }
 
 .swiper-advertising {
@@ -130,3 +120,14 @@ body {
     margin-top: 20px;
 }
 
+.swiper-wrapper .swiper-button-prev {
+    left: 148px;
+    color: white;
+    background-color: fff;
+}
+
+.swiper-wrapper .swiper-button-next {
+    right: 148px;
+    color: white;
+    background-color: fff;
+}
