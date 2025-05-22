@@ -91,33 +91,33 @@ body {
 
 .swiper-advertising {
     position: absolute;
-    top: 100px;
-    left: 104px;
+    top: 163px;
+    left: 340px;
     display: flex;
     flex-direction: column;
     z-index: 100;
     user-select: none;
 }
 
-.swiper-advertising__logo {
+.swiper-advertising__title {
     display: flex;
-    align-items: center;
-    gap: 24px;
+    text-align: left;
+    max-width: 438px;
+    font-size: 56px;
+    font-weight: 500;
+    font-family: Proxima Nova;
+    color: $default-white;
 }
 
-.swiper-advertising__model {
-    font-family: Inter, sans-serif;
-    line-height: 24px;
-    color: var(--standard-white);
-    margin-top: 8px;
-}
-
-.swiper-advertising__text {
-    font-size: 48px;
-    font-family: Inter, sans-serif;
-    font-weight: 600;
-    color: var(--standard-white);
-    margin-top: 20px;
+.swiper-advertising__subtitle {
+    display: flex;
+    text-align: left;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 30px;
+    font-family: Proxima Nova;
+    color: $default-white;
+    margin: 8px 0 37px 0;
 }
 
 .swiper-wrapper .swiper-button-prev {
