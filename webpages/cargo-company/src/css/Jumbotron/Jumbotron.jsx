@@ -4,6 +4,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import 'swiper/css';
 
+
 import slide1 from '/swiper-slide1.webp';
 import slide2 from '/swiper-slide2.webp';
 import slide3 from '/swiper-slide3.webp';
@@ -19,12 +20,13 @@ function Jumbotron () {
         navigation
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
-        // autoplay={true}
+        autoplay={true}
         >
         <SwiperSlide><img src={slide1} alt="" />
               <div className="swiper-advertising">
                 <div className="swiper-advertising__title">Прямое Карго из Китая</div>   
-                <div className="swiper-advertising__subtitle">Доставляем любые грузы из Китая <br />по честной цене</div>   
+                <div className="swiper-advertising__subtitle">Доставляем любые грузы из Китая <br />по честной цене</div>
+                 
               </div>
         </SwiperSlide>
         <SwiperSlide><img src={slide2} alt="" />
