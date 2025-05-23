@@ -19,7 +19,7 @@ function Jumbotron () {
         navigation
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
-        autoplay={true}
+        // autoplay={true}
         >
         <SwiperSlide><img src={slide1} alt="" />
               <div className="swiper-advertising">

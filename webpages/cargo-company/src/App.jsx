@@ -1,5 +1,5 @@
-import Header from "./Header/Header";
-import Jumbotron from "./css/Jumbotron/Jumbotron";
+import Header from './Header/Header';
+import Jumbotron from './Jumbotron/Jumbotron.jsx';
 
 function App() {
 
