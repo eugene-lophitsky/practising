@@ -76,7 +76,6 @@ body {
     gap: 20px;
 }
 
-
 .swiper .swiper-pagination {
     transform: translateY(-73px);
 }
@@ -167,6 +166,22 @@ body {
     color: $light-brown;
     width: 27px;
     height: 27px;
-    background: url("/Vector.svg") center /cover;
+    background: url("/Vector.svg") center / cover;
     border-radius: 100%;
 }
+
+.price-calculating {
+    max-width: 1207px;
+    margin: 0 auto;
+}
+
+.price-calculating-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.price-calculating-form {
+    background-color: $second-black;
+}
+
+
