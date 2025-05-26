@@ -11,20 +11,20 @@ function Stepper () {
         <div className="stepper-body">
             <div className="stepper-fields">
               <div className="stepper-fields-set">
-                  <label htmlFor="ware-category">Категория товара:</label>
-                  <input type="text" placeholder="Категория товара:" name="ware-category"/>
-                  <label htmlFor="cargo-weight">Категория товара:</label>
-                  <input type="text" placeholder="Вес груза (кг):" name="cargo-weight"/>
-                  <label htmlFor="insurance"><input type="checkbox" name="insurance" id="" /> Страховка</label>
-                  <label htmlFor="customs-clearance"><input type="checkbox" name="customs-clearance" id="" />Таможенное оформление</label>
+                  <label htmlFor="ware-category" className="input-label">Категория товара:</label>
+                  <input type="text" placeholder="Категория товара:" name="ware-category" className="textField"/>
+                  <label htmlFor="cargo-weight" className="input-label">Вес груза (кг):</label>
+                  <input type="text" placeholder="Введите вес" name="cargo-weight" className="textField"/>
+                  <label htmlFor="insurance" className="input-checkbox-label"><input type="checkbox" name="insurance" id="" className="input-checkbox input-checkbox--margin"/> Страховка</label>
+                  <label htmlFor="customs-clearance" className="input-checkbox-label"><input type="checkbox" name="customs-clearance" id="" className="input-checkbox"/>Таможенное оформление</label>
               </div>
               <div className="stepper-fields-set">
-                    <label htmlFor="cargo-price">Стоимость груза:</label>
-                    <input type="text" placeholder="Введите стоимость" name="cargo-price"/>
-                    <label htmlFor="cargo-volume">Объём груза (м3):</label>
-                    <input type="text" placeholder="Вес груза (кг):" name="cargo-volume"/>
-                    <label htmlFor="insurance">Код ТН ВЭД:</label>
-                    <input type="type" name="insurance" id="" />
+                    <label htmlFor="cargo-price" className="input-label">Стоимость груза:</label>
+                    <input type="text" placeholder="Введите стоимость" name="cargo-price" className="textField"/>
+                    <label htmlFor="cargo-volume" className="input-label">Объём груза:</label>
+                    <input type="text" placeholder="Введите объём" name="cargo-volume" className="textField"/>
+                    <label htmlFor="insurance" className="input-label">Код ТН ВЭД:</label>
+                    <input type="type" name="insurance" id="" placeholder="Введите код" className="textField"/>
               </div>
             </div>
             <div className="stepper__input-file"></div>

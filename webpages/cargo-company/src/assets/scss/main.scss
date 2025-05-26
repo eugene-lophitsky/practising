@@ -209,7 +209,7 @@ body {
     border-radius: 50%;
     background-color: $first-black;
     color: $default-white;
-    border: none;
+    border: 1px solid $second-black;
     cursor: pointer;
     font-size: 24px;
     font-weight: bold;
@@ -232,6 +232,7 @@ body {
 
 .stepper-fields {
     display: flex;
+    gap: 30px;
 }
 
 .stepper-fields-set {
@@ -239,9 +240,46 @@ body {
     flex-direction: column;
 }
 
-label {
+.input-label {
     font-size: 15px;
+    font-family: Proxima Nova;
     color: $default-white;
+    margin-bottom: 6px;
+}
+
+.input-checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: $default-white;
+}
+
+.input-checkbox {
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    accent-color: $default-white;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.input-checkbox--margin {
+    margin: 20px 0 14px 0;
+}
+
+.textField {
+    padding: 19px 57px 19px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.textField::placeholder {
+    font-size: 15px;
+    color: $text-input-placeholder;
+}
+
+.textField:focus {
+    outline: none;
 }
 
 .tab-content {
