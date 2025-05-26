@@ -1,6 +1,6 @@
-import { useState } from 'react';
+import  { useState } from 'react';
 
-const Stepper = () => {
+function Stepper () {
   const [activeTab, setActiveTab] = useState(0);
 
   const tabs = [
@@ -8,9 +8,28 @@ const Stepper = () => {
       id: 0,
       label: '1',
       content: (
-        <>
-          <p>Строка первого таба</p>
-        </>
+        <div className="stepper-body">
+            <div className="stepper-fields">
+              <div className="stepper-fields-set">
+                  <label htmlFor="ware-category">Категория товара:</label>
+                  <input type="text" placeholder="Категория товара:" name="ware-category"/>
+                  <label htmlFor="cargo-weight">Категория товара:</label>
+                  <input type="text" placeholder="Вес груза (кг):" name="cargo-weight"/>
+                  <label htmlFor="insurance"><input type="checkbox" name="insurance" id="" /> Страховка</label>
+                  <label htmlFor="customs-clearance"><input type="checkbox" name="customs-clearance" id="" />Таможенное оформление</label>
+              </div>
+              <div className="stepper-fields-set">
+                    <label htmlFor="cargo-price">Стоимость груза:</label>
+                    <input type="text" placeholder="Введите стоимость" name="cargo-price"/>
+                    <label htmlFor="cargo-volume">Объём груза (м3):</label>
+                    <input type="text" placeholder="Вес груза (кг):" name="cargo-volume"/>
+                    <label htmlFor="insurance">Код ТН ВЭД:</label>
+                    <input type="type" name="insurance" id="" />
+              </div>
+            </div>
+            <div className="stepper__input-file"></div>
+            <a className="stepper__process-button"></a>
+        </div>
       )
     },
     {
@@ -18,7 +37,8 @@ const Stepper = () => {
       label: '2',
       content: (
         <>
-          <p>Строка второго таба</p>
+          <p className="tab-content-text">Первая строка второго таба</p>
+          <p className="tab-content-text">Вторая строка второго таба</p>
         </>
       )
     },
@@ -27,98 +47,28 @@ const Stepper = () => {
       label: '3',
       content: (
         <>
-          <p>Строка третьего таба</p>
+          <p className="tab-content-text">Первая строка третьего таба</p>
+          <p className="tab-content-text">Вторая строка третьего таба</p>
         </>
       )
     }
   ];
 
-  // Стили в виде JavaScript объектов
-  const styles = {
-    container: {
-      maxWidth: '600px',
-      margin: '0 auto',
-      fontFamily: 'Arial, sans-serif',
-      padding: '24px',
-      backgroundColor: '$second-black',
-      borderRadius: '20px',
-    },
-    tabsContainer: {
-      display: 'flex',
-      justifyContent: 'center',
-      marginBottom: '32px'
-    },
-    tabButton: {
-      width: '60px',
-      height: '60px',
-      borderRadius: '50%',
-      backgroundColor: '#e8f5e9',
-      color: '#2e7d32',
-      border: 'none',
-      cursor: 'pointer',
-      fontSize: '24px',
-      fontWeight: 'bold',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      margin: '0 12px',
-      transition: 'all 0.3s ease'
-    },
-    tabButtonActive: {
-      backgroundColor: '#81c784',
-      color: '#fff'
-    },
-    tabButtonHover: {
-      backgroundColor: '#66bb6a',
-      color: '#fff'
-    },
-    contentBox: {
-      padding: '24px',
-      backgroundColor: '#fff',
-      borderRadius: '8px',
-      minHeight: '100px'
-    },
-    contentText: {
-      margin: '0 0 12px 0',
-      lineHeight: '1.5'
-    }
-  };
-
-  const handleMouseEnter = (e) => {
-    if (parseInt(e.target.dataset.tabid) !== activeTab) {
-      e.target.style.backgroundColor = styles.tabButtonHover.backgroundColor;
-      e.target.style.color = styles.tabButtonHover.color;
-    }
-  };
-
-  const handleMouseLeave = (e) => {
-    if (parseInt(e.target.dataset.tabid) !== activeTab) {
-      e.target.style.backgroundColor = styles.tabButton.backgroundColor;
-      e.target.style.color = styles.tabButton.color;
-    }
-  };
-
   return (
-    <div style={styles.container}>
-      <div style={styles.tabsContainer}>
+    <div className="tabs-container">
+      <div className="tabs-buttons">
         {tabs.map((tab) => (
           <button
             key={tab.id}
-            data-tabid={tab.id}
-            style={{
-              ...styles.tabButton,
-              ...(activeTab === tab.id ? styles.tabButtonActive : {})
-            }}
+            className={`tab-button ${activeTab === tab.id ? 'tab-button-active' : ''}`}
             onClick={() => setActiveTab(tab.id)}
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
           >
             {tab.label}
           </button>
         ))}
       </div>
       
-      <div style={styles.contentBox}>
+      <div className="tab-content">
         {tabs[activeTab].content}
       </div>
     </div>

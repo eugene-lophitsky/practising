@@ -184,4 +184,68 @@ body {
     background-color: $second-black;
 }
 
+.tabs-container {
+    position: relative;
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    padding: 24px;
+    background-color: $second-black;
+    padding: 70px 0 41px 0;
+    margin: 0 auto;
+    border-radius: 12px;
+}
 
+.tabs-buttons {
+    position: absolute;
+    top: -28px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.tab-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: $first-black;
+    color: $default-white;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 12px;
+    transition: all 0.3s ease;
+}
+
+.tab-button-active {
+    background-color: $lime !important;
+    color: $default-white !important;
+}
+
+.tab-button:hover {
+    background-color: #66bb6a;
+    color: #fff;
+}
+
+.stepper-fields {
+    display: flex;
+}
+
+.stepper-fields-set {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 15px;
+    color: $default-white;
+}
+
+.tab-content {
+    padding: 0 50px 41px 50px;
+    border-radius: 8px;
+    min-height: 100px;
+}

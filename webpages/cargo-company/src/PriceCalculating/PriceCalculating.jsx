@@ -5,9 +5,7 @@ function PriceCalculating () {
   return (
     <div className="price-calculating">
         <div className="price-calculating-wrapper">
-            <div className="price-calculating-form">
-              <Stepper/>
-            </div>
+            <Stepper/>
             <div className="price-calculating-image">
               <img src={man} alt="" />
             </div>
