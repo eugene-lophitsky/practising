@@ -287,3 +287,73 @@ body {
     border-radius: 8px;
     min-height: 100px;
 }
+
+#inputFile {
+    position: absolute;
+    bottom: 190px;
+    left: 60px;
+    display: flex;
+    gap: 15px;
+    width: 520px;
+    height: 30px;
+    opacity: 0;
+    border: 1px solid black;
+}
+
+.fileInputWrapper {
+    display: flex;
+    position: relative;
+    width: 100%;
+    max-width: 526px;
+    height: 150px;
+    font-family: Poppins, sans-serif;
+    opacity: 100;
+    padding: 15px 0 0 10px;
+    border-radius: 4px;
+}
+
+.choose-placeholder {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 145px;
+    height: 32px;
+    padding: 3px 12px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 4px;
+}
+
+label .choose-placeholder:hover {
+    outline: 1px solid rgb(184, 18, 18);
+}
+
+.fileNotPicked {
+    display: inline-flex;
+    width: 122px;
+    height: 25px;
+    display: inline-flex;
+    margin: 6px 8px 0 8px;
+}
+
+.loadImage {
+    position: absolute;
+    bottom: 85px;
+    left: 55px;
+    width: 10px;
+    height: 10px;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 520px;
+    height: 44px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-size: 15px;
+    color: $default-white;
+    border: 1px dashed #6a6d7b;
+    border-radius: 8px;
+}
