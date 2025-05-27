@@ -187,10 +187,9 @@ body {
 .tabs-container {
     position: relative;
     font-family: Arial, sans-serif;
-    max-width: 600px;
-    padding: 24px;
+    max-width: 626px;
     background-color: $second-black;
-    padding: 70px 0 41px 0;
+    padding: 70px 30px 41px 30px;
     margin: 0 auto;
     border-radius: 12px;
 }
@@ -210,7 +209,7 @@ body {
     height: 60px;
     border-radius: 50%;
     background-color: $first-black;
-    color: $default-white;
+    color: $third-gray;
     border: 1px solid $second-black;
     cursor: pointer;
     font-size: 24px;
@@ -285,9 +284,9 @@ body {
 }
 
 .tab-content {
-    padding: 0 50px 41px 50px;
-    border-radius: 8px;
     min-height: 100px;
+    padding: 0 30px 41px 30px;
+    border-radius: 8px;
 }
 
 #inputFile {
@@ -307,7 +306,7 @@ body {
     position: relative;
     width: 100%;
     max-width: 526px;
-    height: 150px;
+    height: 116px;
     font-family: Poppins, sans-serif;
     opacity: 100;
     padding: 15px 0 0 10px;
@@ -337,14 +336,6 @@ label .choose-placeholder:hover {
     margin: 6px 8px 0 8px;
 }
 
-.loadImage {
-    position: absolute;
-    bottom: 85px;
-    left: 55px;
-    width: 10px;
-    height: 10px;
-}
-
 .placeholder {
     display: flex;
     justify-content: center;
@@ -358,4 +349,28 @@ label .choose-placeholder:hover {
     color: $default-white;
     border: 1px dashed #6a6d7b;
     border-radius: 8px;
+}
+
+.stepper__process-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 49px;
+    text-decoration: none;
+    background-color: $orange;
+    padding: 24px 21px 24px 33px;
+    border-radius: 90px;
+}
+
+.stepper__process-button-text {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Proxima Nova;
+    color: $default-white;
+}
+
+.stepper__process-button-icon {
+    display: inline-flex;
+    width: 27px;
+    height: 27px;
+    background: url("/Vector.svg") center / cover;
 }

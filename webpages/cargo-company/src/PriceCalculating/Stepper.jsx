@@ -2,12 +2,6 @@ import  { useState } from 'react';
 
 function Stepper () {
   const [activeTab, setActiveTab] = useState(0);
-  const [readFile, setReadFile] = useState();
-    function handleThis (event) {
-      let url = URL.createObjectURL(event.target.files[0]);
-      setReadFile(url);
-       URL.revokeObjectURL('');
-  } 
 
   const tabs = [
     {
@@ -37,12 +31,12 @@ function Stepper () {
                            <label htmlFor="filePicker" className="fileInputWrapper">
                            <span className="placeholder">Загрузить фото товара</span>
                            </label>
-                           <input type="file" name="" id="inputFile" onChange={handleThis} className="filePicker" />
-                           <div className="loadImageWrapper">
-                            <img src={readFile} alt="" className="loadImage" />
-                            </div>
+                           <input type="file" name="" id="inputFile"  className="filePicker" />
             </div>
-            <a className="stepper__process-button"></a>
+            <a href="#" className="stepper__process-button">
+              <span className="stepper__process-button-text">Следующий шаг</span>
+              <span className="stepper__process-button-icon"></span>
+            </a>
         </div>
       )
     },
