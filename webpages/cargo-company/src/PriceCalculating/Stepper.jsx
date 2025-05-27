@@ -3,6 +3,13 @@ import  { useState } from 'react';
 function Stepper () {
   const [activeTab, setActiveTab] = useState(0);
 
+  function changeTab (e) {
+    e.preventDefault();
+    if(activeTab < tabs.length - 1) {
+      setActiveTab(activeTab + 1)
+    }
+  }
+
   const tabs = [
     {
       id: 0,
@@ -33,7 +40,7 @@ function Stepper () {
                            </label>
                            <input type="file" name="" id="inputFile"  className="filePicker" />
             </div>
-            <a href="#" className="stepper__process-button">
+            <a href="#" className="stepper__process-button" onClick={changeTab}>
               <span className="stepper__process-button-text">Следующий шаг</span>
               <span className="stepper__process-button-icon"></span>
             </a>
@@ -48,17 +55,21 @@ function Stepper () {
             <div className="stepper-personal">
               <div className="stepper-personal-name">
                   <label htmlFor="person-name" className="stepper-person-name-label">Имя:</label>
-                  <input type="text" placeholder="Ваше имя" name="person-name" className="stepper-person-name"/>
+                  <input type="text" placeholder="Ваше имя" name="person-name" className="person-name"/>
               </div>
               <div className="stepper-personal-сontacts">
                     <div className="person-phone-wrapper">
-                      <label htmlFor="person-phone-number" className="person-phone-number-label">Номер телефона:</label>
-                    <input type="text" placeholder="Введите стоимость" name="person-phone-number" className="person-phone-number"/>
+                        <label htmlFor="person-phone-number" className="person-phone-number-label">Номер телефона:</label>
+                        <input type="text" placeholder="Введите стоимость" name="person-phone-number" className="person-phone-number"/>
                     </div>
                     <div className="person-email-wrapper">
-                      <label htmlFor="person-email" className="person-email-label">Email:</label>
-                    <input type="text" placeholder="Введите email" name="person-email" className="person-email"/>
+                        <label htmlFor="person-email" className="person-email-label">Email:</label>
+                        <input type="text" placeholder="Введите email" name="person-email" className="person-email"/>
                     </div>
+              </div>
+              <div className="person-message-wrapper">
+                        <label htmlFor="person-message" className="person-message-label">Комментарий</label>
+                        <textarea name="person-message" id="" className="person-message" cols="70" rows="10" placeholder="Подробности о товаре, описание, количество"></textarea>
               </div>
             </div>
            

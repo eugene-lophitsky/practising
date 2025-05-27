@@ -276,6 +276,7 @@ body {
 
 .textField::placeholder {
     font-size: 15px;
+    font-family: Proxima Nova, sans-serif;
     color: $text-input-placeholder;
 }
 
@@ -285,7 +286,7 @@ body {
 
 .tab-content {
     min-height: 100px;
-    padding: 0 30px 41px 30px;
+    padding: 0 22px 41px 30px;
     border-radius: 8px;
 }
 
@@ -380,15 +381,11 @@ label .choose-placeholder:hover {
     flex-direction: column;
 }
 
-.stepper-person-name {
+.person-name {
     font-size: 15px;
     font-family: Proxima Nova, sans-serif;
     padding: 20.5px 337px 20.5px 20px;
     border-radius: 10px;
-}
-
-.stepper-person-name::placeholder {
-    color: $text-input-placeholder;
 }
 
 .stepper-person-name-label {
@@ -425,21 +422,38 @@ label .choose-placeholder:hover {
     border-radius: 10px;
 }
 
+.person-message {
+    font-size: 15px;
+    font-family: Proxima Nova, sans-serif;
+    padding: 20.5px 0 0 20px;
+    border-radius: 10px;
+}
+
+.person-message-label {
+    font-size: 15px;
+    font-family: Proxima Nova, sans-serif;
+    color: #ffffff;
+}
+
 .person-phone-wrapper,
-.person-email-wrapper {
+.person-email-wrapper,
+.person-message-wrapper {
     display: flex;
     flex-direction: column;
     gap: 6px;
     margin-top: 20px;
 }
 
+.person-name::placeholder,
 .person-phone-number::placeholder,
-.person-email::placeholder {
+.person-email::placeholder,
+.person-message::placeholder {
     color: $text-input-placeholder;
 }
 
-.stepper-person-name:focus,
+.person-name:focus,
 .person-phone-number:focus,
-.person-email:focus {
+.person-email:focus,
+.person-message:focus {
     outline: none;
 }
