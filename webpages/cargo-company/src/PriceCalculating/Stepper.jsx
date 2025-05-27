@@ -44,10 +44,25 @@ function Stepper () {
       id: 1,
       label: '2',
       content: (
-        <>
-          <p className="tab-content-text">Первая строка второго таба</p>
-          <p className="tab-content-text">Вторая строка второго таба</p>
-        </>
+        <div className="stepper-body">
+            <div className="stepper-personal">
+              <div className="stepper-personal-name">
+                  <label htmlFor="person-name" className="stepper-person-name-label">Имя:</label>
+                  <input type="text" placeholder="Ваше имя" name="person-name" className="stepper-person-name"/>
+              </div>
+              <div className="stepper-personal-сontacts">
+                    <div className="person-phone-wrapper">
+                      <label htmlFor="person-phone-number" className="person-phone-number-label">Номер телефона:</label>
+                    <input type="text" placeholder="Введите стоимость" name="person-phone-number" className="person-phone-number"/>
+                    </div>
+                    <div className="person-email-wrapper">
+                      <label htmlFor="person-email" className="person-email-label">Email:</label>
+                    <input type="text" placeholder="Введите email" name="person-email" className="person-email"/>
+                    </div>
+              </div>
+            </div>
+           
+        </div>
       )
     },
     {

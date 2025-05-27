@@ -374,3 +374,72 @@ label .choose-placeholder:hover {
     height: 27px;
     background: url("/Vector.svg") center / cover;
 }
+
+.stepper-personal-name {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.stepper-person-name {
+    font-size: 15px;
+    font-family: Proxima Nova, sans-serif;
+    padding: 20.5px 337px 20.5px 20px;
+    border-radius: 10px;
+}
+
+.stepper-person-name::placeholder {
+    color: $text-input-placeholder;
+}
+
+.stepper-person-name-label {
+    font-size: 15px;
+    font-family: Proxima Nova, sans-serif;
+    color: #ffffff;
+    margin-bottom: 6px;
+}
+
+.stepper-personal-сontacts {
+    display: flex;
+    gap: 22px;
+}
+
+.person-phone-number {
+    padding: 19px 57px 19px 20px;
+    border-radius: 10px;
+}
+
+.person-phone-number-label {
+    font-size: 15px;
+    font-family: Proxima Nova, sans-serif;
+    color: #ffffff;
+}
+
+.person-email-label {
+    font-size: 15px;
+    font-family: Proxima Nova, sans-serif;
+    color: #ffffff;
+}
+
+.person-email {
+    padding: 19px 57px 19px 20px;
+    border-radius: 10px;
+}
+
+.person-phone-wrapper,
+.person-email-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 20px;
+}
+
+.person-phone-number::placeholder,
+.person-email::placeholder {
+    color: $text-input-placeholder;
+}
+
+.stepper-person-name:focus,
+.person-phone-number:focus,
+.person-email:focus {
+    outline: none;
+}
