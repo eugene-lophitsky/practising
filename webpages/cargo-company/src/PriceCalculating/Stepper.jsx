@@ -40,9 +40,9 @@ function Stepper () {
                            </label>
                            <input type="file" name="" id="inputFile"  className="filePicker" />
             </div>
-            <a href="#" className="stepper__process-button" onClick={changeTab}>
-              <span className="stepper__process-button-text">Следующий шаг</span>
-              <span className="stepper__process-button-icon"></span>
+            <a href="#" className="stepper__button" onClick={changeTab}>
+              <span className="stepper__button-text">Следующий шаг</span>
+              <span className="stepper__button-icon"></span>
             </a>
         </div>
       )
@@ -69,8 +69,17 @@ function Stepper () {
               </div>
               <div className="person-message-wrapper">
                         <label htmlFor="person-message" className="person-message-label">Комментарий</label>
-                        <textarea name="person-message" id="" className="person-message" cols="70" rows="10" placeholder="Подробности о товаре, описание, количество"></textarea>
+                        <textarea name="person-message" id="" className="person-message" cols="70" rows="7" placeholder="Подробности о товаре, описание, количество"></textarea>
               </div>
+
+              <div className="stepper-buttons">
+                <a href="#" className="stepper__button-back"></a>
+                <a href="#" className="stepper__button-ahead">
+                  <span className="stepper__button-ahead-text">Следующий шаг</span>
+                  <span className="stepper__button-ahead-icon"></span>
+                </a>
+              </div>
+
             </div>
            
         </div>

@@ -269,7 +269,7 @@ body {
 }
 
 .textField {
-    padding: 19px 57px 19px 20px;
+    padding: 20.5px 57px 20.5px 20px;
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -307,7 +307,7 @@ body {
     position: relative;
     width: 100%;
     max-width: 526px;
-    height: 116px;
+    height: 87px;
     font-family: Poppins, sans-serif;
     opacity: 100;
     padding: 15px 0 0 10px;
@@ -352,24 +352,24 @@ label .choose-placeholder:hover {
     border-radius: 8px;
 }
 
-.stepper__process-button {
+.stepper__button {
     display: inline-flex;
     align-items: center;
     gap: 49px;
     text-decoration: none;
     background-color: $orange;
-    padding: 24px 21px 24px 33px;
+    padding: 20.5px 24px 20.5px 33px;
     border-radius: 90px;
 }
 
-.stepper__process-button-text {
+.stepper__button-text {
     font-size: 16px;
     font-weight: 500;
     font-family: Proxima Nova;
     color: $default-white;
 }
 
-.stepper__process-button-icon {
+.stepper__button-icon {
     display: inline-flex;
     width: 27px;
     height: 27px;
@@ -384,7 +384,7 @@ label .choose-placeholder:hover {
 .person-name {
     font-size: 15px;
     font-family: Proxima Nova, sans-serif;
-    padding: 20.5px 337px 20.5px 20px;
+    padding: 19px 337px 19px 20px;
     border-radius: 10px;
 }
 
@@ -401,7 +401,7 @@ label .choose-placeholder:hover {
 }
 
 .person-phone-number {
-    padding: 19px 57px 19px 20px;
+    padding: 20.5px 57px 20.5px 20px;
     border-radius: 10px;
 }
 
@@ -418,7 +418,7 @@ label .choose-placeholder:hover {
 }
 
 .person-email {
-    padding: 19px 57px 19px 20px;
+    padding: 20.5px 57px 20.5px 20px;
     border-radius: 10px;
 }
 
@@ -456,4 +456,28 @@ label .choose-placeholder:hover {
 .person-email:focus,
 .person-message:focus {
     outline: none;
+}
+
+.stepper__button-ahead {
+    display: inline-flex;
+    align-items: center;
+    gap: 49px;
+    text-decoration: none;
+    background-color: #e58d35;
+    padding: 20.5px 24px 20.5px 33px;
+    border-radius: 90px;
+}
+
+.stepper__button-ahead-text {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Proxima Nova;
+    color: $default-white;
+}
+
+.stepper__button-ahead-icon {
+    display: inline-flex;
+    width: 27px;
+    height: 27px;
+    background: url("/Vector.svg") center / cover;
 }
