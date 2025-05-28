@@ -3,7 +3,12 @@ import  { useState } from 'react';
 function Stepper () {
   const [activeTab, setActiveTab] = useState(0);
 
-  function changeTab (e) {
+   function openPreviousTab (e) {
+    e.preventDefault();
+    setActiveTab(activeTab - 1)
+  }
+
+  function openNextTab (e) {
     e.preventDefault();
     if(activeTab < tabs.length - 1) {
       setActiveTab(activeTab + 1)
@@ -40,7 +45,7 @@ function Stepper () {
                            </label>
                            <input type="file" name="" id="inputFile"  className="filePicker" />
             </div>
-            <a href="#" className="stepper__button" onClick={changeTab}>
+            <a href="#" className="stepper__button" onClick={openNextTab}>
               <span className="stepper__button-text">Следующий шаг</span>
               <span className="stepper__button-icon"></span>
             </a>
@@ -68,13 +73,15 @@ function Stepper () {
                     </div>
               </div>
               <div className="person-message-wrapper">
-                        <label htmlFor="person-message" className="person-message-label">Комментарий</label>
+                        <label htmlFor="person-message" className="person-message-label">Комментарий:</label>
                         <textarea name="person-message" id="" className="person-message" cols="70" rows="7" placeholder="Подробности о товаре, описание, количество"></textarea>
               </div>
 
               <div className="stepper-buttons">
-                <a href="#" className="stepper__button-back"></a>
-                <a href="#" className="stepper__button-ahead">
+                <a href="#" className="stepper__button-back" onClick={openPreviousTab}>
+                     <span className="stepper__button-back-text">Назад</span>
+                </a>
+                <a href="#" className="stepper__button-ahead" onClick={openNextTab}>
                   <span className="stepper__button-ahead-text">Следующий шаг</span>
                   <span className="stepper__button-ahead-icon"></span>
                 </a>

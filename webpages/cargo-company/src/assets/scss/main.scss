@@ -189,7 +189,7 @@ body {
     font-family: Arial, sans-serif;
     max-width: 626px;
     background-color: $second-black;
-    padding: 70px 30px 41px 30px;
+    padding: 70px 30px 4px 30px;
     margin: 0 auto;
     border-radius: 12px;
 }
@@ -312,6 +312,7 @@ body {
     opacity: 100;
     padding: 15px 0 0 10px;
     border-radius: 4px;
+    margin: 14px 0 13px 0;
 }
 
 .choose-placeholder {
@@ -458,13 +459,38 @@ label .choose-placeholder:hover {
     outline: none;
 }
 
+.stepper-buttons {
+    max-width: 536px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 44px;
+}
+
+.stepper__button-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 49px;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 23px 45.3px;
+    border: 1px solid #e58d35;
+    border-radius: 90px;
+}
+
+.stepper__button-back-text {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Proxima Nova;
+    color: $default-white;
+}
+
 .stepper__button-ahead {
     display: inline-flex;
     align-items: center;
     gap: 49px;
     text-decoration: none;
     background-color: #e58d35;
-    padding: 20.5px 24px 20.5px 33px;
+    padding: 19px 24px 19px 33px;
     border-radius: 90px;
 }
 
