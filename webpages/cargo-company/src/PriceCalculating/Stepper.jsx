@@ -1,4 +1,5 @@
 import  { useState } from 'react';
+import checkmark from '/checkmark.png'; 
 
 function Stepper () {
   const [activeTab, setActiveTab] = useState(0);
@@ -96,10 +97,22 @@ function Stepper () {
       id: 2,
       label: '3',
       content: (
-        <>
-          <p className="tab-content-text">Первая строка третьего таба</p>
-          <p className="tab-content-text">Вторая строка третьего таба</p>
-        </>
+        <div className="stepper-body">
+           <div className="stepper-finish">
+            <div className="stepper-finish_icon">
+              <img src={checkmark} alt="" />
+              </div>
+            <div className="stepper-finish__title">Спасибо за заявку!</div>
+            <div className="stepper-finish__subtitle">Мы обязательно свяжемся с Вами.</div>
+            <ul className="stepper-finish__promo">
+              <div className="stepper-finish__promo-caption">Также для Вас может быть полезно:</div>
+              <ul className="stepper-finish__promo-item">Услуги</ul>
+              <ul className="stepper-finish__promo-item">Примеры грузоперевозок</ul>
+              <ul className="stepper-finish__promo-item">Поиск товаров в Китае</ul>
+            </ul>
+           </div>
+           
+        </div>
       )
     }
   ];
