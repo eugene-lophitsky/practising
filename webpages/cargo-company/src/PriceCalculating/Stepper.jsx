@@ -104,11 +104,11 @@ function Stepper () {
               </div>
             <div className="stepper-finish__title">Спасибо за заявку!</div>
             <div className="stepper-finish__subtitle">Мы обязательно свяжемся с Вами.</div>
+            <div className="stepper-finish__caption">Также для Вас может быть полезно:</div>
             <ul className="stepper-finish__promo">
-              <div className="stepper-finish__promo-caption">Также для Вас может быть полезно:</div>
-              <ul className="stepper-finish__promo-item">Услуги</ul>
-              <ul className="stepper-finish__promo-item">Примеры грузоперевозок</ul>
-              <ul className="stepper-finish__promo-item">Поиск товаров в Китае</ul>
+              <li className="stepper-finish__promo-item">Услуги</li>
+              <li className="stepper-finish__promo-item">Примеры грузоперевозок</li>
+              <li className="stepper-finish__promo-item">Поиск товаров в Китае</li>
             </ul>
            </div>
            

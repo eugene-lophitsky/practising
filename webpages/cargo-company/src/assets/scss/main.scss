@@ -508,7 +508,59 @@ label .choose-placeholder:hover {
     background: url("/Vector.svg") center / cover;
 }
 
+.stepper-finish {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    max-width: 626px;
+    width: 100%;
+    padding: 90px 30px 153px 30px;
+}
+
+.stepper-finish__title {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Proxima Nova;
+    line-height: 20px;
+    color: $default-white;
+    margin: 32px 0 20px 0;
+}
+
+.stepper-finish__caption {
+    font-size: 20px;
+    font-family: Proxima Nova;
+    line-height: 20px;
+    color: $default-white;
+    margin-bottom: 20px;
+}
+
+.stepper-finish__subtitle {
+    font-size: 20px;
+    font-family: Proxima Nova;
+    line-height: 20px;
+    color: $default-white;
+    margin-bottom: 37px;
+}
+
+.stepper-finish__promo {
+    padding-left: 28px;
+}
+
+.stepper-finish__promo-caption {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Proxima Nova;
+    line-height: 20px;
+    color: $default-white;
+    margin-bottom: 20px;
+}
 
 .stepper-finish__promo-item {
+    font-size: 20px;
+    font-family: Proxima Nova;
+    line-height: 30px;
+    color: $default-white;
     list-style-type: disc;
+    margin: 0;
+    padding: 0;
 }
