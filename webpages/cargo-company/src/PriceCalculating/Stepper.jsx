@@ -75,7 +75,7 @@ function Stepper () {
               </div>
               <div className="person-message-wrapper">
                         <label htmlFor="person-message" className="person-message-label">Комментарий:</label>
-                        <textarea name="person-message" id="" className="person-message" cols="70" rows="7" placeholder="Подробности о товаре, описание, количество"></textarea>
+                        <textarea name="person-message" id="" className="person-message" cols="66" rows="7" placeholder="Подробности о товаре, описание, количество"></textarea>
               </div>
 
               <div className="stepper-buttons">

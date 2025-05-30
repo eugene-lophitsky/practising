@@ -189,7 +189,7 @@ body {
     font-family: Arial, sans-serif;
     max-width: 626px;
     background-color: $second-black;
-    padding: 70px 30px 4px 30px;
+    padding: 70px 80px 4px 80px;
     margin: 0 auto;
     border-radius: 12px;
 }
@@ -284,10 +284,19 @@ body {
     outline: none;
 }
 
+// .tab-content {
+//     min-height: 100px;
+//     padding: 0 22px 41px 30px;
+//     border-radius: 8px;
+// }
+
 .tab-content {
+    display: flex;
     min-height: 100px;
-    padding: 0 22px 41px 30px;
+    padding: 0 62px 41px 62px;
     border-radius: 8px;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 #inputFile {
@@ -353,7 +362,13 @@ label .choose-placeholder:hover {
     border-radius: 8px;
 }
 
+.stepper-body {
+    display: flex;
+    flex-direction: column;
+}
+
 .stepper__button {
+    max-width: 263px;
     display: inline-flex;
     align-items: center;
     gap: 49px;
@@ -531,6 +546,7 @@ label .choose-placeholder:hover {
     font-family: Proxima Nova;
     line-height: 20px;
     color: $default-white;
+    white-space: nowrap;
     margin-bottom: 20px;
 }
 
