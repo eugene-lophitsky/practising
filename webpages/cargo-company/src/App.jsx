@@ -1,6 +1,7 @@
 import Header from './Header/Header';
 import Jumbotron from './Jumbotron/Jumbotron.jsx';
 import PriceCalculating from './PriceCalculating/PriceCalculating.jsx';
+import WhyChooseUs from './WhyChooseUs/WhyChooseUs.jsx';
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <Header/>
       <Jumbotron/>
       <PriceCalculating/>
+      <WhyChooseUs/>
     </>
   )
 }

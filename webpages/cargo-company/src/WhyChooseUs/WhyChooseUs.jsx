@@ -1,3 +1,4 @@
+import data from './data.js';
 
 function WhyChooseUs () {
   return (
@@ -5,7 +6,9 @@ function WhyChooseUs () {
         <div className="why-choose-us__wrapper">
             <div className="why-choose-us__title"></div>
             <div className="why-choose-us__explanations">
-                
+                {data.map(item => (
+                  <div key={item.title}>{item.title}</div>
+                ))}
             </div>
         </div>
     </div>
