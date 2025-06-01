@@ -4,7 +4,7 @@ function WhyChooseUs () {
   return (
     <div className="why-choose-us">
         <div className="why-choose-us__wrapper">
-            <div className="why-choose-us__title"></div>
+            <div className="why-choose-us__title">ПОЧЕМУ СТОИТ ВЫБРАТЬ ИМЕННО НАС?</div>
             <div className="why-choose-us__explanations">
                 {data.map(item => (
                   <div key={item.title}>{item.title}</div>
