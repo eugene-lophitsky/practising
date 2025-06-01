@@ -582,8 +582,41 @@ label .choose-placeholder:hover {
 }
 
 .why-choose-us__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 1820px;
     background-color: $second-black;
     border-radius: 20px;
     margin: 0 auto;
+}
+
+.why-choose-us__content {
+    max-width: 1172px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-choose-us__title {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Proxima Nova, sans-serif;
+    text-align: center;
+    color: $default-white;
+}
+
+.divider {
+    width: 85px;
+    height: 2px;
+    background-color: orange;
+    margin: 19px 0 51px 0;
+}
+
+.why-choose-us__explanations {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
 }
