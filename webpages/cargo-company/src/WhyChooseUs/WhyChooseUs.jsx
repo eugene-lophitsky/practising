@@ -8,7 +8,7 @@ function WhyChooseUs() {
                     <div className="why-choose-us__title">
                         ПОЧЕМУ СТОИТ ВЫБРАТЬ ИМЕННО НАС?
                     </div>
-                    <div className="divider"></div>
+                    <div className="why-choose-us__divider"></div>
                     <div className="why-choose-us__explanations">
                         {data.map((item) => (
                             <div key={item.title} className="why-choose-us__explanation">
