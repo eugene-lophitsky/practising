@@ -675,13 +675,26 @@ label .choose-placeholder:hover {
     margin: 19px 0 51px 0;
 }
 
+.shipping-methods__cards {
+    display: flex;
+    gap: 30px;
+}
+
 .shipping-methods__card {
-    
+
 } 
 
+.shipping-methods__image {
+    border-radius: 20px 20px 0 0;
+}
 
+.shipping-methods__time {
+    width: fit-content;
+}
 
-
+.shipping-methods__weight {
+    width: fit-content;
+}
 
 
 
