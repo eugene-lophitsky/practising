@@ -18,7 +18,7 @@ function ShippingMethods () {
                       </span>
                       <span className="shipping-methods__weight">
                         <img src={item.container} alt="" />
-                        <span>{item.initWeight}</span>
+                        <span className="shipping-methods__weight-text">{item.initWeight}</span>
                       </span>
                       <div className="shipping-methods__price">
                         <span className="shipping-methods__price-initValue">{item.price.initValue}</span>

@@ -681,20 +681,32 @@ label .choose-placeholder:hover {
 }
 
 .shipping-methods__card {
-
-} 
+    background-color: $second-black;
+}
 
 .shipping-methods__image {
     border-radius: 20px 20px 0 0;
+}
+
+.shipping-methods__card-title {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Proxima Nova, sans-serif;
+    color: $default-white;
 }
 
 .shipping-methods__time {
     width: fit-content;
 }
 
+.shipping-methods__time-text,
+.shipping-methods__weight-text
+{
+    font-size: 16px;
+    font-family: Proxima Nova, sans-serif;
+    color: $default-white;
+}
+
 .shipping-methods__weight {
     width: fit-content;
 }
-
-
-
