@@ -688,6 +688,13 @@ label .choose-placeholder:hover {
     border-radius: 20px 20px 0 0;
 }
 
+.shipping-methods__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .shipping-methods__card-title {
     font-size: 22px;
     font-weight: bold;
@@ -695,8 +702,16 @@ label .choose-placeholder:hover {
     color: $default-white;
 }
 
+.shipping-methods__params {
+    display: flex;
+    gap: 30px;
+}
+
 .shipping-methods__time {
     width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .shipping-methods__time-text,
@@ -709,4 +724,7 @@ label .choose-placeholder:hover {
 
 .shipping-methods__weight {
     width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }

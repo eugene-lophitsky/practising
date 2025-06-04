@@ -1,16 +1,16 @@
 const data = [
     {
-        img: "/shipping-methods_img1.webp",
-        title: "Авто - обычная",
-        datePicker: "/calendar.svg",
-        time: "9-15 дней",
-        container: "/box.svg",
-        initWeight: "от 5кг",
+        img: '/shipping-methods_img1.webp',
+        title: 'Авто - обычная',
+        datePicker: '/calendar.svg',
+        time: '9-15 дней',
+        container: '/box.svg',
+        initWeight: 'от 5 кг',
         price: {
-            initValue: "от",
-            amount: "2,5",
-            currency: "CNY",
-            weightUnit: "кг",
+            initValue: 'от',
+            amount: '2,5',
+            currency: 'CNY',
+            weightUnit: 'кг',
         },
     },
     {
@@ -19,7 +19,7 @@ const data = [
         datePicker: "/calendar.svg",
         time: "9-15 дней",
         container: "/box.svg",
-        initWeight: "от 5кг",
+        initWeight: "от 5 кг",
         price: {
             initValue: "от",
             amount: "2,5",
@@ -33,7 +33,7 @@ const data = [
         datePicker: "/calendar.svg",
         time: "9-15 дней",
         container: "/box.svg",
-        initWeight: "от 5кг",
+        initWeight: 'от 5 кг',
         price: {
             initValue: "от",
             amount: "2,5",
