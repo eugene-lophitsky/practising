@@ -715,8 +715,7 @@ label .choose-placeholder:hover {
 }
 
 .shipping-methods__time-text,
-.shipping-methods__weight-text
-{
+.shipping-methods__weight-text {
     font-size: 16px;
     font-family: Proxima Nova, sans-serif;
     color: $default-white;
@@ -727,4 +726,30 @@ label .choose-placeholder:hover {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.shipping-methods__price-initValue {
+    font-size: 18px;
+    font-family: Proxima Nova, sans-serif;
+    color: $fourth-gray;
+}
+
+.shipping-methods__price-amount {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Proxima Nova, sans-serif;
+    color: $default-white;
+    margin: 0 5px;
+}
+
+.shipping-methods__price-currency {
+    font-size: 16px;
+    font-family: Proxima Nova, sans-serif;
+    color: $default-white;
+}
+
+.shipping-methods__price-weightUnit {
+    font-size: 16px;
+    font-family: Proxima Nova, sans-serif;
+    color: $default-white;
 }

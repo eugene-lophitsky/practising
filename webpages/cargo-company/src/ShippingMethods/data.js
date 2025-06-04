@@ -10,7 +10,7 @@ const data = [
             initValue: 'от',
             amount: '2,5',
             currency: 'CNY',
-            weightUnit: 'кг',
+            weightUnit: '/кг',
         },
     },
     {
@@ -24,7 +24,7 @@ const data = [
             initValue: "от",
             amount: "2,5",
             currency: "CNY",
-            weightUnit: "кг",
+            weightUnit: "/кг",
         },
     },
     {
@@ -38,7 +38,7 @@ const data = [
             initValue: "от",
             amount: "2,5",
             currency: "CNY",
-            weightUnit: "кг",
+            weightUnit: "/кг",
         },
     },
 ];
