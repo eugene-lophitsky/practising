@@ -29,6 +29,12 @@ function ShippingMethods () {
                         <span className="shipping-methods__price-currency">{item.price.currency}</span>
                         <span className="shipping-methods__price-weightUnit">{item.price.weightUnit}</span>
                       </div>
+
+                      <div className="shipping-methods-buttons">
+                        <a href="#" className="shipping-methods-buttons__request">Оставить заявку</a>
+                        <a href="#" className="shipping-methods-buttons__details">Подробнее</a>
+                      </div>
+
                   </div>
                 </div>
               ))}
