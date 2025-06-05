@@ -759,14 +759,29 @@ label .choose-placeholder:hover {
     color: $default-white;
 }
 
+.shipping-methods-buttons {
+    display: flex;
+    gap: 14px;
+    margin-top: 18px;
+}
+
 .shipping-methods-buttons__request {
     font-size: 15px;
     font-family: Proxima Nova, sans-serif;
+    text-decoration: none;
     color: $default-white;
+    background-color: $orange;
+    padding: 15px 19.4px;
+    border-radius: 90px;
 }
 
 .shipping-methods-buttons__details {
     font-size: 15px;
     font-family: Proxima Nova, sans-serif;
+    text-decoration: none;
     color: $default-white;
+    background-color: transparent;
+    padding: 15px 36.3px;
+    border: 1px solid $orange;
+    border-radius: 90px;
 }
