@@ -771,7 +771,8 @@ label .choose-placeholder:hover {
     text-decoration: none;
     color: $default-white;
     background-color: $orange;
-    padding: 15px 19.4px;
+    padding: 15px 18.4px;
+    border: 1px solid $orange;
     border-radius: 90px;
 }
 
@@ -784,4 +785,15 @@ label .choose-placeholder:hover {
     padding: 15px 36.3px;
     border: 1px solid $orange;
     border-radius: 90px;
+}
+
+.shipping-methods-buttons__request:hover {
+    color: $default-white;
+    background-color: transparent;
+    border: 1px solid $orange;
+}
+
+.shipping-methods-buttons__details:hover {
+    color: $default-white;
+    background-color: $orange;
 }
