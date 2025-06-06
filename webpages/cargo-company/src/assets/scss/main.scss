@@ -797,3 +797,12 @@ label .choose-placeholder:hover {
     color: $default-white;
     background-color: $orange;
 }
+
+.why-choose-us__explanation-icon {
+    transition: 1s;
+}
+
+.why-choose-us__explanation-icon:hover {
+    transform: scaleX(-1);
+    transition: 1s;
+}
