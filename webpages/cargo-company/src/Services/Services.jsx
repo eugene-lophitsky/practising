@@ -7,11 +7,13 @@ function Services () {
             <div className="services__title"></div>
             <div className="services-list">
             {data.map(item => (
-              <div key={item.description} className="services-list__item">
+              <div key={item.title} className="services-list__item">
                 <img src={item.img} alt="" />
-                <div className="services-list__item-title">{item.title}</div>
-                <div className="services-list__item-description">{item.description}</div>
-                <a className="services-list__item-button"></a>
+                <div className="services-list-body">
+                  <div className="services-list__item-title">{item.title}</div>
+                  <div className="services-list__item-description">{item.description}</div>
+                  <a className="services-list__item-button">Подробнее</a>
+                </div>
               </div>
             ))}
             </div>

@@ -806,3 +806,51 @@ label .choose-placeholder:hover {
     transform: scaleX(-1);
     transition: 1s;
 }
+
+.services__wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.services-list {
+    display: flex;
+}
+
+.services-list__item {
+    position: relative;
+}
+
+.services-list-body {
+    position: absolute;
+    bottom: 50px;
+    z-index: 100;
+}
+
+.services-list__item-title {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Proxima Nova, sans-serif;
+    color: $default-white;
+}
+
+.services-list__item-description {
+    max-width: 307px;
+    font-size: 15px;
+    font-family: Proxima Nova, sans-serif;
+    color: $default-white;
+}
+
+.services-list__item-button {
+    font-size: 15px;
+    font-family: Proxima Nova, sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: transparent;
+    padding: 15px 36.3px;
+    border: 1px solid #e58d35;
+    border-radius: 90px;
+}
+
+
+
+
