@@ -1,4 +1,4 @@
-
+import data from "./data.js";
 
 function Services () {
   return (
@@ -6,9 +6,14 @@ function Services () {
         <div className="services__wrapper">
             <div className="services__title"></div>
             <div className="services-list">
-                <div className="services-list__item"></div>
-                <div className="services-list__item"></div>
-                <div className="services-list__item"></div>
+            {data.map(item => (
+              <div key={item.description} className="services-list__item">
+                <img src={item.img} alt="" />
+                <div className="services-list__item-title">{item.title}</div>
+                <div className="services-list__item-description">{item.description}</div>
+                <a className="services-list__item-button"></a>
+              </div>
+            ))}
             </div>
         </div>
     </div>
