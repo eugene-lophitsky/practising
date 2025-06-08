@@ -2,6 +2,28 @@
 @import "variables";
 @import "fonts";
 
+@mixin px15-white-text {
+    font: {
+        size: 15px;
+        family: Proxima Nova;
+    }
+    color: $default-white;
+}
+
+@mixin px20-white-text {
+    font: {
+        size: 20px;
+        family: Proxima Nova;
+    }
+    color: $default-white;
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 body {
     background-color: $first-black;
 }
@@ -28,11 +50,9 @@ body {
 
     .header__button {
         display: inline-flex;
-        font-size: 15px;
-        font-family: Proxima Nova;
+        @include px15-white-text;
         font-weight: 400;
         text-decoration: none;
-        color: $default-white;
         background-color: $orange;
         padding: 16px 28.4px;
         border-radius: 90px;
@@ -56,9 +76,7 @@ body {
     text-align: center;
     font-size: 18px;
     background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-center;
 }
 
 .swiper-slide img {
@@ -155,9 +173,7 @@ body {
 }
 
 .swiper-advertising__button-text {
-    font-family: Proxima Nova;
-    font-size: 15px;
-    color: $default-white;
+    @include px15-white-text;
 }
 
 .swiper-advertising__button-icon {
@@ -242,9 +258,7 @@ body {
 }
 
 .input-label {
-    font-size: 15px;
-    font-family: Proxima Nova;
-    color: $default-white;
+    @include px15-white-text;
     margin-bottom: 6px;
 }
 
@@ -342,9 +356,7 @@ label .choose-placeholder:hover {
 }
 
 .placeholder {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-center;
     width: 520px;
     height: 44px;
     position: absolute;
@@ -399,9 +411,7 @@ label .choose-placeholder:hover {
 }
 
 .stepper-person-name-label {
-    font-size: 15px;
-    font-family: Proxima Nova, sans-serif;
-    color: #ffffff;
+    @include px15-white-text;
     margin-bottom: 6px;
 }
 
@@ -415,16 +425,9 @@ label .choose-placeholder:hover {
     border-radius: 10px;
 }
 
-.person-phone-number-label {
-    font-size: 15px;
-    font-family: Proxima Nova, sans-serif;
-    color: #ffffff;
-}
-
+.person-phone-number-label,
 .person-email-label {
-    font-size: 15px;
-    font-family: Proxima Nova, sans-serif;
-    color: #ffffff;
+    @include px15-white-text;
 }
 
 .person-email {
@@ -440,9 +443,7 @@ label .choose-placeholder:hover {
 }
 
 .person-message-label {
-    font-size: 15px;
-    font-family: Proxima Nova, sans-serif;
-    color: #ffffff;
+    @include px15-white-text;
 }
 
 .person-phone-wrapper,
@@ -536,19 +537,15 @@ label .choose-placeholder:hover {
 }
 
 .stepper-finish__caption {
-    font-size: 20px;
-    font-family: Proxima Nova;
+    @include px20-white-text;
     line-height: 20px;
-    color: $default-white;
     white-space: nowrap;
     margin-bottom: 20px;
 }
 
 .stepper-finish__subtitle {
-    font-size: 20px;
-    font-family: Proxima Nova;
+    @include px20-white-text;
     line-height: 20px;
-    color: $default-white;
     margin-bottom: 37px;
 }
 
@@ -557,29 +554,25 @@ label .choose-placeholder:hover {
 }
 
 .stepper-finish__promo-caption {
-    font-size: 20px;
-    font-weight: bold;
-    font-family: Proxima Nova;
+    @include px20-white-text;
     line-height: 20px;
-    color: $default-white;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 
 .stepper-finish__promo-item {
-    font-size: 20px;
-    font-family: Proxima Nova;
+    @include px20-white-text;
     line-height: 30px;
-    color: $default-white;
     list-style-type: disc;
     margin: 0;
     padding: 0;
 }
 
 .why-choose-us__wrapper {
+    max-width: 1820px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 1820px;
     background-color: $second-black;
     border-radius: 20px;
     padding: 90px 0;
@@ -587,10 +580,8 @@ label .choose-placeholder:hover {
 }
 
 .why-choose-us__content {
-    display: flex;
+    @include flex-center;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .why-choose-us__title {
@@ -633,9 +624,7 @@ label .choose-placeholder:hover {
 }
 
 .why-choose-us__explanation-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-center;
     max-width: 93px;
     max-height: 93px;
     background-color: $lime;
@@ -691,10 +680,8 @@ label .choose-placeholder:hover {
 }
 
 .shipping-methods__body {
-    display: flex;
+    @include flex-center;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding-bottom: 27px;
 }
 
@@ -766,10 +753,8 @@ label .choose-placeholder:hover {
 }
 
 .shipping-methods-buttons__request {
-    font-size: 15px;
-    font-family: Proxima Nova, sans-serif;
+    @include px15-white-text;
     text-decoration: none;
-    color: $default-white;
     background-color: $orange;
     padding: 15px 18.4px;
     border: 1px solid $orange;
@@ -777,10 +762,8 @@ label .choose-placeholder:hover {
 }
 
 .shipping-methods-buttons__details {
-    font-size: 15px;
-    font-family: Proxima Nova, sans-serif;
+    @include px15-white-text;
     text-decoration: none;
-    color: $default-white;
     background-color: transparent;
     padding: 15px 36.3px;
     border: 1px solid $orange;
@@ -842,12 +825,6 @@ label .choose-placeholder:hover {
     flex-direction: column;
 }
 
-.services-list__item-bgwrapper {
-}
-
-.services-list__item-bg {
-}
-
 .services-list-body {
     position: absolute;
     bottom: 33px;
@@ -864,18 +841,14 @@ label .choose-placeholder:hover {
 
 .services-list__item-description {
     max-width: 307px;
-    font-size: 15px;
-    font-family: Proxima Nova, sans-serif;
-    color: $default-white;
+    @include px15-white-text;
     margin: 13px 0 14px 0;
 }
 
 .services-list__item-button {
     display: inline-flex;
-    font-size: 15px;
-    font-family: Proxima Nova, sans-serif;
+    @include px15-white-text;
     text-decoration: none;
-    color: #ffffff;
     background-color: transparent;
     padding: 15px 36.3px;
     border: 1px solid #e58d35;
