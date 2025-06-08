@@ -813,16 +813,31 @@ label .choose-placeholder:hover {
 }
 
 .services-list {
+    max-width: 1140px;
     display: flex;
+    justify-content: center;
+    gap: 30px;
+    box-sizing: border-box;
 }
 
 .services-list__item {
     position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.services-list__item-bgwrapper {
+
+}
+
+.services-list__item-bg {
+    
 }
 
 .services-list-body {
     position: absolute;
-    bottom: 50px;
+    bottom: 33px;
+    left: 35px;
     z-index: 100;
 }
 
@@ -838,9 +853,11 @@ label .choose-placeholder:hover {
     font-size: 15px;
     font-family: Proxima Nova, sans-serif;
     color: $default-white;
+    margin: 13px 0 14px 0;
 }
 
 .services-list__item-button {
+    display: inline-flex;
     font-size: 15px;
     font-family: Proxima Nova, sans-serif;
     text-decoration: none;
@@ -850,7 +867,3 @@ label .choose-placeholder:hover {
     border: 1px solid #e58d35;
     border-radius: 90px;
 }
-
-
-
-

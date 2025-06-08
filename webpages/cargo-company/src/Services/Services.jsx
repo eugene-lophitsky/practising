@@ -8,7 +8,9 @@ function Services () {
             <div className="services-list">
             {data.map(item => (
               <div key={item.title} className="services-list__item">
-                <img src={item.img} alt="" />
+                <span className="services-list__item-bgwrapper">
+                  <img src={item.img} alt="" className="services-list__item-bg" />
+                </span>
                 <div className="services-list-body">
                   <div className="services-list__item-title">{item.title}</div>
                   <div className="services-list__item-description">{item.description}</div>
