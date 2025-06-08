@@ -812,6 +812,22 @@ label .choose-placeholder:hover {
     margin: 0 auto;
 }
 
+.services__title {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Proxima Nova, sans-serif;
+    text-transform: uppercase;
+    color: $default-white;
+    text-align: center;
+}
+
+.services__divider {
+    width: 85px;
+    height: 2px;
+    background-color: $orange;
+    margin: 19px auto 49px auto;
+}
+
 .services-list {
     max-width: 1140px;
     display: flex;
@@ -827,11 +843,9 @@ label .choose-placeholder:hover {
 }
 
 .services-list__item-bgwrapper {
-
 }
 
 .services-list__item-bg {
-    
 }
 
 .services-list-body {
