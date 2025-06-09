@@ -790,6 +790,17 @@ label .choose-placeholder:hover {
     transition: 1s;
 }
 
+.services {
+    background-color: $second-black;
+}
+
+.--services-width {
+    max-width: 1820px;
+    border-radius: 20px;
+    padding: 97px 0 100px 0;
+    margin: 0 auto;
+}
+
 .services__wrapper {
     max-width: 1140px;
     margin: 0 auto;
@@ -851,6 +862,6 @@ label .choose-placeholder:hover {
     text-decoration: none;
     background-color: transparent;
     padding: 15px 36.3px;
-    border: 1px solid #e58d35;
+    border: 1px solid $orange;
     border-radius: 90px;
 }

@@ -2,7 +2,7 @@ import data from "./data.js";
 
 function Services () {
   return (
-    <div className="services">
+    <div className="services --services-width">
         <div className="services__wrapper">
             <div className="services__title">услуги</div>
             <div className="services__divider"></div>
