@@ -4,6 +4,7 @@ import PriceCalculating from './PriceCalculating/PriceCalculating.jsx';
 import WhyChooseUs from './WhyChooseUs/WhyChooseUs.jsx';
 import ShippingMethods from './ShippingMethods/ShippingMethods.jsx';
 import Services from './Services/Services.jsx';
+import AboutCompany from './AboutCompany/AboutCompany.jsx';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <WhyChooseUs/>
       <ShippingMethods/>
       <Services/>
+      <AboutCompany/>
     </>
   )
 }
