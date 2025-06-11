@@ -5,10 +5,10 @@ function AboutCompany () {
     <div className="about-company">
         <div className="about-company__wrapper">
             <div className="about-company-info">
-                <div className="about-company-info__title"></div>
+                <div className="about-company-info__title">о компании</div>
                 <div className="about-company__divider"></div>
                 <div className="about-company-info__text">
-                    <p>
+                    <div className="about-company-info__paragraph">
                     Компания Азия Карго - это полный комплекс
                     логистических услуг по доставке грузов из
                     Китая в Россию - сборные грузы и цельные
@@ -18,14 +18,14 @@ function AboutCompany () {
                     работаем на рынке более 4 лет, а 
                     руководители компании занимаются логистикой 
                     уже более 11 лет.
-                    </p>
-                    <p>
+                    </div>
+                    <div className="about-company-info__paragraph">
                     Мы стремимся предоставить лучшие условия 
                     доставки и лучший сервис своим клиентам. 
                     Выбирая нас - вы выбираете качественную 
                     доставку оптимальную по цене и времени! 
                     Убедитесь в этом сами!
-                    </p>
+                    </div>
                 </div>
             </div>
             <div className="about-company-image__wrapper">
