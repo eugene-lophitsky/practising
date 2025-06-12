@@ -30,6 +30,7 @@ function AboutCompany () {
             </div>
             <div className="about-company-image__wrapper">
                 <img src={aboutCompany} className="about-company-image" alt="" />
+                <div className="about-company-image__substrate"></div>
             </div>
         </div>
     </div>
