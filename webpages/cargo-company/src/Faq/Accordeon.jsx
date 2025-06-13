@@ -1,64 +1,6 @@
+/* eslint-disable react/prop-types */
 import { useState } from 'react';
 
-const styles = {
-  accordion: {
-    width: '100%',
-    maxWidth: '600px',
-    margin: '0 auto',
-    fontFamily: 'Arial, sans-serif',
-  },
-  item: {
-    border: '1px solid #ddd',
-    borderRadius: '5px',
-    marginBottom: '10px',
-    overflow: 'hidden',
-  },
-  header: {
-    display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    padding: '15px',
-    backgroundColor: '#f5f5f5',
-    cursor: 'pointer',
-    borderBottom: '1px solid #ddd',
-  },
-  title: {
-    margin: 0,
-    fontSize: '16px',
-  },
-  button: {
-    width: '24px',
-    height: '24px',
-    borderRadius: '50%',
-    backgroundColor: '#fff',
-    border: '1px solid #999',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    cursor: 'pointer',
-    transition: 'transform 0.3s ease',
-  },
-  content: {
-    padding: '15px',
-    backgroundColor: '#fff',
-  },
-  arrowRight: {
-    width: 0,
-    height: 0,
-    borderTop: '5px solid transparent',
-    borderBottom: '5px solid transparent',
-    borderLeft: '8px solid #333',
-    transition: 'transform 0.3s ease',
-  },
-  arrowUp: {
-    width: 0,
-    height: 0,
-    borderLeft: '5px solid transparent',
-    borderRight: '5px solid transparent',
-    borderBottom: '8px solid #333',
-    transition: 'transform 0.3s ease',
-  }
-};
 
 const Accordion = ({ items }) => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -68,23 +10,23 @@ const Accordion = ({ items }) => {
   };
 
   return (
-    <div style={styles.accordion}>
+    <div className="accordion">
       {items.map((item, index) => (
-        <div key={index} style={styles.item}>
+        <div key={index} className={activeIndex === index ? "item-opened" : "item"}>
           <div 
-            style={styles.header} 
+            className="header"
             onClick={() => toggleItem(index)}
           >
-            <h3 style={styles.title}>{item.title}</h3>
-            <button style={styles.button}>
+            <h3 className={activeIndex === index ? "title-opened" : "title"}>{item.title}</h3>
+            <button className="button">
         
               <div 
-                style={activeIndex === index ? styles.arrowUp : styles.arrowRight} 
+                className={activeIndex === index ? "arrowUp" : "arrowRight"} 
               />
             </button>
           </div>
           {activeIndex === index && (
-            <div style={styles.content}>
+            <div className="content">
               {item.content}
             </div>
           )}
@@ -97,15 +39,27 @@ const Accordion = ({ items }) => {
 const App = () => {
   const accordionItems = [
     {
-      title: 'Раздел 1',
+      title: 'Как рассчитывается стоимость доставки?',
       content: 'Содержимое первого раздела аккордеона.'
     },
     {
-      title: 'Раздел 2',
+      title: 'Как происходит оплата доставки товара?',
       content: 'Содержимое второго раздела аккордеона.'
     },
     {
-      title: 'Раздел 3',
+      title: 'Как быстро оформить заказ на доставку из Китая в Россию?',
+      content: 'Содержимое третьего раздела аккордеона.'
+    },
+    {
+      title: 'Можно ли через час оплатить товар поставщику?',
+      content: 'Содержимое третьего раздела аккордеона.'
+    },
+    {
+      title: 'В чём особенность КАРГО доставки из Китая?',
+      content: 'Содержимое третьего раздела аккордеона.'
+    },
+    {
+      title: 'Каков срок доставки из Китая?',
       content: 'Содержимое третьего раздела аккордеона.'
     }
   ];

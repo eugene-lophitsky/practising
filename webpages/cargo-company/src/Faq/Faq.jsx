@@ -9,7 +9,9 @@ function Faq () {
             <div className="faq-accordion">
             <Accordeon/>
             </div>
-            <div className="faq-questionnaire"></div>
+            <div className="faq-questionnaire">
+              Остались вопросы?
+            </div>
         </div>
     </div>
   )
