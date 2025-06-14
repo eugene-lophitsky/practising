@@ -10,7 +10,8 @@ function Faq () {
             <Accordeon/>
             </div>
             <div className="faq-questionnaire">
-              Остались вопросы?
+              <div className="faq-questionnaire__title">Остались вопросы?</div>
+              <div className="faq-questionnaire__subtitle">Оставьте заявку, и наш менеджер ответит Вам в ближайшее время</div>
             </div>
         </div>
     </div>
