@@ -839,6 +839,10 @@ label .choose-placeholder:hover {
     flex-direction: column;
 }
 
+.services-list__item-bg {
+    border-radius: 20px;
+}
+
 .services-list-body {
     position: absolute;
     bottom: 33px;
@@ -1109,4 +1113,30 @@ label .choose-placeholder:hover {
 
 .message:focus {
     outline: none;
+}
+
+.faq-questionnaire__button {
+    max-width: 310px;
+    display: inline-flex;
+    align-items: center;
+    gap: 92px;
+    text-decoration: none;
+    background-color: #e58d35;
+    padding: 20.5px 24px 20.5px 33px;
+    border-radius: 90px;
+    margin-top: 26px;
+}
+
+.faq-questionnaire__button-text {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Proxima Nova;
+    color: $default-white;
+}
+
+.faq-questionnaire__button-icon {
+    display: inline-flex;
+    width: 27px;
+    height: 27px;
+    background: url("/Vector.svg") center / cover;
 }

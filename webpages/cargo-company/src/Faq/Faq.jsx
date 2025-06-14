@@ -17,6 +17,10 @@ function Faq () {
                 <input type="text" name="phone" className="phone" placeholder="Телефон *"/>
                 <input type="email" name="email" id="" className="email" placeholder="Email"/>
                 <textarea name="message" id="" className="message" placeholder="Ваш вопрос"></textarea>
+                     <a href="#" className="faq-questionnaire__button">
+                      <span className="faq-questionnaire__button-text">Отправить запрос</span>
+                      <span className="faq-questionnaire__button-icon"></span>
+                    </a>
               </form>
             </div>
         </div>
