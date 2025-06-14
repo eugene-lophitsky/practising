@@ -1052,3 +1052,47 @@ label .choose-placeholder:hover {
     font-family: Proxima Nova, sans-serif;
     color: $default-white;
 }
+
+.faq-questionnaire-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.firstname,
+.phone,
+.email {
+    display: inline-flex;
+    max-width: 310px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: Proxima Nova, sans-serif;
+    color: $first-black;
+    padding: 18px 118px 18px 20px;
+    border-radius: 10px;
+    margin-bottom: 14px;
+}
+
+.firstname::placeholder,
+.phone::placeholder,
+.email::placeholder {
+    font-size: 15px;
+    color: $text-input-placeholder;
+}
+
+.message {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: Proxima Nova, sans-serif;
+    color: $first-black;
+    padding: 24px 25px 6px 20px;
+    border-radius: 10px;
+    margin-bottom: 14px;
+}
+
+.message::placeholder {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: Proxima Nova, sans-serif;
+    color: $text-input-placeholder;
+}
