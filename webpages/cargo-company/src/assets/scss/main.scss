@@ -960,6 +960,7 @@ label .choose-placeholder:hover {
     font-family: Arial, sans-serif;
     margin: 0 auto;
 }
+
 .item {
     border: 1px solid $accordeon-border;
     border-radius: 5px;
@@ -967,6 +968,7 @@ label .choose-placeholder:hover {
     background-color: transparent;
     padding: 15px 0 15px 21px;
     overflow: hidden;
+    transform: 0.3s;
 }
 
 .item-opened {
@@ -977,9 +979,11 @@ label .choose-placeholder:hover {
     border: 1px solid $accordeon-border;
     border-radius: 5px;
     margin-bottom: 10px;
+    transform: 0.3s;
 }
 
 .header {
+    max-width: 617px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1007,33 +1011,30 @@ label .choose-placeholder:hover {
     width: 27px;
     height: 27px;
     border-radius: 50%;
-    background: url("/white-arrow.svg") center/cover;
-    border: 1px solid #999;
+    background-color: transparent;
     cursor: pointer;
     transition: 1s;
 }
 
 .content {
+    max-width: 517px;
     padding: 15px;
     background-color: #ffffff;
 }
 
 .arrowRight {
-    width: 0;
-    height: 0;
-    border-top: 5px solid transparent;
-    border-bottom: 5px solid transparent;
-    border-left: 8px solid #333;
-    transition: 1s;
+    width: 27px;
+    height: 27px;
+    background: url("../../../public/white-arrow.svg") center/cover;
+    transition: 0.2s;
 }
 
 .arrowUp {
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-bottom: 8px solid #333;
-    transition: 1s;
+    width: 27px;
+    height: 27px;
+    background: url("../../../public/Vector.svg") center/cover;
+    transform: rotate(-90deg);
+    transition: 0.2s;
 }
 
 .faq-questionnaire {
