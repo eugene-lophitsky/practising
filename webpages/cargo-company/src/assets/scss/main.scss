@@ -962,13 +962,14 @@ label .choose-placeholder:hover {
 }
 
 .item {
+    max-width: 617px;
     border: 1px solid $accordeon-border;
     border-radius: 5px;
     margin-bottom: 10px;
     background-color: transparent;
     padding: 15px 0 15px 21px;
     overflow: hidden;
-    transform: 0.3s;
+    transition: 0.3s;
 }
 
 .item-opened {
@@ -983,7 +984,6 @@ label .choose-placeholder:hover {
 }
 
 .header {
-    max-width: 617px;
     display: flex;
     justify-content: space-between;
     align-items: center;
