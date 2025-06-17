@@ -932,6 +932,7 @@ label .choose-placeholder:hover {
 
 .faq__title {
     font-size: 36px;
+    font-weight: bold;
     font-family: Proxima Nova, sans-serif;
     line-height: 30px;
     text-transform: uppercase;
@@ -962,9 +963,9 @@ label .choose-placeholder:hover {
 }
 
 .item {
-    max-width: 617px;
+    max-width: 716px;
     border: 1px solid $accordeon-border;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-bottom: 10px;
     background-color: transparent;
     padding: 15px 0 15px 21px;
@@ -983,19 +984,26 @@ label .choose-placeholder:hover {
     transform: 0.3s;
 }
 
-.header {
+.accordion-item__header {
+    width: 100%;
+    max-width: 663px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px;
     cursor: pointer;
+    box-sizing: border-box;
 }
 
 .title {
+    display: inline-flex;
+    flex-grow: 1;
     font-size: 18px;
     font-weight: bold;
     font-family: Proxima Nova, sans-serif;
     color: $default-white;
+    white-space: nowrap;
+    padding-right: 22px;
     margin: 0;
 }
 
@@ -1004,9 +1012,12 @@ label .choose-placeholder:hover {
     font-weight: bold;
     font-family: Proxima Nova, sans-serif;
     color: $first-black;
+    white-space: nowrap;
 }
 
 .button {
+    display: inline-flex;
+    flex-shrink: 0;
     @include flex-center;
     width: 27px;
     height: 27px;

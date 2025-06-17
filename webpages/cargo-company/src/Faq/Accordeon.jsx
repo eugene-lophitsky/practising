@@ -14,7 +14,7 @@ const Accordion = ({ items }) => {
       {items.map((item, index) => (
         <div key={index} className={activeIndex === index ? "item-opened" : "item"}>
           <div 
-            className="header"
+            className="accordion-item__header"
             onClick={() => toggleItem(index)}
           >
             <h3 className={activeIndex === index ? "title-opened" : "title"}>{item.title}</h3>
