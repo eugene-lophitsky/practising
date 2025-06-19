@@ -1152,12 +1152,18 @@ label .choose-placeholder:hover {
     background: url("/Vector.svg") center / cover;
 }
 
-.cooperation__wrapper {
+.cooperation--width {
     max-width: 1820px;
+}
+
+.cooperation__wrapper {
+    max-width: 1141px;
     display: flex;
     flex-direction: column;
     background-color: $second-black;
-    margin: 0 auto;
+    border-radius: 20px;
+    padding: 92px 0 100px 0;
+    margin: 100px auto 0 auto;
 }
 
 .cooperation__title {
