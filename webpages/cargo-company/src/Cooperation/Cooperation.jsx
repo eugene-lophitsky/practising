@@ -5,7 +5,10 @@ function Cooperation () {
         <div className="cooperation__wrapper">
             <div className="cooperation__title">готовы к сотрудничеству?</div>
             <div className="cooperation__subtitle">Зарегистрируйте груз!</div>
-            <div className="cooperation-body"></div>
+            <div className="cooperation-body">
+              <div className="cooperation-info"></div>
+              <div className="cooperation-info"></div>
+            </div>
         </div>
     </div>
   )
