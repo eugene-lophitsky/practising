@@ -1151,3 +1151,19 @@ label .choose-placeholder:hover {
     height: 27px;
     background: url("/Vector.svg") center / cover;
 }
+
+.cooperation__title {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: Proxima Nova;
+    text-transform: uppercase;
+    color: $default-white;
+    text-align: center;
+}
+
+.cooperation__subtitle {
+    font-size: 22px;
+    font-family: Proxima Nova;
+    color: $default-white;
+    text-align: center;
+}

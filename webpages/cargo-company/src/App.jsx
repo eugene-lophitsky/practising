@@ -6,6 +6,7 @@ import ShippingMethods from './ShippingMethods/ShippingMethods.jsx';
 import Services from './Services/Services.jsx';
 import AboutCompany from './AboutCompany/AboutCompany.jsx';
 import Faq from './Faq/Faq.jsx';
+import Cooperation from './Cooperation/Cooperation.jsx';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Services/>
       <AboutCompany/>
       <Faq/>
+      <Cooperation/>
     </>
   )
 }
