@@ -1186,3 +1186,17 @@ label .choose-placeholder:hover {
     color: $default-white;
     text-align: center;
 }
+
+.cooperation-info__text {
+    max-width: 555px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cooperation-info__text-paragraph {
+    font-size: 17px;
+    font-weight: normal;
+    font-family: Proxima Nova;
+    color: $default-white;
+}
