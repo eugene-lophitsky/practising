@@ -1013,6 +1013,7 @@ label .choose-placeholder:hover {
     font-family: Proxima Nova, sans-serif;
     color: $first-black;
     white-space: nowrap;
+    padding-right: 22px;
 }
 
 .button {
@@ -1164,6 +1165,10 @@ label .choose-placeholder:hover {
     border-radius: 20px;
     padding: 92px 0 100px 0;
     margin: 100px auto 0 auto;
+}
+
+.cooperation-body {
+    display: flex;
 }
 
 .cooperation__title {
