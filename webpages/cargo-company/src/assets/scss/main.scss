@@ -1154,21 +1154,23 @@ label .choose-placeholder:hover {
 }
 
 .cooperation--width {
+    display: flex;
     max-width: 1820px;
+    margin: 0 auto;
 }
 
 .cooperation__wrapper {
-    max-width: 1141px;
-    display: flex;
-    flex-direction: column;
     background-color: $second-black;
     border-radius: 20px;
-    padding: 92px 0 100px 0;
+    padding: 92px 339px 100px 339px;
     margin: 100px auto 0 auto;
 }
 
-.cooperation-body {
-    display: flex;
+.cooperation__divider {
+    width: 85px;
+    height: 2px;
+    background-color: #89c249;
+    margin: 19px auto 51px auto;
 }
 
 .cooperation__title {
@@ -1178,6 +1180,7 @@ label .choose-placeholder:hover {
     text-transform: uppercase;
     color: $default-white;
     text-align: center;
+    margin-bottom: 16px;
 }
 
 .cooperation__subtitle {
@@ -1185,6 +1188,12 @@ label .choose-placeholder:hover {
     font-family: Proxima Nova;
     color: $default-white;
     text-align: center;
+}
+
+.cooperation-body {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
 }
 
 .cooperation-info__text {
