@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 
 interface ButtonProps  {
   size: 'small' | 'medium' | 'large';
@@ -9,9 +9,11 @@ interface ButtonProps  {
 
 function Button ({size, variant, disabled, children}: ButtonProps) {
 
+  const [counter, setCounter] = useState<number>(0);
+
   return (
    <div className="button-wrapper">
-     <button className="button" size={size} disabled={disabled} variant={variant}>{children}</button>
+     <button className="button" size={size} disabled={disabled} variant={variant} onClick={()=> setCounter(counter+1)}>{children} {counter > 0 ?  `нажата ${counter} ${"раз"}` : ""}</button>
    </div>
   )
 }
