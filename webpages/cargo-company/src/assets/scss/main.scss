@@ -964,13 +964,13 @@ label .choose-placeholder:hover {
 
 .item {
     max-width: 716px;
-    border: 1px solid $accordeon-border;
-    border-radius: 10px;
-    margin-bottom: 10px;
     background-color: transparent;
-    padding: 15px 0 15px 21px;
     overflow: hidden;
     transition: 0.3s;
+    padding: 10px 0 10px 21px;
+    border-radius: 10px;
+    border: 1px solid $accordeon-border;
+    margin-bottom: 16px;
 }
 
 .item-opened {
@@ -1050,6 +1050,7 @@ label .choose-placeholder:hover {
 }
 
 .faq-questionnaire {
+    height: fit-content;
     display: flex;
     flex-direction: column;
     background-color: $second-black;
