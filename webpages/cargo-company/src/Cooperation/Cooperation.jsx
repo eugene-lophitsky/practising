@@ -36,12 +36,12 @@ function Cooperation () {
                   </p>
                 </div>
                 <div className="cooperation-info__image">
-                    <img src={cooperation_img1} alt="" />
+                    <img src={cooperation_img1} alt="" className="cooperation-info__image-container" />
                 </div>
               </div>
               <div className="cooperation-info">
                 <div className="cooperation-info__image">
-                    <img src={cooperation_img2} alt="" />
+                    <img src={cooperation_img2} alt="" className="cooperation-info__image-container" />
                 </div>
                 <div className="cooperation-info__text cooperation-info__text--smaller">
                   <p className="cooperation-info__text-paragraph">
@@ -56,6 +56,10 @@ function Cooperation () {
                     правильно, то при получении Вашего груза на складе в Китае
                     статус заказа изменится на "На складе".
                   </p>
+                  <a href="#" className="cooperation-info__button">
+                      <span className="cooperation-info__button-text">Оформить груз</span>
+                      <span className="cooperation-info__button-icon"></span>
+                  </a>
                 </div>
               </div>
             </div>

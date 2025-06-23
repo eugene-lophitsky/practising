@@ -1218,6 +1218,7 @@ label .choose-placeholder:hover {
 .cooperation-info__text--smaller {
     display: flex;
     max-width: 523px;
+    margin-left: 32px;
 }
 
 .cooperation-info__text-paragraph {
@@ -1233,4 +1234,35 @@ label .choose-placeholder:hover {
 
 .cooperation-info__image {
     display: inline-flex;
+    border-radius: 20px;
+}
+
+.cooperation-info__image-container {
+    display: inline-flex;
+    border-radius: 20px;
+}
+
+.cooperation-info__button {
+    max-width: 243px;
+    display: inline-flex;
+    align-items: center;
+    gap: 42px;
+    text-decoration: none;
+    background-color: #e58d35;
+    padding: 20.5px 24px 20.5px 33px;
+    border-radius: 90px;
+}
+
+.cooperation-info__button-text {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Proxima Nova;
+    color: $default-white;
+}
+
+.cooperation-info__button-icon {
+    display: inline-flex;
+    width: 27px;
+    height: 27px;
+    background: url("/Vector.svg") center / cover;
 }
