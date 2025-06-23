@@ -12,12 +12,12 @@ function Cooperation () {
             <div className="cooperation-body">
               <div className="cooperation-info">
                 <div className="cooperation-info__text">
-                  <p className="cooperation-info__text-paragraph">
+                  <span className="cooperation-info__text-paragraph">
                     Для того, чтобы начать сотрудничество, 
                     необходимо оформить груз указав информацию
                     о содержимом груза, его стоимость и количество.
                     А так-же прикрепив фотографии к заявке.
-                  </p>
+                  </span>
                   <p className="cooperation-info__text-paragraph">
                     Если требуется проверка товара на соответсвие 
                     количеству, то при оформлении груза на нашем 
@@ -36,14 +36,14 @@ function Cooperation () {
                   </p>
                 </div>
                 <div className="cooperation-info__image">
-                    <img src={cooperation_img2} alt="" />
+                    <img src={cooperation_img1} alt="" />
                 </div>
               </div>
               <div className="cooperation-info">
                 <div className="cooperation-info__image">
-                    <img src={cooperation_img1} alt="" />
+                    <img src={cooperation_img2} alt="" />
                 </div>
-                <div className="cooperation-info__text">
+                <div className="cooperation-info__text cooperation-info__text--smaller">
                   <p className="cooperation-info__text-paragraph">
                     После отправки груза на наш склад в Китае, Вам 
                     обязательно нужно указать трек-номер для отслеживания

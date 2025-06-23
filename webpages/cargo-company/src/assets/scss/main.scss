@@ -1053,7 +1053,7 @@ label .choose-placeholder:hover {
     display: flex;
     flex-direction: column;
     background-color: $second-black;
-    padding: 23px 40px;
+    padding: 38px 40px;
     border-radius: 20px;
 }
 
@@ -1107,7 +1107,6 @@ label .choose-placeholder:hover {
     padding: 24px 25px 6px 20px;
     border-radius: 10px;
     resize: none;
-    margin-top: 12px;
 }
 
 .message::placeholder {
@@ -1192,20 +1191,45 @@ label .choose-placeholder:hover {
 
 .cooperation-body {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.cooperation-info {
+    display: flex;
+    align-items: center;
     gap: 30px;
 }
 
 .cooperation-info__text {
-    max-width: 555px;
+    width: 34.69em;
     display: flex;
     flex-direction: column;
     gap: 30px;
+    line-height: 26px;
+}
+
+.cooperation-info--smaller {
+    display: flex;
+    gap: 62px;
+}
+
+.cooperation-info__text--smaller {
+    display: flex;
+    max-width: 523px;
 }
 
 .cooperation-info__text-paragraph {
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+    max-width: 555px;
     font-size: 17px;
     font-weight: normal;
     font-family: Proxima Nova;
     color: $default-white;
+}
+
+.cooperation-info__image {
+    display: inline-flex;
 }
