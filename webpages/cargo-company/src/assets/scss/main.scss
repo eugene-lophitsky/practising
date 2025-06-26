@@ -33,6 +33,7 @@ body {
 }
 
 .header__wrapper {
+    position: relative;
     max-width: 1140px;
     display: flex;
     justify-content: space-between;
@@ -1286,8 +1287,29 @@ label .choose-placeholder:hover {
     background-color: white;
 }
 
-@media (max-width: 375px) {
+.header-mobile-menu {
+    display: none;
+}
 
+.header-mobile-menu--show {
+    display: block;
+    position: absolute;
+    top: 67px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: $second-black;
+}
+
+.header-mobile-menu__link {
+    font-size: 24px;
+    font-family: Proxima Nova, sans-serif;
+    text-decoration: none;
+    line-height: 61px;
+    color: $default-white;
+}
+
+@media (max-width: 375px) {
     .header__wrapper {
         padding: 17px 20px 15px 20px;
     }
@@ -1299,8 +1321,12 @@ label .choose-placeholder:hover {
         height: 40px;
         margin-right: 175px;
     }
-    .header-nav, .header__wrapper
-     .header__button {
+
+    .header__wrapper .header__button {
+        display: none;
+    }
+
+    .header-nav {
         display: none;
     }
 

@@ -11,6 +11,7 @@ const [burgerMenu, setBurgerMenu] = useState();
     setBurgerMenu(!burgerMenu);
   }
 
+
   return (
     <div className="header">
         <div className="header__wrapper">
@@ -26,6 +27,17 @@ const [burgerMenu, setBurgerMenu] = useState();
                     <li className="header-menu__item"><a href="#" className="header-menu__link">Оформить груз</a></li>    
                </ul>
             </nav>
+
+               <ul className={burgerMenu ? "header-mobile-menu--show" : "header-mobile-menu"}>
+                    <li className="header-mobile-menu__item"><a href="#" className="header-mobile-menu__link">Цены и сроки</a></li>
+                    <li className="header-mobile-menu__item"><a href="#" className="header-mobile-menu__link">Услуги</a></li>    
+                    <li className="header-mobile-menu__item"><a href="#" className="header-mobile-menu__link">О компании</a></li>    
+                    <li className="header-mobile-menu__item"><a href="#" className="header-mobile-menu__link">Контакты</a></li>    
+                    <li className="header-mobile-menu__item"><a href="#" className="header-mobile-menu__link">Оформить груз</a></li>    
+               </ul>
+  
+
+
             <a href="#" className="header__button">Оставить заявку</a>
             <div className="burger-menu" onClick={newButton}>
                 <img src={burgerMenu ? burgerMenuOpened : burgerMenuClosed} alt="" />
