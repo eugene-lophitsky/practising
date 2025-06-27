@@ -1301,6 +1301,11 @@ label .choose-placeholder:hover {
     background-color: $second-black;
 }
 
+.header-mobile-menu__item:hover {
+    background-color: $mobile-menu-item-hover;
+}
+
+
 .header-mobile-menu__link {
     font-size: 24px;
     font-family: Proxima Nova, sans-serif;
@@ -1326,11 +1331,12 @@ label .choose-placeholder:hover {
         display: none;
     }
 
-    .header-nav {
+    .header__wrapper .header-menu {
         display: none;
     }
 
     .burger-menu {
         visibility: visible;
     }
+ 
 }

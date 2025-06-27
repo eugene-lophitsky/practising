@@ -18,7 +18,6 @@ const [burgerMenu, setBurgerMenu] = useState();
             <div className="header-logo__wrapper">
                 <img src={logo} alt="" className="header-logo" />
             </div>
-            <nav className="header-nav">
                <ul className="header-menu">
                     <li className="header-menu__item"><a href="#" className="header-menu__link">Цены и сроки</a></li>
                     <li className="header-menu__item"><a href="#" className="header-menu__link">Услуги</a></li>    
@@ -26,7 +25,6 @@ const [burgerMenu, setBurgerMenu] = useState();
                     <li className="header-menu__item"><a href="#" className="header-menu__link">Контакты</a></li>    
                     <li className="header-menu__item"><a href="#" className="header-menu__link">Оформить груз</a></li>    
                </ul>
-            </nav>
 
                <ul className={burgerMenu ? "header-mobile-menu--show" : "header-mobile-menu"}>
                     <li className="header-mobile-menu__item"><a href="#" className="header-mobile-menu__link">Цены и сроки</a></li>
