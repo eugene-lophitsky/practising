@@ -1292,7 +1292,7 @@ label .choose-placeholder:hover {
 }
 
 .header-mobile-menu--show {
-    display: block;
+    display: none;
     position: absolute;
     top: 67px;
     left: 0;
@@ -1304,7 +1304,14 @@ label .choose-placeholder:hover {
 .header-mobile-menu__item:hover {
     background-color: $mobile-menu-item-hover;
 }
+.header-mobile-menu__item:active {
+    background-color: $mobile-menu-item-click;
+}
 
+.header-mobile-menu__link:active {
+    user-select: none;
+    background-color: $mobile-menu-item-click;
+}
 
 .header-mobile-menu__link {
     font-size: 24px;
@@ -1327,6 +1334,10 @@ label .choose-placeholder:hover {
         margin-right: 175px;
     }
 
+    .header-mobile-menu--show {
+        display: block;
+    }
+
     .header__wrapper .header__button {
         display: none;
     }
@@ -1338,5 +1349,4 @@ label .choose-placeholder:hover {
     .burger-menu {
         visibility: visible;
     }
- 
 }
