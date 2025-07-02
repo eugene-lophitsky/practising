@@ -1,6 +1,6 @@
 import Header from './Header/Header';
 // import Jumbotron from './Jumbotron/Jumbotron.jsx';
-// import PriceCalculating from './PriceCalculating/PriceCalculating.jsx';
+import PriceCalculating from './PriceCalculating/PriceCalculating.jsx';
 // import WhyChooseUs from './WhyChooseUs/WhyChooseUs.jsx';
 // import ShippingMethods from './ShippingMethods/ShippingMethods.jsx';
 // import Services from './Services/Services.jsx';
@@ -13,9 +13,9 @@ function App() {
   return (
     <>
       <Header/>
-      {/* <Jumbotron/>
+      {/* <Jumbotron/> */}
       <PriceCalculating/>
-      <WhyChooseUs/>
+      {/* <WhyChooseUs/>
       <ShippingMethods/>
       <Services/>
       <AboutCompany/>

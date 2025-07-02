@@ -1349,4 +1349,16 @@ label .choose-placeholder:hover {
     .burger-menu {
         visibility: visible;
     }
+
+    .price-calculating-image {
+        display: none;
+    }
+
+    .stepper-fields {
+        flex-direction: column;
+    }
+
+    .stepper-fields {
+        width: 275px;
+    }
 }
