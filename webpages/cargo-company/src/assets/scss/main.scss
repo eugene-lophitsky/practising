@@ -195,13 +195,14 @@ body {
 }
 
 .price-calculating {
-    max-width: 1207px;
+    display: flex;
     margin: 0 auto;
 }
 
 .price-calculating__wrapper {
     display: flex;
     align-items: center;
+    margin: 0 auto;
 }
 
 .price-calculating-form {
@@ -1331,7 +1332,7 @@ label .choose-placeholder:hover {
     }
     .header-logo {
         height: 40px;
-        margin-right: 175px;
+        margin-right: 163px;
     }
 
     .header-mobile-menu--show {
@@ -1350,8 +1351,16 @@ label .choose-placeholder:hover {
         visibility: visible;
     }
 
+    .price-calculating {
+        margin-top: 100px;
+    }
+
     .price-calculating-image {
         display: none;
+    }
+
+    .tabs-container {
+        max-width: 335px;
     }
 
     .stepper-fields {
@@ -1359,6 +1368,10 @@ label .choose-placeholder:hover {
     }
 
     .stepper-fields {
+        width: 275px;
+    }
+    .placeholder,
+    #inputFile {
         width: 275px;
     }
 }
