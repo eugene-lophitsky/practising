@@ -24,6 +24,15 @@
     align-items: center;
 }
 
+@mixin px16-white-text {
+    font: {
+        size: 16px;
+        family: Proxima Nova;
+    }
+    color: $default-white;
+}
+
+
 body {
     background-color: $first-black;
 }
@@ -1260,10 +1269,8 @@ label .choose-placeholder:hover {
 }
 
 .cooperation-info__button-text {
-    font-size: 16px;
+    @include px16-white-text;
     font-weight: 500;
-    font-family: Proxima Nova;
-    color: $default-white;
 }
 
 .cooperation-info__button-icon {
