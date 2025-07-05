@@ -1329,6 +1329,13 @@ label .choose-placeholder:hover {
     color: $default-white;
 }
 
+@media (max-width: 1300px) {
+    .price-calculating-image img {
+        max-width: 500px;
+    }
+}
+
+
 @media (max-width: 375px) {
     .header__wrapper {
         padding: 17px 20px 15px 20px;
@@ -1346,10 +1353,7 @@ label .choose-placeholder:hover {
         display: block;
     }
 
-    .header__wrapper .header__button {
-        display: none;
-    }
-
+    .header__wrapper .header__button,
     .header__wrapper .header-menu {
         display: none;
     }
@@ -1377,8 +1381,25 @@ label .choose-placeholder:hover {
     .stepper-fields {
         width: 275px;
     }
+    
+    .stepper-buttons {
+        flex-direction: column;
+    }
+
     .placeholder,
     #inputFile {
         width: 275px;
+    }
+    .stepper-personal-сontacts {
+        flex-direction: column;
+    }
+    .person-name {
+        padding-right: 97px;
+    }
+    .person-phone-number,
+    .person-email,
+    .person-message
+    {
+        max-width: 275px;
     }
 }
