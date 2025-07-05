@@ -1375,19 +1375,19 @@ label .choose-placeholder:hover {
     }
 
     .stepper-fields {
+        width: 275px;
         flex-direction: column;
     }
 
-    .stepper-fields {
-        width: 275px;
-    }
-    
     .stepper-buttons {
         flex-direction: column;
     }
 
     .placeholder,
-    #inputFile {
+    #inputFile,
+    .person-phone-number,
+    .person-email,
+    .person-message  {
         width: 275px;
     }
     .stepper-personal-сontacts {
@@ -1395,11 +1395,5 @@ label .choose-placeholder:hover {
     }
     .person-name {
         padding-right: 97px;
-    }
-    .person-phone-number,
-    .person-email,
-    .person-message
-    {
-        max-width: 275px;
     }
 }
