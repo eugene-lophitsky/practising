@@ -32,7 +32,6 @@
     color: $default-white;
 }
 
-
 body {
     background-color: $first-black;
 }
@@ -209,6 +208,7 @@ body {
 }
 
 .price-calculating__wrapper {
+    max-width: 1207px;
     display: flex;
     align-items: center;
     margin: 0 auto;
@@ -495,7 +495,9 @@ label .choose-placeholder:hover {
 }
 
 .stepper__button-back {
+    max-width: 138px;
     display: inline-flex;
+    justify-content: center;
     align-items: center;
     gap: 49px;
     text-decoration: none;
@@ -513,12 +515,13 @@ label .choose-placeholder:hover {
 }
 
 .stepper__button-ahead {
+    max-width: 253px;
     display: inline-flex;
     align-items: center;
-    gap: 49px;
+    gap: 39px;
     text-decoration: none;
     background-color: #e58d35;
-    padding: 19px 24px 19px 33px;
+    padding: 20.5px 24px 20.5px 33px;
     border-radius: 90px;
 }
 
@@ -1335,9 +1338,9 @@ label .choose-placeholder:hover {
     }
 }
 
-
 @media (max-width: 375px) {
     .header__wrapper {
+        max-width: 370px;
         padding: 17px 20px 15px 20px;
     }
 
@@ -1381,13 +1384,14 @@ label .choose-placeholder:hover {
 
     .stepper-buttons {
         flex-direction: column;
+        gap: 15px;
     }
 
     .placeholder,
     #inputFile,
     .person-phone-number,
     .person-email,
-    .person-message  {
+    .person-message {
         width: 275px;
     }
     .stepper-personal-сontacts {
@@ -1395,5 +1399,12 @@ label .choose-placeholder:hover {
     }
     .person-name {
         padding-right: 97px;
+    }
+    .stepper__button-back {
+        max-width: 253px;
+    }
+    .stepper__button-ahead {
+        gap: 43px;
+        padding: 20.5px 0 20.5px 33px;
     }
 }
