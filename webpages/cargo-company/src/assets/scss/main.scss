@@ -1407,4 +1407,15 @@ label .choose-placeholder:hover {
         gap: 43px;
         padding: 20.5px 0 20.5px 33px;
     }
+    .stepper-finish__title {
+        font-size: 28px;
+    }
+    .stepper-finish__subtitle,
+    .stepper-finish__caption {
+        font-size: 18px;
+        text-align: center;
+    }
+    .stepper-finish__promo-item {
+        font-size: 18px;
+    }
 }
