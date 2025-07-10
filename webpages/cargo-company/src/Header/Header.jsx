@@ -31,7 +31,8 @@ const [burgerMenu, setBurgerMenu] = useState();
                     <li className="header-mobile-menu__item"><a href="#" className="header-mobile-menu__link">Услуги</a></li>    
                     <li className="header-mobile-menu__item"><a href="#" className="header-mobile-menu__link">О компании</a></li>    
                     <li className="header-mobile-menu__item"><a href="#" className="header-mobile-menu__link">Контакты</a></li>    
-                    <li className="header-mobile-menu__item"><a href="#" className="header-mobile-menu__link">Оформить груз</a></li>    
+                    <li className="header-mobile-menu__item"><a href="#" className="header-mobile-menu__link">Оформить груз</a></li>
+                    <a href="#" className="header-mobile-menu__button">Оставить заявку</a>    
                </ul>
   
 

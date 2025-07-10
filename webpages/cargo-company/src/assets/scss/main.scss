@@ -1310,6 +1310,7 @@ label .choose-placeholder:hover {
     right: 0;
     text-align: center;
     background-color: $second-black;
+    padding: 37px 0 60px 0;
 }
 
 .header-mobile-menu__item:hover {
@@ -1330,6 +1331,19 @@ label .choose-placeholder:hover {
     text-decoration: none;
     line-height: 61px;
     color: $default-white;
+}
+
+.header-mobile-menu__button {
+     display: inline-flex;
+    font-size: 15px;
+    font-family: Proxima Nova;
+    color: #ffffff;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: #e58d35;
+    padding: 25px 90.4px;
+    white-space: nowrap;
+    border-radius: 90px;
 }
 
 @media (max-width: 1300px) {
@@ -1371,7 +1385,7 @@ label .choose-placeholder:hover {
     }
 
     .price-calculating__wrapper {
-        margin-top: 240px;
+        margin-top: 180px;
     }
 
     .tabs-container {
